@@ -1,0 +1,21 @@
+label	role	protein_id	region_start_1based	region_end_1based	region_name	region_note	region_db_xref
+SA1	RT	QPI16926.1	212	443	ps-ssRNAv_RdRp-like	conserved catalytic core domain of RNA-dependent RNA polymerase (RdRp) from the positive-sense single-stranded RNA [(+)ssRNA] viruses and closely related viruses; cl40470	CDD:477363
+SA1	partner	QPI16927.1				no Region feature in retrieved GenPept record	
+MarsHill	RT	QQM14740.1	207	449	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+MarsHill	partner	QQM14741.1				no Region feature in retrieved GenPept record	
+Madawaska	RT	QQO92858.1	207	449	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+Madawaska	partner	QQO92859.1				no Region feature in retrieved GenPept record	
+LY01	RT	WRM43423.1	205	448	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+LY01	partner	WRM43422.1				no Region feature in retrieved GenPept record	
+S6	RT	BDE75684.1	206	474	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+S6	partner	BDE75685.1				no Region feature in retrieved GenPept record	
+PALS_2	RT	QDJ97640.1	206	474	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+PALS_2	partner	QDJ97641.1				no Region feature in retrieved GenPept record	
+UFV_DC4	RT	UAJ17040.1	181	474	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+UFV_DC4	partner	UAJ17041.1				no Region feature in retrieved GenPept record	
+AH12	RT	WNX97802.1	200	502	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+AH12	partner	WNX97801.1				no Region feature in retrieved GenPept record	
+Machias	RT	QQO92593.1	200	502	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+Machias	partner	QQO92594.1				no Region feature in retrieved GenPept record	
+PB50	RT	WPH64254.1	200	502	retron_St85_RT	retron St85 family RNA-directed DNA polymerase; NF038233	CDD:468421
+PB50	partner	WPH64253.1				no Region feature in retrieved GenPept record	

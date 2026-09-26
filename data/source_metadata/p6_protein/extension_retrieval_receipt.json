@@ -1,0 +1,105 @@
+{
+  "analysis": "P6 array-blind public type-II ART-family neighborhood extension",
+  "blast_executable": "scripts/p1_data/tools/ncbi-blast-2.17.0+/bin/blastp.exe",
+  "excluded_after_prepass": 0,
+  "existing_fixed_10_recovered": 9,
+  "finished_utc": "2026-09-24T16:42:01Z",
+  "new_included_extensions": 0,
+  "outputs": [
+    "data/processed/p6_extension/extension_manifest.tsv",
+    "data/processed/p6_extension/included_upstream_6000nt.fna",
+    "data/processed/p6_extension/included_rt_proteins.faa",
+    "data/processed/p6_extension/included_partner_proteins.faa"
+  ],
+  "parameter_record": "scripts/p6_protein/ANALYSIS_PARAMETERS.md",
+  "query_count": 5,
+  "query_reported_total_nonunique": 85,
+  "request_receipts": [
+    {
+      "attempt": 1,
+      "bytes": 450,
+      "http_status": 200,
+      "kind": "protein_esearch",
+      "query_id": "Q1_ST85_VIRAL",
+      "retrieved_utc": "2026-09-24T16:41:41Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Viruses%5BOrganism%5D+AND+retron_St85_RT%5BProtein+Name%5D&retmax=500&retmode=json"
+    },
+    {
+      "attempt": 1,
+      "bytes": 1404,
+      "http_status": 200,
+      "kind": "protein_esearch",
+      "query_id": "Q1B_ST85_VIRAL_ALL_FIELDS",
+      "retrieved_utc": "2026-09-24T16:41:42Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Viruses%5BOrganism%5D+AND+retron_St85_RT%5BAll+Fields%5D&retmax=500&retmode=json"
+    },
+    {
+      "attempt": 1,
+      "bytes": 931,
+      "http_status": 200,
+      "kind": "protein_esearch",
+      "query_id": "Q2_STAPH_RNA_DNA_POL",
+      "retrieved_utc": "2026-09-24T16:41:43Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Viruses%5BOrganism%5D+AND+Staphylococcus%5BAll+Fields%5D+AND+%22RNA-directed+DNA+polymerase%22%5BProtein+Name%5D&retmax=500&retmode=json"
+    },
+    {
+      "attempt": 1,
+      "bytes": 869,
+      "http_status": 200,
+      "kind": "protein_esearch",
+      "query_id": "Q3_STAPH_REVERSE_TRANSCRIPTASE",
+      "retrieved_utc": "2026-09-24T16:41:45Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Viruses%5BOrganism%5D+AND+Staphylococcus%5BAll+Fields%5D+AND+%22reverse+transcriptase%22%5BProtein+Name%5D&retmax=500&retmode=json"
+    },
+    {
+      "attempt": 1,
+      "bytes": 941,
+      "http_status": 200,
+      "kind": "protein_esearch",
+      "query_id": "Q4_STAPH_RETRON",
+      "retrieved_utc": "2026-09-24T16:41:46Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Viruses%5BOrganism%5D+AND+Staphylococcus%5BAll+Fields%5D+AND+retron%5BAll+Fields%5D&retmax=500&retmode=json"
+    },
+    {
+      "attempt": 1,
+      "bytes": 39757,
+      "http_status": 200,
+      "kind": "protein_esummary",
+      "query_id": "UNION",
+      "retrieved_utc": "2026-09-24T16:41:47Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=protein&id=377805909%2C1168055680%2C1700470727%2C1842002159%2C1953870990%2C1955693557%2C1955693961%2C2051118499%2C2051128276%2C2051140379%2C2051147333%2C2052249713%2C2052917896%2C2052922281%2C2052928204%2C2052946883%2C2052974354%2C2053006567%2C2053021496%2C2053146240%2C2053150784%2C2053155330%2C2054395027%2C2054403772%2C2054515650%2C2054516289%2C2054527446%2C2054535789%2C2054568547%2C2054642936%2C2054672746%2C2054739948%2C2054750006%2C2054760194%2C2054803918%2C2056814025%2C2056889175%2C2056900477%2C2056939120%2C2056996426%2C2057008062%2C2057066449%2C2057090029%2C2057163849%2C2057796912%2C2057889749%2C2059572900%2C2059651239%2C2059652708%2C2059763079&retmode=json"
+    },
+    {
+      "attempt": 1,
+      "bytes": 143890,
+      "http_status": 200,
+      "kind": "protein_efetch",
+      "query_id": "UNION",
+      "retrieved_utc": "2026-09-24T16:41:50Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=377805909%2C1168055680%2C1700470727%2C1842002159%2C1953870990%2C1955693557%2C1955693961%2C2051118499%2C2051128276%2C2051140379%2C2051147333%2C2052249713%2C2052917896%2C2052922281%2C2052928204%2C2052946883%2C2052974354%2C2053006567%2C2053021496%2C2053146240%2C2053150784%2C2053155330%2C2054395027%2C2054403772%2C2054515650%2C2054516289%2C2054527446%2C2054535789%2C2054568547%2C2054642936%2C2054672746%2C2054739948%2C2054750006%2C2054760194%2C2054803918%2C2056814025%2C2056889175%2C2056900477%2C2056939120%2C2056996426%2C2057008062%2C2057066449%2C2057090029%2C2057163849%2C2057796912%2C2057889749%2C2059572900%2C2059651239%2C2059652708%2C2059763079&rettype=gp&retmode=text"
+    },
+    {
+      "attempt": 1,
+      "bytes": 15516,
+      "http_status": 200,
+      "kind": "protein_esummary",
+      "query_id": "UNION",
+      "retrieved_utc": "2026-09-24T16:41:51Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=protein&id=2059770219%2C2059876136%2C2059978073%2C2059978099%2C2060029872%2C2060043343%2C2067455421%2C2091504478%2C2186300956%2C2294106139%2C2295302713%2C2295304358%2C2591512015%2C2622641646%2C2635050274%2C2645991771%2C2675313398%2C2675313418%2C2868125966%2C2914770834%2C2914964613%2C3036685351&retmode=json"
+    },
+    {
+      "attempt": 1,
+      "bytes": 56966,
+      "http_status": 200,
+      "kind": "protein_efetch",
+      "query_id": "UNION",
+      "retrieved_utc": "2026-09-24T16:41:54Z",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=2059770219%2C2059876136%2C2059978073%2C2059978099%2C2060029872%2C2060043343%2C2067455421%2C2091504478%2C2186300956%2C2294106139%2C2295302713%2C2295304358%2C2591512015%2C2622641646%2C2635050274%2C2645991771%2C2675313398%2C2675313418%2C2868125966%2C2914770834%2C2914964613%2C3036685351&rettype=gp&retmode=text"
+    }
+  ],
+  "resolved_loci": 9,
+  "rt_prepass_pass": 9,
+  "selection_array_blind": true,
+  "started_utc": "2026-09-24T16:41:40Z",
+  "unique_protein_records_retrieved": 72
+}

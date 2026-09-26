@@ -1,0 +1,11 @@
+subgroup	locus_count	metric	median	minimum	maximum	independent_lineage_note
+seven_locus_reference	7	rt_length_aa	500.0	500	501	loci are closely related and do not establish ten independent evolutionary replicates
+seven_locus_reference	7	mapped_ntd_length_aa	209.0	209	210	loci are closely related and do not establish ten independent evolutionary replicates
+seven_locus_reference	7	mapped_core_length_aa	291.0	291	291	loci are closely related and do not establish ten independent evolutionary replicates
+seven_locus_reference	7	partner_length_aa	274.0	265	274	loci are closely related and do not establish ten independent evolutionary replicates
+seven_locus_reference	7	c_terminal_yxdd_counts			YADD:7	motif x-residue split is descriptive; activity consequence is untested
+PB50_related	3	rt_length_aa	517.0	517	517	loci are closely related and do not establish ten independent evolutionary replicates
+PB50_related	3	mapped_ntd_length_aa	225.0	225	225	loci are closely related and do not establish ten independent evolutionary replicates
+PB50_related	3	mapped_core_length_aa	292.0	292	292	loci are closely related and do not establish ten independent evolutionary replicates
+PB50_related	3	partner_length_aa	291.0	290	291	loci are closely related and do not establish ten independent evolutionary replicates
+PB50_related	3	c_terminal_yxdd_counts			YSDD:3	motif x-residue split is descriptive; activity consequence is untested

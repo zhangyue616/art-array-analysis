@@ -1,0 +1,183 @@
+{
+  "analysis": "cross-group RNA ensemble structure comparison",
+  "bpp_cutoff": 1e-06,
+  "date": "2026-09-24",
+  "dinucleotide_null": {
+    "comparison": {
+      "one_repeat": {
+        "mixed_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.01809951340394942,
+          "null_median": 0.004675515809442253,
+          "null_minimum": 0.000357328232328232,
+          "null_p95_nearest_rank": 0.012812692847331431,
+          "observed": 0.08124195923099936,
+          "observed_minus_null_median": 0.0765664434215571,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        },
+        "repeat_repeat_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.9796459227380544,
+          "null_median": 0.9476073422816673,
+          "null_minimum": 0.2973153080847521,
+          "null_p95_nearest_rank": 0.9704358029768969,
+          "observed": 0.9894282888954927,
+          "observed_minus_null_median": 0.041820946613825405,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        },
+        "spacer_spacer_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.013954750939669526,
+          "null_median": 0.00783201009917356,
+          "null_minimum": 0.002779859672504012,
+          "null_p95_nearest_rank": 0.010999536722012404,
+          "observed": 0.06822350884291582,
+          "observed_minus_null_median": 0.060391498743742264,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        },
+        "u1_spacer_spacer_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.019806596178340137,
+          "null_median": 0.007637750305674167,
+          "null_minimum": 0.0024250848061615057,
+          "null_p95_nearest_rank": 0.013965922703585659,
+          "observed": 0.061716087742448605,
+          "observed_minus_null_median": 0.05407833743677444,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        },
+        "u2_spacer_spacer_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.016263690703600234,
+          "null_median": 0.007350522020411733,
+          "null_minimum": 0.0026052861070721585,
+          "null_p95_nearest_rank": 0.013560124658613835,
+          "observed": 0.08252941154419359,
+          "observed_minus_null_median": 0.07517888952378185,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        }
+      },
+      "two_repeat": {
+        "mixed_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.013777711580623232,
+          "null_median": 0.0036193547859800206,
+          "null_minimum": 0.0007391287625264517,
+          "null_p95_nearest_rank": 0.010446413517831045,
+          "observed": 0.07509580995886093,
+          "observed_minus_null_median": 0.07147645517288091,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        },
+        "repeat_repeat_bpp_overlap_median": {
+          "null_at_least_observed": 20,
+          "null_maximum": 0.9360799822920532,
+          "null_median": 0.6708143357252814,
+          "null_minimum": 0.19628300071840757,
+          "null_p95_nearest_rank": 0.8680550177729536,
+          "observed": 0.7380901335742036,
+          "observed_minus_null_median": 0.06727579784892224,
+          "plus_one_exceedance_fraction": 0.3230769230769231
+        },
+        "spacer_spacer_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.01618503983362199,
+          "null_median": 0.008484574517748,
+          "null_minimum": 0.0036496558365224975,
+          "null_p95_nearest_rank": 0.012705250269774461,
+          "observed": 0.08542278564830384,
+          "observed_minus_null_median": 0.07693821113055584,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        },
+        "u1_spacer_spacer_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.019350319959283983,
+          "null_median": 0.008587830935095589,
+          "null_minimum": 0.003329696939152737,
+          "null_p95_nearest_rank": 0.016203755981730877,
+          "observed": 0.09382563064315677,
+          "observed_minus_null_median": 0.08523779970806118,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        },
+        "u2_spacer_spacer_bpp_overlap_median": {
+          "null_at_least_observed": 0,
+          "null_maximum": 0.016062125576712515,
+          "null_median": 0.007468255884927692,
+          "null_minimum": 0.003034397460368131,
+          "null_p95_nearest_rank": 0.01353183896375108,
+          "observed": 0.0793036156084124,
+          "observed_minus_null_median": 0.0718353597234847,
+          "plus_one_exceedance_fraction": 0.015384615384615385
+        }
+      }
+    },
+    "replicates": 64,
+    "seed": 20260924
+  },
+  "fixed_chain_copies": 47,
+  "fixed_chain_units": 37,
+  "fixed_loci": 10,
+  "interpretation_scope": "conditional on operational unit annotation and two source-derived sequence cuts; not mature-RNA or functional validation",
+  "misaligned_cross_group_pairs": 217,
+  "observed": {
+    "one_repeat": {
+      "locus_pair_effect_median": 0.07335927888045596,
+      "locus_pairs_positive_effect": 17,
+      "locus_pairs_with_supported": 18,
+      "misaligned_all_bpp_overlap_median": 0.15378021695582922,
+      "misaligned_mixed_bpp_overlap_median": 0.01300947607076178,
+      "misaligned_pairs": 217,
+      "misaligned_repeat_repeat_bpp_overlap_median": 0.9606838692792201,
+      "misaligned_spacer_spacer_bpp_overlap_median": 0.03407072156625228,
+      "spearman_spacer_overlap_vs_saved_trimmed_identity": 0.3279474309706882,
+      "supported_all_bpp_overlap_median": 0.18553406969786287,
+      "supported_mixed_bpp_overlap_median": 0.08124195923099936,
+      "supported_pairs": 35,
+      "supported_repeat_repeat_bpp_overlap_median": 0.9894282888954927,
+      "supported_spacer_spacer_bpp_overlap_median": 0.06822350884291582,
+      "u1_spacer_spacer_bpp_overlap_median": 0.061716087742448605,
+      "u1_supported_pairs": 15,
+      "u2_spacer_spacer_bpp_overlap_median": 0.08252941154419359,
+      "u2_supported_pairs": 18,
+      "u3_spacer_spacer_bpp_overlap_median": 0.11312200820328,
+      "u3_supported_pairs": 2
+    },
+    "two_repeat": {
+      "locus_pair_effect_median": 0.06163468806420176,
+      "locus_pairs_positive_effect": 18,
+      "locus_pairs_with_supported": 18,
+      "misaligned_all_bpp_overlap_median": 0.14755210487098955,
+      "misaligned_mixed_bpp_overlap_median": 0.009285440641443063,
+      "misaligned_pairs": 217,
+      "misaligned_repeat_repeat_bpp_overlap_median": 0.4478549267569371,
+      "misaligned_spacer_spacer_bpp_overlap_median": 0.04457855275130195,
+      "spearman_spacer_overlap_vs_saved_trimmed_identity": 0.08149507710496964,
+      "supported_all_bpp_overlap_median": 0.22175165064107366,
+      "supported_mixed_bpp_overlap_median": 0.07509580995886093,
+      "supported_pairs": 35,
+      "supported_repeat_repeat_bpp_overlap_median": 0.7380901335742036,
+      "supported_spacer_spacer_bpp_overlap_median": 0.08542278564830384,
+      "u1_spacer_spacer_bpp_overlap_median": 0.09382563064315677,
+      "u1_supported_pairs": 15,
+      "u2_spacer_spacer_bpp_overlap_median": 0.0793036156084124,
+      "u2_supported_pairs": 18,
+      "u3_spacer_spacer_bpp_overlap_median": 0.1380200452316679,
+      "u3_supported_pairs": 2
+    }
+  },
+  "repeat_phase_offsets": {
+    "P0_seed7": 0,
+    "PB50_near3": -2
+  },
+  "runtime_seconds": 686.609729799995,
+  "sequence_contexts": [
+    "two_repeat",
+    "one_repeat"
+  ],
+  "supported_cross_group_pairs": 35,
+  "viennarna": {
+    "dangles": 2,
+    "no_lonely_pairs": false,
+    "temperature_celsius": 37.0,
+    "unique_multiloop_decomposition": false,
+    "version": "2.7.2"
+  }
+}

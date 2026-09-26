@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "expected": [
+        100,
+        271
+      ],
+      "mate_position1": 221,
+      "name": "positive_TLEN_standard",
+      "observed": [
+        100,
+        271
+      ],
+      "pass": true,
+      "position0": 100,
+      "template_length": 171
+    },
+    {
+      "expected": [
+        100,
+        271
+      ],
+      "mate_position1": 101,
+      "name": "negative_TLEN_standard",
+      "observed": [
+        100,
+        271
+      ],
+      "pass": true,
+      "position0": 220,
+      "template_length": -171
+    },
+    {
+      "expected": [
+        100,
+        251
+      ],
+      "mate_position1": 101,
+      "name": "read2_contained_in_mate_reported_example",
+      "observed": [
+        100,
+        251
+      ],
+      "pass": true,
+      "position0": 150,
+      "template_length": -151
+    },
+    {
+      "expected": [
+        100,
+        251
+      ],
+      "mate_position1": 151,
+      "name": "mate_contained_in_read2",
+      "observed": [
+        100,
+        251
+      ],
+      "pass": true,
+      "position0": 100,
+      "template_length": 151
+    }
+  ],
+  "formula": "start0=min(POS-1,PNEXT-1); end0=start0+abs(TLEN)",
+  "invalid_pnext_rejected": true,
+  "production_function": "scripts/p6_rnaseq/run_library.py::outer_template_span",
+  "references": [
+    "https://samtools.github.io/hts-specs/SAMv1.pdf (p. 8, POS/PNEXT/TLEN)",
+    "https://bowtie-bio.sourceforge.net/bowtie2/manual.shtml (overlapping/containing mates)"
+  ],
+  "scope": "Coordinate helper only; no FASTQ, alignment, fold, protein, or complete-library rerun.",
+  "status": "pass"
+}

@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-09-24T09:04:20Z",
+  "analysis_scope": "three P1 targets plus seven fixed P0 type-II controls",
+  "network_used": false,
+  "array_or_repeat_scanning_performed": false,
+  "tree_or_structure_prediction_performed": false,
+  "reported_pb50_evidence": [
+    "PDF p17 Supplementary Figure 3A: 17 PB50 in ART family tree, array-positive/type II",
+    "PDF p17 Supplementary Figure 3C: ART_17 PB50 with array -> RT -> type II partner",
+    "PDF p37 / text line 2335: PB50 type-II RT-partner pair included in co-folding"
+  ],
+  "pairwise_method": "Needleman-Wunsch global AA; match=2,mismatch=-1,gap=-2; identity=identical/aligned_columns",
+  "assignment_rule": {
+    "collinearity": "first CDS downstream in RT transcription direction, same strand, gap <=60 nt",
+    "partner_length_aa": "240..330 (paper describes type II as about 270 aa)",
+    "finite_sequence_support": "for AH12/Machias, RT and partner global identity each >=0.80 to report-anchored PB50; seven P0 controls provide bounded context rather than a hard pairwise threshold because the paper defined partner families by profile comparison",
+    "interpretation": "family-locus assignment only; not functional validation"
+  },
+  "validation": {
+    "status": "pass",
+    "feature_rows": 10,
+    "assignment_rows": 3,
+    "rt_pairwise_rows": 45,
+    "partner_pairwise_rows": 45,
+    "target_first_downstream_cooriented_gap_1nt": 3,
+    "pb50_explicitly_annotated_rt_cds_count": 1
+  },
+  "outputs": [
+    "data/processed/p1_adjust_assignment/locus_feature_assignment.tsv",
+    "data/processed/p1_adjust_assignment/target_assignment_summary.tsv",
+    "data/processed/p1_adjust_assignment/rt_pairwise_global_identity.tsv",
+    "data/processed/p1_adjust_assignment/partner_pairwise_global_identity.tsv",
+    "data/processed/p1_adjust_assignment/rt_sequences.faa",
+    "data/processed/p1_adjust_assignment/direct_downstream_partner_sequences.faa"
+  ],
+  "source_reference": {
+    "citation": "Yoon PH et al. Autonomous AI agents discover reverse transcriptases with tandem repeat arrays. Anthropic technical preprint, 2026-09-23.",
+    "official_release": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "public_pdf": "https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf",
+    "accessed_date": "2026-09-24",
+    "local_copy_bundled": false
+  }
+}

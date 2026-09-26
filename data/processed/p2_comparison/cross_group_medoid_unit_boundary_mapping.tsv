@@ -1,0 +1,9 @@
+source_group	source_label	source_unit_id	source_unit_ordinal	source_left_relative	source_right_relative	target_group	target_label	mapped_left_target_relative	mapped_right_target_relative	boundary_mapping_status
+P0_seed7	PALS_2	PALS_2|unit01	1	-1091	-880	PB50_near3	PB50	-914	-713	both_boundaries_aligned
+P0_seed7	PALS_2	PALS_2|unit02	2	-880	-684	PB50_near3	PB50	-713	-502	both_boundaries_aligned
+P0_seed7	PALS_2	PALS_2|unit03	3	-684	-473	PB50_near3	PB50	-502		left_only
+P0_seed7	PALS_2	PALS_2|unit04	4	-473	-300	PB50_near3	PB50		-306	right_only
+P0_seed7	PALS_2	PALS_2|unit05	5	-300	-62	PB50_near3	PB50	-306	-62	both_boundaries_aligned
+PB50_near3	PB50	PB50|unit01	1	-912	-711	P0_seed7	PALS_2	-1089	-878	both_boundaries_aligned
+PB50_near3	PB50	PB50|unit02	2	-711	-500	P0_seed7	PALS_2	-878	-682	both_boundaries_aligned
+PB50_near3	PB50	PB50|unit03	3	-500	-304	P0_seed7	PALS_2	-682	-298	both_boundaries_aligned

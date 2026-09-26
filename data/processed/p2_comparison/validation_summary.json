@@ -1,0 +1,42 @@
+{
+  "LOO": "51/51",
+  "checks": [
+    "unique IDs",
+    "unit sequence lengths",
+    "trimmed spacer = period-66",
+    "copy ordinal continuity",
+    "summary consistency",
+    "PNG dimensions/signature",
+    "SVG XML parse",
+    "PDF signature"
+  ],
+  "copies": 51,
+  "figures": {
+    "figure1_unified_array_architecture": {
+      "intended_width_mm": 175,
+      "png_height_px": 1559,
+      "png_width_px": 2066
+    },
+    "figure2_locus_and_unit_correspondence": {
+      "intended_width_mm": 175,
+      "png_height_px": 1677,
+      "png_width_px": 2066
+    },
+    "figure3_localized_annotation_differences": {
+      "intended_width_mm": 175,
+      "png_height_px": 1748,
+      "png_width_px": 2066
+    }
+  },
+  "loci": 10,
+  "report_captions": 3,
+  "seed_chain_copies": 47,
+  "status": "pass",
+  "supported_pairs": {
+    "P0_within": 83,
+    "PB50_within": 9,
+    "cross": 35
+  },
+  "units": 41,
+  "weak_edge_candidates": 4
+}

@@ -1,0 +1,69 @@
+{
+  "submitted_utc": "2026-09-24T17:10:27.997183Z",
+  "attempt_count": 1,
+  "resubmitted": false,
+  "status": "SUBMITTED_NOT_POLLED",
+  "http_status": 200,
+  "error": null,
+  "rid": "BAPDV7HU014",
+  "rtoe_seconds": 10,
+  "next_allowed_check_utc": "2026-09-24T17:11:27.997183Z",
+  "minimum_poll_interval_seconds": 60,
+  "endpoint": "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+  "method": "POST",
+  "parameters": {
+    "CMD": "Put",
+    "PROGRAM": "blastp",
+    "DATABASE": "nr",
+    "EXPECT": "1e-5",
+    "HITLIST_SIZE": "200",
+    "WORD_SIZE": "3",
+    "GAPCOSTS": "11 2",
+    "MATRIX": "BLOSUM62",
+    "COMPOSITION_BASED_STATISTICS": "2",
+    "FILTER": "F",
+    "FORMAT_TYPE": "XML2"
+  },
+  "query_path": "data/raw/p6_protein/SA1_MarsHill_PB50_rt_queries.faa",
+  "query_records": [
+    {
+      "header": "SA1|QPI16926.1",
+      "length_aa": 501
+    },
+    {
+      "header": "MarsHill|QQM14740.1",
+      "length_aa": 501
+    },
+    {
+      "header": "PB50|WPH64254.1",
+      "length_aa": 517
+    }
+  ],
+  "raw_response_path": null,
+  "response_headers": {
+    "Date": "Thu, 24 Sep 2026 17:11:23 GMT",
+    "Server": "Apache",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked"
+  },
+  "official_documentation": [
+    "https://blast.ncbi.nlm.nih.gov/doc/blast-help/urlapi.html",
+    "https://blast.ncbi.nlm.nih.gov/doc/blast-help/developerinfo.html"
+  ],
+  "server_side_taxon_filter": null,
+  "taxon_filter_note": "Current Common URL API supported-parameter table does not list ENTREZ_QUERY. The request therefore uses unfiltered nr; any returned hit must be source-resolved and post-filtered before the unchanged array-blind RT/partner/neighborhood rules are applied.",
+  "relationship_to_old_cli_job": "distinct NCBI Common URL API job; not a recovery or retry of the earlier CLI process, which produced no RID",
+  "retrieval": {
+    "default_get_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=BAPDV7HU014",
+    "xml2_get_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=BAPDV7HU014&FORMAT_TYPE=XML2"
+  },
+  "raw_response_bytes_original": 43202,
+  "raw_response_bytes_saved": 43154,
+  "response_body_sanitized_fields": [
+    "ncbi_sessionid",
+    "ncbi_phid",
+    "MYNCBI_USER"
+  ],
+  "raw_response_included": false,
+  "public_record_note": "Local workflow-control fields were removed; historical request timing and terminal NCBI response interpretation are retained."
+}

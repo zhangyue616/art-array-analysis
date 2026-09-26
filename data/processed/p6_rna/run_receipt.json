@@ -1,0 +1,22 @@
+{
+  "elapsed_seconds": 686.609729799995,
+  "finished_utc": "2026-09-24T16:54:29.873395+00:00",
+  "parameters": "scripts/p6_rna/ANALYSIS_PARAMETERS.md",
+  "python_version": "3.12.14",
+  "scientific_input_files_modified": false,
+  "single_process": true,
+  "started_utc": "2026-09-24T16:43:03.263608+00:00",
+  "status": "PASS",
+  "validation": {
+    "cross_group_pair_context_rows": 504,
+    "null_pair_context_rows": 4480,
+    "null_panel_context_rows": 128,
+    "observed_folds": 74,
+    "phase_rows": 47,
+    "replicates_exact_dinucleotide": 64,
+    "replicates_repeat_unchanged": 64,
+    "sequence_objects": 74,
+    "shuffle_rows": 2368
+  },
+  "viennarna_version": "2.7.2"
+}

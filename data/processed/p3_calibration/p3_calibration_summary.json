@@ -1,0 +1,72 @@
+{
+  "analysis": "P3 cross-group unit correspondence calibration under blockwise spacer-order shuffling",
+  "block_size_nt": 50,
+  "cross_group_locus_pairs_per_replicate": 21,
+  "cross_group_unit_pairs_aligned_per_replicate": 252,
+  "directed_free_best_selections_per_replicate": 147,
+  "excluded_weak_edge_units": 4,
+  "fixed_chain_copies": 47,
+  "fixed_chain_units": 37,
+  "fixed_loci": 10,
+  "null_distributions": {
+    "supported_pair_count": {
+      "defined_replicates": 64,
+      "maximum": 14,
+      "median": 8.0,
+      "minimum": 4,
+      "missing_replicates": 0,
+      "null_at_least_observed": 0,
+      "observed": 35,
+      "p95_nearest_rank": 12,
+      "panel_level_exceedance_fraction_plus_one": 0.015384615384615385
+    },
+    "supported_trimmed_spacer_identity_median": {
+      "defined_replicates": 64,
+      "maximum": 0.5259259259259259,
+      "median": 0.5035803795202292,
+      "minimum": 0.47761194029850745,
+      "missing_replicates": 0,
+      "null_at_least_observed": 0,
+      "observed": 0.556962,
+      "p95_nearest_rank": 0.5203656560981255,
+      "panel_level_exceedance_fraction_plus_one": 0.015384615384615385
+    },
+    "u1_same_position_locus_pair_coverage": {
+      "defined_replicates": 64,
+      "maximum": 7,
+      "median": 4.0,
+      "minimum": 1,
+      "missing_replicates": 0,
+      "null_at_least_observed": 0,
+      "observed": 15,
+      "p95_nearest_rank": 7,
+      "panel_level_exceedance_fraction_plus_one": 0.015384615384615385
+    },
+    "u2_same_position_locus_pair_coverage": {
+      "defined_replicates": 64,
+      "maximum": 4,
+      "median": 0.0,
+      "minimum": 0,
+      "missing_replicates": 0,
+      "null_at_least_observed": 0,
+      "observed": 18,
+      "p95_nearest_rank": 3,
+      "panel_level_exceedance_fraction_plus_one": 0.015384615384615385
+    }
+  },
+  "observed_reused_from_P2": {
+    "cross_locus_pairs_with_any_support": 18,
+    "source": "P2 saved supported_unit_correspondences.tsv and unit_free_best_hits.tsv; restricted to 37 chain units",
+    "supported_directed_count": 70,
+    "supported_pair_count": 35,
+    "supported_trimmed_spacer_identity_maximum": 0.586667,
+    "supported_trimmed_spacer_identity_median": 0.556962,
+    "supported_trimmed_spacer_identity_minimum": 0.533784,
+    "u1_same_position_locus_pair_coverage": 15,
+    "u2_same_position_locus_pair_coverage": 18
+  },
+  "parameters": "scripts/p3_calibration/ANALYSIS_PARAMETERS.md",
+  "replicates": 64,
+  "scope": "conditional on P2 chain annotation and geometry; not a copy-discovery validation",
+  "seed": 20260924
+}

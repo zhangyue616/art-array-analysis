@@ -1,0 +1,33 @@
+{
+  "all_shuffle_dinucleotides_recomputed_equal": true,
+  "date": "2026-09-24",
+  "figures": [
+    {
+      "minimum_svg_font_size_pt": 8.0,
+      "stem": "figure_p6_1_supported_vs_wrong_units",
+      "svg_width_pt": 481.889764
+    },
+    {
+      "minimum_svg_font_size_pt": 8.0,
+      "stem": "figure_p6_2_dinucleotide_panel_calibration",
+      "svg_width_pt": 481.889764
+    },
+    {
+      "minimum_svg_font_size_pt": 8.0,
+      "stem": "figure_p6_3_representative_pair_maps",
+      "svg_width_pt": 481.889764
+    }
+  ],
+  "null_pair_context_rows": 4480,
+  "null_panel_context_rows": 128,
+  "observed_folds": 74,
+  "observed_pair_context_rows": 504,
+  "phase_rows": 47,
+  "scientific_analysis_rerun_during_validation": false,
+  "sequence_objects": 74,
+  "shuffle_rows": 2368,
+  "status": "PASS",
+  "supported_pairs_per_context": 35,
+  "validated_replicates": 64,
+  "wrong_unit_pairs_per_context": 217
+}

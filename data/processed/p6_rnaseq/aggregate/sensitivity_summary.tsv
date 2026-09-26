@@ -1,0 +1,13 @@
+comparison	comparison_role	unit	spacer_midpoint_density_median_absolute_delta	spacer_midpoint_density_direction	spacer_midpoint_density_same_direction	spacer_midpoint_density_meets_numeric_rule	spacer_depth_median_absolute_delta	spacer_depth_direction	spacer_depth_same_direction	spacer_depth_meets_numeric_rule	core_midpoint_density_median_absolute_delta	core_midpoint_density_direction	core_midpoint_density_same_direction	core_midpoint_density_meets_numeric_rule	core_depth_median_absolute_delta	core_depth_direction	core_depth_same_direction	core_depth_meets_numeric_rule
+5_to_55	primary	U1	0.00116178241976	increase	true	false	0.00513812320826	increase	true	false	0.00112988084631	increase	true	false	0.00488802525933	increase	true	false
+5_to_55	primary	U2	0.0152930125188	increase	true	false	0.0167730764159	increase	true	false	0.015270822704	increase	true	false	0.0158388130028	increase	true	false
+5_to_55	primary	U3	0.0165604560283	decrease	true	false	0.00798573082368	decrease	true	false	0.0163159638497	decrease	true	false	0.00632003767857	decrease	true	false
+5_to_55	primary	U4	0.00372373528298	mixed_or_zero	false	false	0.0104298392034	mixed_or_zero	false	false	0.00410195596595	mixed_or_zero	false	false	0.0100704630359	decrease	true	false
+5_to_15	secondary	U1	0.00482386860626	mixed_or_zero	false	false	0.00432582541094	increase	true	false	0.00491699279279	mixed_or_zero	false	false	0.00404927801451	increase	true	false
+5_to_15	secondary	U2	0.0109170005509	mixed_or_zero	false	false	0.00734987486058	increase	true	false	0.010879561264	mixed_or_zero	false	false	0.00728711610936	increase	true	false
+5_to_15	secondary	U3	0.0169132385013	mixed_or_zero	false	false	0.0119170964494	mixed_or_zero	false	false	0.0172244150313	mixed_or_zero	false	false	0.0107204249485	mixed_or_zero	false	false
+5_to_15	secondary	U4	0.00549361846965	mixed_or_zero	false	false	0.00979233086848	mixed_or_zero	false	false	0.00505131739734	mixed_or_zero	false	false	0.0092104727344	mixed_or_zero	false	false
+15_to_55	secondary	U1	0.00291956644832	mixed_or_zero	false	false	0.00145473858745	increase	true	false	0.00306935717321	mixed_or_zero	false	false	0.0013678315419	increase	true	false
+15_to_55	secondary	U2	0.00462727050022	increase	true	false	0.00928058224617	increase	true	false	0.00451654305651	increase	true	false	0.00833493194991	increase	true	false
+15_to_55	secondary	U3	0.000981293587407	mixed_or_zero	false	false	0.00506526778	mixed_or_zero	false	false	0.000908451181625	mixed_or_zero	false	false	0.00445572267288	mixed_or_zero	false	false
+15_to_55	secondary	U4	0.000726410464491	mixed_or_zero	false	false	0.0106712353813	decrease	true	false	0.00103403664528	mixed_or_zero	false	false	0.00945449386053	decrease	true	false

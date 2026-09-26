@@ -1,0 +1,80 @@
+{
+  "array_sense_midpoint_fragments": 57,
+  "array_share_of_retained_phage_fragments": 0.01841680129240711,
+  "bowtie2_overall_alignment_rate_percent": 94.46,
+  "bowtie2_returncode": 0,
+  "culture": 1,
+  "expected_fastq_bytes": [
+    774818961,
+    784491025
+  ],
+  "expected_fastq_md5": [
+    "d3fbead5b74c079e7cace534f3472539",
+    "d513c523458b42367bf54de2f3ad1d4d"
+  ],
+  "expected_md5": [
+    "d3fbead5b74c079e7cace534f3472539",
+    "d513c523458b42367bf54de2f3ad1d4d"
+  ],
+  "fastp_returncode": 0,
+  "fastp_summary": {
+    "after_filtering": {
+      "gc_content": 7.62363,
+      "q20_bases": 207407928,
+      "q20_rate": 1,
+      "q30_bases": 207407928,
+      "q30_rate": 1,
+      "read1_mean_length": -128,
+      "read2_mean_length": -128,
+      "total_bases": 207407928,
+      "total_reads": 31853436
+    },
+    "before_filtering": {
+      "gc_content": 3.3059,
+      "q20_bases": 527216345,
+      "q20_rate": 0.988308,
+      "q30_bases": 527216345,
+      "q30_rate": 0.988308,
+      "read1_mean_length": -117,
+      "read2_mean_length": -117,
+      "total_bases": 533453702,
+      "total_reads": 31976298
+    },
+    "fastp_version": "1.3.3",
+    "sequencing": "paired end (151 cycles + 151 cycles)"
+  },
+  "fastq_validation": "pass",
+  "findstr_returncode": 0,
+  "observed_fastq_bytes": [
+    774818961,
+    784491025
+  ],
+  "observed_fastq_md5": [
+    "d3fbead5b74c079e7cace534f3472539",
+    "d513c523458b42367bf54de2f3ad1d4d"
+  ],
+  "observed_md5": [
+    "d3fbead5b74c079e7cace534f3472539",
+    "d513c523458b42367bf54de2f3ad1d4d"
+  ],
+  "parser_counters": {
+    "filtered_mapq_lt10": 6,
+    "filtered_not_proper_pair": 4,
+    "filtered_unmapped_mate": 10,
+    "findstr_false_positive": 2,
+    "findstr_lines": 6236,
+    "midpoints_outside_CDS": 210,
+    "not_read2": 3119,
+    "phage_alignment_records": 6234,
+    "primary_read2_phage": 3115,
+    "retained_phage_fragments": 3095,
+    "retained_phage_fragments_minus": 1324,
+    "retained_phage_fragments_plus": 1771
+  },
+  "parser_reached_eof": true,
+  "run_accession": "SRR19152335",
+  "sample_alias": "B_0-1",
+  "status": "complete",
+  "time_min": 0,
+  "public_record_note": "Machine-specific commands, process timing, and omitted-log hashes were removed; scientific counts, sample mapping, FASTQ validation, return codes, alignment rate, parser counters, and captured fastp summary are retained."
+}

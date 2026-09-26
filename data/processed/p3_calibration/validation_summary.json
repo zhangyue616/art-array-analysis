@@ -1,0 +1,12 @@
+{
+  "directed_free_best_selections_recomputed_total": 9408,
+  "observed_chain_only_directed_supported_reused": 70,
+  "observed_chain_only_supported_pairs_reused": 35,
+  "replicates": 64,
+  "replicates_with_exact_block_composition": 64,
+  "replicates_with_nontrimmed_sequence_unchanged": 64,
+  "replicates_with_one_shared_panel_state": 64,
+  "status": "PASS",
+  "unit_pair_alignments_recomputed_total": 16128,
+  "whole_locus_alignments_recomputed_total": 1344
+}

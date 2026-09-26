@@ -1,0 +1,64 @@
+{
+  "rid": "BAPDV7HU014",
+  "interpreted_utc": "2026-09-24T22:53:12.9541197+00:00",
+  "source_get_requested_utc": "2026-09-24T22:51:01.082807Z",
+  "source_get_received_utc": "2026-09-24T22:51:02.687802Z",
+  "http_status": 200,
+  "content_type": "application/zip",
+  "raw_response_path": "data/raw/p6_protein/ncbi_urlapi_get_20260924T225101082807Z.response",
+  "canonical_archive_path": "data/raw/p6_protein/ncbi_urlapi_result_BAPDV7HU014.zip",
+  "extracted_directory": "data/raw/p6_protein/ncbi_urlapi_result_BAPDV7HU014",
+  "archive_entry_count": 4,
+  "archive_entries": [
+    "BAPDV7HU014.xml",
+    "BAPDV7HU014_1.xml",
+    "BAPDV7HU014_2.xml",
+    "BAPDV7HU014_3.xml"
+  ],
+  "initial_retriever_status": "UNRECOGNIZED_RESPONSE",
+  "corrected_service_status": "FAILED_SERVER_CPU_LIMIT",
+  "terminal": true,
+  "expired": false,
+  "usable_blast_hits": false,
+  "no_hit_interpretation_allowed": false,
+  "reason": "All three query XML documents report NCBI server CPU usage limit exceeded (SIGXCPU 24), with db-num=0 and db-len=0. Empty hits therefore do not constitute a completed database no-hit result.",
+  "query_results": [
+    {
+      "entry": "BAPDV7HU014_1.xml",
+      "query_title": "SA1|QPI16926.1",
+      "query_length_aa": 501,
+      "hit_count": 0,
+      "db_num": 0,
+      "db_len": 0,
+      "message": "Informational Message: [blastsrv4.REAL]: Error: CPU usage limit was exceeded, resulting in SIGXCPU (24).\nNo hits found",
+      "server_cpu_limit_exceeded": true,
+      "no_hit_interpretation_allowed": false
+    },
+    {
+      "entry": "BAPDV7HU014_2.xml",
+      "query_title": "MarsHill|QQM14740.1",
+      "query_length_aa": 501,
+      "hit_count": 0,
+      "db_num": 0,
+      "db_len": 0,
+      "message": "Informational Message: [blastsrv4.REAL]: Error: CPU usage limit was exceeded, resulting in SIGXCPU (24).\nNo hits found",
+      "server_cpu_limit_exceeded": true,
+      "no_hit_interpretation_allowed": false
+    },
+    {
+      "entry": "BAPDV7HU014_3.xml",
+      "query_title": "PB50|WPH64254.1",
+      "query_length_aa": 517,
+      "hit_count": 0,
+      "db_num": 0,
+      "db_len": 0,
+      "message": "Informational Message: [blastsrv4.REAL]: Error: CPU usage limit was exceeded, resulting in SIGXCPU (24).\nNo hits found",
+      "server_cpu_limit_exceeded": true,
+      "no_hit_interpretation_allowed": false
+    }
+  ],
+  "network_requests_during_interpretation": 0,
+  "resubmitted": false,
+  "raw_response_included": true,
+  "public_record_note": "Local workflow-control fields were removed; historical request timing and terminal NCBI response interpretation are retained."
+}

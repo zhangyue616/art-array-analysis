@@ -1,0 +1,61 @@
+{
+  "generated_utc": "2026-09-24T17:05:12.177779+00:00",
+  "request_status": "cache_reused",
+  "http_status": 200,
+  "request_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=nuccore&id=1700470712%2C1936184535%2C1953870784%2C1955693358%2C1955693760%2C2091504366%2C2591511804%2C2622641466%2C2645991679&retmode=json",
+  "raw_esummary_path": "data/raw/p6_protein/lineage_nuccore_esummary.json",
+  "queries": {
+    "LENTUS_COMPLETE_GENOME": {
+      "query_translation": "\"Lentusvirus\"[Organism] AND complete genome[Title]",
+      "reported_count": 1,
+      "ids": [
+        "1936184535"
+      ],
+      "raw_path": "data/raw/p6_protein/LENTUS_nuccore_esearch.json"
+    },
+    "MADAWASKA_COMPLETE_GENOME": {
+      "query_translation": "\"Madawaskavirus\"[Organism] AND complete genome[Title]",
+      "reported_count": 5,
+      "ids": [
+        "2645991679",
+        "2091504366",
+        "1700470712",
+        "1955693760",
+        "1953870784"
+      ],
+      "raw_path": "data/raw/p6_protein/MADAWASKA_nuccore_esearch.json"
+    },
+    "MACHIAS_COMPLETE_GENOME": {
+      "query_translation": "\"Machiasvirus\"[Organism] AND complete genome[Title]",
+      "reported_count": 3,
+      "ids": [
+        "2591511804",
+        "2622641466",
+        "1955693358"
+      ],
+      "raw_path": "data/raw/p6_protein/MACHIAS_nuccore_esearch.json"
+    },
+    "WALLMARK_COMPLETE_GENOME": {
+      "query_translation": "\"Wallmarkvirinae\"[Organism] AND complete genome[Title]",
+      "reported_count": 9,
+      "ids": [
+        "2591511804",
+        "2645991679",
+        "2622641466",
+        "2091504366",
+        "1700470712",
+        "1936184535",
+        "1955693760",
+        "1955693358",
+        "1953870784"
+      ],
+      "raw_path": "data/raw/p6_protein/WALLMARK_nuccore_esearch.json"
+    }
+  },
+  "union_uid_count": 9,
+  "resolved_accession_count": 9,
+  "fixed10_accession_count": 9,
+  "new_accession_count": 0,
+  "output": "data/processed/p6_extension/lineage_nuccore_results.tsv",
+  "interpretation_limit": "Taxonomic complete-genome index scope only; no absence claim outside these four bounded queries."
+}

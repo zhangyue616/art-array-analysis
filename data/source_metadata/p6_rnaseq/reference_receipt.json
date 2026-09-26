@@ -1,0 +1,83 @@
+{
+  "derived_files": {
+    "data/processed/p6_rnaseq/MW218148.1_NZ_CP059679.1.fna": {
+      "bytes": 3101325,
+      "sha256": "abcb32be4cb140c6363909bd8ae1f8421bad6bca28b813cedaaf158e2cee8863"
+    },
+    "data/processed/p6_rnaseq/sa1_features.tsv": {
+      "bytes": 18007,
+      "sha256": "09d96379a20ec636aea4debf5a5c4f8674def3df1e464f958bb5d208168e3724"
+    },
+    "data/processed/p6_rnaseq/sa1_windows.tsv": {
+      "bytes": 1136,
+      "sha256": "d23983b9edd63a8af51663192e864a4279e637d346497a41c2c98473b26e3ef1"
+    }
+  },
+  "p6_rna_interface_check": {
+    "expected": {
+      "SA1|unit01": [
+        -1053,
+        -841,
+        190
+      ],
+      "SA1|unit02": [
+        -841,
+        -670,
+        149
+      ],
+      "SA1|unit03": [
+        -670,
+        -469,
+        179
+      ],
+      "SA1|unit04": [
+        -469,
+        -293,
+        154
+      ]
+    },
+    "observed": {
+      "SA1|unit01": [
+        -1053,
+        -841,
+        190
+      ],
+      "SA1|unit02": [
+        -841,
+        -670,
+        149
+      ],
+      "SA1|unit03": [
+        -670,
+        -469,
+        179
+      ],
+      "SA1|unit04": [
+        -469,
+        -293,
+        154
+      ]
+    },
+    "path": "data/processed/p6_rna/unit_sequence_objects.tsv",
+    "status": "match"
+  },
+  "phage_cds_count": 258,
+  "reference_ids": [
+    "MW218148.1",
+    "NZ_CP059679.1"
+  ],
+  "reference_lengths_nt": {
+    "MW218148.1": 260727,
+    "NZ_CP059679.1": 2802282
+  },
+  "source_files": {
+    "data/raw/ncbi/MW218148.1.gb": {
+      "bytes": 507416,
+      "sha256": "9f86f3aa0d2023d7e319800a1bf61d223234144fc16f6fadd55032f58411c366"
+    },
+    "data/raw/p6_rnaseq/NZ_CP059679.1.gb": {
+      "bytes": 7407044,
+      "sha256": "2809eb9dfd48d92f23c252e86eccb36473123d5bebdc0282ea502ba9aaf44d71"
+    }
+  }
+}

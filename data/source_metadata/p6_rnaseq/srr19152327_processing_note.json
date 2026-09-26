@@ -1,0 +1,26 @@
+{
+  "run_accession": "SRR19152327",
+  "validated_fastq_reused_without_download": true,
+  "repair": "Only fastp path arguments were changed to forward slashes so fastp 1.3.3 writes a valid JSON command field.",
+  "scientific_parameters_changed": false,
+  "completion": {
+    "fastq_bytes_and_md5": "pass",
+    "fastp_returncode": 0,
+    "bowtie2_returncode": 0,
+    "findstr_returncode": 0,
+    "parser_reached_eof": true,
+    "bowtie2_overall_alignment_rate_percent": 97.03,
+    "retained_phage_fragments": 6601204,
+    "whole_array_sense_midpoint_fragments": 425069,
+    "spacer_sense_midpoint_fragments": {
+      "U1": 1285,
+      "U2": 14322,
+      "U3": 226334,
+      "U4": 6388,
+      "total": 248329
+    }
+  },
+  "fastp_base_field_limitation": "The raw report is retained unchanged. Total-base values show exact modulo-2^32 wrapping and mean-length/GC values conflict with read counts and cycle length; these fields are excluded from inference and are not used by fragment filtering, density shares, TPM-like values, or the release gate.",
+  "status": "complete",
+  "public_record_note": "Process IDs, temporary logs, orchestration history, review timestamps, and release-control fields were omitted."
+}

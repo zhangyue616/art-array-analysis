@@ -1,0 +1,13 @@
+run_accession	sample_alias	time_min	culture	boundary_1based	terminal_window_1based	rt_window_1based	terminal_last100_plus_depth_median	rt_first100_plus_depth_median	rt_to_terminal_median_depth_ratio	terminal_last100_plus_depth_mean	rt_first100_plus_depth_mean	terminal_end_position_depth	rt_start_position_depth	boundary_step_depth	boundary_step_relative_to_larger_depth	terminal_last100_coverage_breadth_gt0	rt_first100_coverage_breadth_gt0	evidence_status
+SRR19152335	B_0-1	0	1	10647	10547-10646	10647-10746	0.0	0.0		3.78	0	0	0	0		0.2	0.0	zero_min_low_signal_background_only
+SRR19152334	B_0-2	0	2	10647	10547-10646	10647-10746	1.0	0.0	0.0	4.88	0	0	0	0		0.88	0.0	zero_min_low_signal_background_only
+SRR19152331	B_0-3	0	3	10647	10547-10646	10647-10746	4.0	3.0	0.75	7.97	2.59	2	2	0	0.0	1.0	1.0	zero_min_low_signal_background_only
+SRR19152330	B+P_5-1	5	1	10647	10547-10646	10647-10746	18579.0	7487.5	0.4030087733462511	27498.56	7456.66	6346	6342	-4	-0.0006303183107469272	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152329	B+P_5-2	5	2	10647	10547-10646	10647-10746	10846.5	4823.5	0.44470566542202555	18789.8	4824.37	3970	3968	-2	-0.0005037783375314861	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152328	B+P_5-3	5	3	10647	10547-10646	10647-10746	13752.5	5747.0	0.4178876567896746	23612.5	5648.63	4487	4486	-1	-0.00022286605749944285	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152327	B+P_15-1	15	1	10647	10547-10646	10647-10746	9965.0	3011.0	0.302157551430005	31792.04	2878.92	1988	1991	3	0.0015067805123053742	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152326	B+P_15-2	15	2	10647	10547-10646	10647-10746	11212.5	3244.5	0.2893645484949833	40539.3	3121.1	2233	2231	-2	-0.0008956560680698612	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152325	B+P_15-3	15	3	10647	10547-10646	10647-10746	8359.5	2834.0	0.3390154913571386	30524.18	2695.06	1861	1863	2	0.0010735373054213634	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152324	B+P_55-1	55	1	10647	10547-10646	10647-10746	4482.0	1504.0	0.3355644801427934	11721.44	1512.11	1286	1285	-1	-0.0007776049766718507	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152333	B+P_55-2	55	2	10647	10547-10646	10647-10746	3878.5	1275.0	0.3287353358257058	10284.66	1280.21	1102	1102	0	0.0	1.0	1.0	adjacent_boundary_depth_present_descriptive_only
+SRR19152332	B+P_55-3	55	3	10647	10547-10646	10647-10746	3906.5	1193.0	0.30538845513887114	10514.8	1187.76	1009	1008	-1	-0.0009910802775024777	1.0	1.0	adjacent_boundary_depth_present_descriptive_only

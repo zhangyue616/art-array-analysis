@@ -1,0 +1,2 @@
+supported_pair_count	supported_directed_count	cross_locus_pairs_with_any_support	u1_same_position_locus_pair_coverage	u2_same_position_locus_pair_coverage	supported_trimmed_spacer_identity_median	supported_trimmed_spacer_identity_minimum	supported_trimmed_spacer_identity_maximum	source
+35	70	18	15	18	0.556962	0.533784	0.586667	P2 saved supported_unit_correspondences.tsv and unit_free_best_hits.tsv; restricted to 37 chain units

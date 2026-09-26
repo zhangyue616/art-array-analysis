@@ -1,0 +1,4 @@
+run_accession	sample_accession	sample_alias	library_name	experiment_title	whole_array_midpoint_denominator	spacer_midpoint_count_separate_denominator	interpretation
+SRR19152335	SAMN28155564	B_0-1	B_0-1	Illumina HiSeq 4000 sequencing: RNA-seq of staphylococcus infected by a newly jumbo phage SA1	57	30	0-min baseline/background; B alias alone does not establish pre-phage sampling
+SRR19152334	SAMN28155565	B_0-2	B_0-2	Illumina HiSeq 4000 sequencing: RNA-seq of staphylococcus infected by a newly jumbo phage SA2	45	17	0-min baseline/background; B alias alone does not establish pre-phage sampling
+SRR19152331	SAMN28155566	B_0-3	B_0-3	Illumina HiSeq 4000 sequencing: RNA-seq of staphylococcus infected by a newly jumbo phage SA3	76	41	0-min baseline/background; B alias alone does not establish pre-phage sampling

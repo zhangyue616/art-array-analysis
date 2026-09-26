@@ -1,0 +1,253 @@
+source_row_two_repeat	locus_pair_id	p0_unit_id	p0_label	p0_ordinal	pb_unit_id	pb_label	pb_ordinal	supported_correspondence	same_ordinal	context_global_identity	saved_core_to_core_global_identity	saved_trimmed_spacer_global_identity	spacer_spacer_bpp_overlap	other_in_global_supported_range__context_global_identity	other_in_global_supported_range__saved_core_to_core_global_identity	other_in_global_supported_range__saved_trimmed_spacer_global_identity	other_in_locus_local_supported_range__context_global_identity	other_in_locus_local_supported_range__saved_core_to_core_global_identity	other_in_locus_local_supported_range__saved_trimmed_spacer_global_identity
+1	SA1__AH12	SA1|unit01	SA1	1	AH12|unit01	AH12	1	false	true	0.58158996	0.56621	0.533784	0.22021326	false	false	true			
+2	SA1__AH12	SA1|unit01	SA1	1	AH12|unit02	AH12	2	false	false	0.56734694	0.542601	0.5	0.00487423	false	false	false			
+3	SA1__AH12	SA1|unit01	SA1	1	AH12|unit03	AH12	3	false	false	0.58333333	0.547945	0.5	0.01893714	false	false	false			
+4	SA1__Machias	SA1|unit01	SA1	1	Machias|unit01	Machias	1	false	true	0.57083333	0.554545	0.530201	0.2865123	false	false	false			
+5	SA1__Machias	SA1|unit01	SA1	1	Machias|unit02	Machias	2	false	false	0.56147541	0.536036	0.493506	0.00686033	false	false	false			
+6	SA1__Machias	SA1|unit01	SA1	1	Machias|unit03	Machias	3	false	false	0.57083333	0.534247	0.486842	0.01646428	false	false	false			
+7	SA1__PB50	SA1|unit01	SA1	1	PB50|unit01	PB50	1	false	true	0.57083333	0.554545	0.530201	0.2865123	false	false	false			
+8	SA1__PB50	SA1|unit01	SA1	1	PB50|unit02	PB50	2	false	false	0.54393305	0.520548	0.487013	0.00867376	false	false	false			
+9	SA1__PB50	SA1|unit01	SA1	1	PB50|unit03	PB50	3	false	false	0.56666667	0.534247	0.486842	0.01646745	false	false	false			
+10	SA1__AH12	SA1|unit02	SA1	2	AH12|unit01	AH12	1	false	false	0.54585153	0.516746	0.441176	0.11226959	false	false	false			
+11	SA1__AH12	SA1|unit02	SA1	2	AH12|unit02	AH12	2	false	true	0.57264957	0.528037	0.458904	0.04374647	false	false	false			
+12	SA1__AH12	SA1|unit02	SA1	2	AH12|unit03	AH12	3	false	false	0.5877193	0.538462	0.458647	0.06056368	false	false	false			
+13	SA1__Machias	SA1|unit02	SA1	2	Machias|unit01	Machias	1	false	false	0.54585153	0.516746	0.444444	0.11729854	false	false	false			
+14	SA1__Machias	SA1|unit02	SA1	2	Machias|unit02	Machias	2	false	true	0.58227848	0.539171	0.456376	0.15159296	false	false	false			
+15	SA1__Machias	SA1|unit02	SA1	2	Machias|unit03	Machias	3	false	false	0.5877193	0.538462	0.453846	0.06707943	false	false	false			
+16	SA1__PB50	SA1|unit02	SA1	2	PB50|unit01	PB50	1	false	false	0.54585153	0.516746	0.444444	0.11729854	false	false	false			
+17	SA1__PB50	SA1|unit02	SA1	2	PB50|unit02	PB50	2	false	true	0.56595745	0.525581	0.445946	0.09688693	false	false	false			
+18	SA1__PB50	SA1|unit02	SA1	2	PB50|unit03	PB50	3	false	false	0.58333333	0.538462	0.453846	0.06710238	false	false	false			
+19	SA1__AH12	SA1|unit03	SA1	3	AH12|unit01	AH12	1	false	false	0.54098361	0.513393	0.454545	0.03314989	false	false	false			
+20	SA1__AH12	SA1|unit03	SA1	3	AH12|unit02	AH12	2	false	false	0.57083333	0.522727	0.486842	0.09555316	false	false	false			
+21	SA1__AH12	SA1|unit03	SA1	3	AH12|unit03	AH12	3	false	true	0.65065502	0.598086	0.507143	0.16697391	true	true	false			
+22	SA1__Machias	SA1|unit03	SA1	3	Machias|unit01	Machias	1	false	false	0.54273504	0.514019	0.486111	0.03534236	false	false	false			
+23	SA1__Machias	SA1|unit03	SA1	3	Machias|unit02	Machias	2	false	false	0.57142857	0.522936	0.473333	0.05881905	false	false	false			
+24	SA1__Machias	SA1|unit03	SA1	3	Machias|unit03	Machias	3	false	true	0.66086957	0.609524	0.524823	0.1696385	true	true	false			
+25	SA1__PB50	SA1|unit03	SA1	3	PB50|unit01	PB50	1	false	false	0.54273504	0.514019	0.486111	0.03534236	false	false	false			
+26	SA1__PB50	SA1|unit03	SA1	3	PB50|unit02	PB50	2	false	false	0.56722689	0.522936	0.466216	0.08259227	false	false	false			
+27	SA1__PB50	SA1|unit03	SA1	3	PB50|unit03	PB50	3	false	true	0.65652174	0.609524	0.524823	0.16964896	true	true	false			
+28	SA1__AH12	SA1|unit04	SA1	4	AH12|unit01	AH12	1	false	false	0.55458515	0.514423	0.433824	0.00153799	false	false	false			
+29	SA1__AH12	SA1|unit04	SA1	4	AH12|unit02	AH12	2	false	false	0.58823529	0.545872	0.486667	0.21752415	true	false	false			
+30	SA1__AH12	SA1|unit04	SA1	4	AH12|unit03	AH12	3	false	false	0.61261261	0.559406	0.465649	0.05976624	true	false	false			
+31	SA1__Machias	SA1|unit04	SA1	4	Machias|unit01	Machias	1	false	false	0.54017857	0.497537	0.444444	0.00172263	false	false	false			
+32	SA1__Machias	SA1|unit04	SA1	4	Machias|unit02	Machias	2	false	false	0.5720339	0.527778	0.493151	0.21017932	false	false	false			
+33	SA1__Machias	SA1|unit04	SA1	4	Machias|unit03	Machias	3	false	false	0.632287	0.581281	0.5	0.06253889	true	true	false			
+34	SA1__PB50	SA1|unit04	SA1	4	PB50|unit01	PB50	1	false	false	0.54017857	0.497537	0.444444	0.00172263	false	false	false			
+35	SA1__PB50	SA1|unit04	SA1	4	PB50|unit02	PB50	2	false	false	0.5720339	0.532407	0.459459	0.34147165	false	false	false			
+36	SA1__PB50	SA1|unit04	SA1	4	PB50|unit03	PB50	3	false	false	0.62780269	0.581281	0.5	0.06256016	true	true	false			
+37	MarsHill__AH12	MarsHill|unit01	MarsHill	1	AH12|unit01	AH12	1	false	true	0.60408163	0.586667	0.55414	0.09243446	true	true	true	false	false	false
+38	MarsHill__AH12	MarsHill|unit01	MarsHill	1	AH12|unit02	AH12	2	false	false	0.5708502	0.537445	0.471338	0.00181929	false	false	false	false	false	false
+39	MarsHill__AH12	MarsHill|unit01	MarsHill	1	AH12|unit03	AH12	3	false	false	0.55465587	0.522124	0.477987	0.0068816	false	false	false	false	false	false
+40	MarsHill__Machias	MarsHill|unit01	MarsHill	1	Machias|unit01	Machias	1	false	true	0.6	0.582222	0.547771	0.11679137	true	true	true	false	false	false
+41	MarsHill__Machias	MarsHill|unit01	MarsHill	1	Machias|unit02	Machias	2	false	false	0.56097561	0.526549	0.493671	0.00204859	false	false	false	false	false	false
+42	MarsHill__Machias	MarsHill|unit01	MarsHill	1	Machias|unit03	Machias	3	false	false	0.55967078	0.518018	0.470968	0.00530671	false	false	false	false	false	false
+43	MarsHill__PB50	MarsHill|unit01	MarsHill	1	PB50|unit01	PB50	1	false	true	0.6	0.582222	0.547771	0.11679137	true	true	true	false	false	false
+44	MarsHill__PB50	MarsHill|unit01	MarsHill	1	PB50|unit02	PB50	2	false	false	0.56504065	0.535398	0.4875	0.0020766	false	false	false	false	false	false
+45	MarsHill__PB50	MarsHill|unit01	MarsHill	1	PB50|unit03	PB50	3	false	false	0.55555556	0.518018	0.470968	0.00530691	false	false	false	false	false	false
+46	MarsHill__AH12	MarsHill|unit02	MarsHill	2	AH12|unit01	AH12	1	false	false	0.56410256	0.537383	0.454545	0.03412979	false	false	false	false	false	false
+47	MarsHill__AH12	MarsHill|unit02	MarsHill	2	AH12|unit02	AH12	2	true	true	0.65106383	0.609302	0.57047	0.18624158	false	false	false	false	false	false
+48	MarsHill__AH12	MarsHill|unit02	MarsHill	2	AH12|unit03	AH12	3	false	false	0.6123348	0.565217	0.492647	0.0491963	true	false	false	false	false	false
+49	MarsHill__Machias	MarsHill|unit02	MarsHill	2	Machias|unit01	Machias	1	false	false	0.55508475	0.527778	0.489655	0.03562211	false	false	false	false	false	false
+50	MarsHill__Machias	MarsHill|unit02	MarsHill	2	Machias|unit02	Machias	2	true	true	0.65546218	0.614679	0.563758	0.11633131	false	false	false	false	false	false
+51	MarsHill__Machias	MarsHill|unit02	MarsHill	2	Machias|unit03	Machias	3	false	false	0.62445415	0.578947	0.503597	0.05453648	true	true	false	false	false	false
+52	MarsHill__PB50	MarsHill|unit02	MarsHill	2	PB50|unit01	PB50	1	false	false	0.55508475	0.527778	0.489655	0.03562211	false	false	false	false	false	false
+53	MarsHill__PB50	MarsHill|unit02	MarsHill	2	PB50|unit02	PB50	2	true	true	0.65546218	0.619266	0.57047	0.12087836	false	false	false	false	false	false
+54	MarsHill__PB50	MarsHill|unit02	MarsHill	2	PB50|unit03	PB50	3	false	false	0.62008734	0.578947	0.503597	0.05454454	true	true	false	false	false	false
+55	MarsHill__AH12	MarsHill|unit03	MarsHill	3	AH12|unit01	AH12	1	false	false	0.56557377	0.540179	0.5	0.03329586	false	false	false	false	false	false
+56	MarsHill__AH12	MarsHill|unit03	MarsHill	3	AH12|unit02	AH12	2	false	false	0.61410788	0.570136	0.516129	0.03382633	true	true	false	false	false	false
+57	MarsHill__AH12	MarsHill|unit03	MarsHill	3	AH12|unit03	AH12	3	false	true	0.64609053	0.596413	0.540541	0.1730526	true	true	true	false	false	false
+58	MarsHill__Machias	MarsHill|unit03	MarsHill	3	Machias|unit01	Machias	1	false	false	0.56734694	0.542222	0.486842	0.03246153	false	false	false	false	false	false
+59	MarsHill__Machias	MarsHill|unit03	MarsHill	3	Machias|unit02	Machias	2	false	false	0.61885246	0.575893	0.531646	0.12726234	true	true	false	false	false	false
+60	MarsHill__Machias	MarsHill|unit03	MarsHill	3	Machias|unit03	Machias	3	false	true	0.63786008	0.587444	0.527027	0.17461084	true	true	false	false	false	false
+61	MarsHill__PB50	MarsHill|unit03	MarsHill	3	PB50|unit01	PB50	1	false	false	0.56734694	0.542222	0.486842	0.03246153	false	false	false	false	false	false
+62	MarsHill__PB50	MarsHill|unit03	MarsHill	3	PB50|unit02	PB50	2	false	false	0.62295082	0.584821	0.544304	0.13552155	true	true	true	false	false	false
+63	MarsHill__PB50	MarsHill|unit03	MarsHill	3	PB50|unit03	PB50	3	false	true	0.63374486	0.587444	0.527027	0.17462615	true	true	false	false	false	false
+64	MarsHill__AH12	MarsHill|unit04	MarsHill	4	AH12|unit01	AH12	1	false	false	0.57777778	0.55122	0.474453	0.13246674	false	false	false	false	false	false
+65	MarsHill__AH12	MarsHill|unit04	MarsHill	4	AH12|unit02	AH12	2	false	false	0.5982906	0.556075	0.472603	0.09983109	true	false	false	false	false	false
+66	MarsHill__AH12	MarsHill|unit04	MarsHill	4	AH12|unit03	AH12	3	false	false	0.64125561	0.591133	0.503759	0.19490029	true	true	false	false	false	false
+67	MarsHill__Machias	MarsHill|unit04	MarsHill	4	Machias|unit01	Machias	1	false	false	0.57142857	0.544118	0.463235	0.00750451	false	false	false	false	false	false
+68	MarsHill__Machias	MarsHill|unit04	MarsHill	4	Machias|unit02	Machias	2	false	false	0.59745763	0.555556	0.466216	0.10060063	true	false	false	false	false	false
+69	MarsHill__Machias	MarsHill|unit04	MarsHill	4	Machias|unit03	Machias	3	false	false	0.63839286	0.588235	0.492537	0.19499816	true	true	false	false	false	false
+70	MarsHill__PB50	MarsHill|unit04	MarsHill	4	PB50|unit01	PB50	1	false	false	0.57142857	0.544118	0.463235	0.00750451	false	false	false	false	false	false
+71	MarsHill__PB50	MarsHill|unit04	MarsHill	4	PB50|unit02	PB50	2	false	false	0.59322034	0.555556	0.466216	0.10359455	true	false	false	false	false	false
+72	MarsHill__PB50	MarsHill|unit04	MarsHill	4	PB50|unit03	PB50	3	false	false	0.63392857	0.588235	0.492537	0.19501092	true	true	false	false	false	false
+73	Madawaska__AH12	Madawaska|unit01	Madawaska	1	AH12|unit01	AH12	1	true	true	0.60408163	0.586667	0.543624	0.08040088	false	false	false	false	false	false
+74	Madawaska__AH12	Madawaska|unit01	Madawaska	1	AH12|unit02	AH12	2	false	false	0.5766129	0.54386	0.503145	0.00188209	false	false	false	false	false	false
+75	Madawaska__AH12	Madawaska|unit01	Madawaska	1	AH12|unit03	AH12	3	false	false	0.54166667	0.506849	0.460526	0.00510893	false	false	false	false	false	false
+76	Madawaska__Machias	Madawaska|unit01	Madawaska	1	Machias|unit01	Machias	1	true	true	0.6	0.582222	0.55414	0.08355706	false	false	false	false	false	false
+77	Madawaska__Machias	Madawaska|unit01	Madawaska	1	Machias|unit02	Machias	2	false	false	0.56504065	0.530973	0.487342	0.0018592	false	false	false	false	false	false
+78	Madawaska__Machias	Madawaska|unit01	Madawaska	1	Machias|unit03	Machias	3	false	false	0.55144033	0.509009	0.470968	0.00382287	false	false	false	false	false	false
+79	Madawaska__PB50	Madawaska|unit01	Madawaska	1	PB50|unit01	PB50	1	true	true	0.6	0.582222	0.55414	0.08355706	false	false	false	false	false	false
+80	Madawaska__PB50	Madawaska|unit01	Madawaska	1	PB50|unit02	PB50	2	false	false	0.56680162	0.537445	0.50625	0.00202283	false	false	false	false	false	false
+81	Madawaska__PB50	Madawaska|unit01	Madawaska	1	PB50|unit03	PB50	3	false	false	0.5473251	0.509009	0.470968	0.00382294	false	false	false	false	false	false
+82	Madawaska__AH12	Madawaska|unit02	Madawaska	2	AH12|unit01	AH12	1	false	false	0.55793991	0.530516	0.462069	0.03419437	false	false	false	false	false	false
+83	Madawaska__AH12	Madawaska|unit02	Madawaska	2	AH12|unit02	AH12	2	true	true	0.65690377	0.616438	0.58	0.07390846	false	false	false	false	false	false
+84	Madawaska__AH12	Madawaska|unit02	Madawaska	2	AH12|unit03	AH12	3	false	false	0.61135371	0.564593	0.5	0.05330718	true	false	false	true	false	false
+85	Madawaska__Machias	Madawaska|unit02	Madawaska	2	Machias|unit01	Machias	1	false	false	0.57021277	0.544186	0.468966	0.03787468	false	false	false	false	false	false
+86	Madawaska__Machias	Madawaska|unit02	Madawaska	2	Machias|unit02	Machias	2	true	true	0.66386555	0.623853	0.586667	0.1640148	false	false	false	false	false	false
+87	Madawaska__Machias	Madawaska|unit02	Madawaska	2	Machias|unit03	Machias	3	false	false	0.62008734	0.574163	0.496454	0.05737402	true	true	false	true	false	false
+88	Madawaska__PB50	Madawaska|unit02	Madawaska	2	PB50|unit01	PB50	1	false	false	0.57021277	0.544186	0.468966	0.03787468	false	false	false	false	false	false
+89	Madawaska__PB50	Madawaska|unit02	Madawaska	2	PB50|unit02	PB50	2	true	true	0.65400844	0.617512	0.577181	0.14735291	false	false	false	false	false	false
+90	Madawaska__PB50	Madawaska|unit02	Madawaska	2	PB50|unit03	PB50	3	false	false	0.61572052	0.574163	0.496454	0.05738051	true	true	false	true	false	false
+91	Madawaska__AH12	Madawaska|unit03	Madawaska	3	AH12|unit01	AH12	1	false	false	0.54508197	0.517857	0.450331	0.02626458	false	false	false	false	false	false
+92	Madawaska__AH12	Madawaska|unit03	Madawaska	3	AH12|unit02	AH12	2	false	false	0.60655738	0.5625	0.518987	0.10122967	true	false	false	true	false	false
+93	Madawaska__AH12	Madawaska|unit03	Madawaska	3	AH12|unit03	AH12	3	true	true	0.66666667	0.618834	0.582781	0.22151792	false	false	false	false	false	false
+94	Madawaska__Machias	Madawaska|unit03	Madawaska	3	Machias|unit01	Machias	1	false	false	0.53909465	0.511211	0.46	0.02690299	false	false	false	false	false	false
+95	Madawaska__Machias	Madawaska|unit03	Madawaska	3	Machias|unit02	Machias	2	false	false	0.6090535	0.565022	0.528662	0.19787098	true	false	false	true	false	false
+96	Madawaska__Machias	Madawaska|unit03	Madawaska	3	Machias|unit03	Machias	3	false	true	0.65702479	0.608108	0.549669	0.04821984	true	true	true	true	true	false
+97	Madawaska__PB50	Madawaska|unit03	Madawaska	3	PB50|unit01	PB50	1	false	false	0.53909465	0.511211	0.46	0.02690299	false	false	false	false	false	false
+98	Madawaska__PB50	Madawaska|unit03	Madawaska	3	PB50|unit02	PB50	2	false	false	0.60493827	0.565022	0.528662	0.22163581	true	false	false	true	false	false
+99	Madawaska__PB50	Madawaska|unit03	Madawaska	3	PB50|unit03	PB50	3	false	true	0.65289256	0.608108	0.549669	0.04823867	true	true	true	true	true	false
+100	Madawaska__AH12	Madawaska|unit04	Madawaska	4	AH12|unit01	AH12	1	false	false	0.57333333	0.546341	0.459854	0.00189863	false	false	false	false	false	false
+101	Madawaska__AH12	Madawaska|unit04	Madawaska	4	AH12|unit02	AH12	2	false	false	0.57758621	0.528302	0.451389	0.04174368	false	false	false	false	false	false
+102	Madawaska__AH12	Madawaska|unit04	Madawaska	4	AH12|unit03	AH12	3	false	false	0.63839286	0.583333	0.507353	0.23636245	true	true	false	true	false	false
+103	Madawaska__Machias	Madawaska|unit04	Madawaska	4	Machias|unit01	Machias	1	false	false	0.57142857	0.544118	0.448529	0.00186002	false	false	false	false	false	false
+104	Madawaska__Machias	Madawaska|unit04	Madawaska	4	Machias|unit02	Machias	2	false	false	0.58974359	0.542056	0.468966	0.11189147	true	false	false	false	false	false
+105	Madawaska__Machias	Madawaska|unit04	Madawaska	4	Machias|unit03	Machias	3	false	false	0.64285714	0.588235	0.503704	0.23349	true	true	false	true	true	false
+106	Madawaska__PB50	Madawaska|unit04	Madawaska	4	PB50|unit01	PB50	1	false	false	0.57142857	0.544118	0.448529	0.00186002	false	false	false	false	false	false
+107	Madawaska__PB50	Madawaska|unit04	Madawaska	4	PB50|unit02	PB50	2	false	false	0.57081545	0.525822	0.455172	0.04089306	false	false	false	false	false	false
+108	Madawaska__PB50	Madawaska|unit04	Madawaska	4	PB50|unit03	PB50	3	false	false	0.63839286	0.588235	0.503704	0.2335013	true	true	false	true	true	false
+109	LY01__AH12	LY01|unit01	LY01	1	AH12|unit01	AH12	1	true	true	0.60669456	0.589041	0.567568	0.13663958	false	false	false	false	false	false
+110	LY01__AH12	LY01|unit01	LY01	1	AH12|unit02	AH12	2	false	false	0.57894737	0.546256	0.506329	0.01108777	false	false	false	false	false	false
+111	LY01__AH12	LY01|unit01	LY01	1	AH12|unit03	AH12	3	false	false	0.56666667	0.53211	0.493333	0.04761839	false	false	false	false	false	false
+112	LY01__Machias	LY01|unit01	LY01	1	Machias|unit01	Machias	1	true	true	0.60084034	0.582569	0.55102	0.13796615	false	false	false	false	false	false
+113	LY01__Machias	LY01|unit01	LY01	1	Machias|unit02	Machias	2	false	false	0.5936255	0.562771	0.530864	0.00609515	true	false	false	false	false	false
+114	LY01__Machias	LY01|unit01	LY01	1	Machias|unit03	Machias	3	false	false	0.56147541	0.534247	0.490446	0.01446494	false	false	false	false	false	false
+115	LY01__PB50	LY01|unit01	LY01	1	PB50|unit01	PB50	1	true	true	0.60084034	0.582569	0.55102	0.13796615	false	false	false	false	false	false
+116	LY01__PB50	LY01|unit01	LY01	1	PB50|unit02	PB50	2	false	false	0.57831325	0.550218	0.5125	0.00711855	false	false	false	false	false	false
+117	LY01__PB50	LY01|unit01	LY01	1	PB50|unit03	PB50	3	false	false	0.55737705	0.534247	0.490446	0.01446823	false	false	false	false	false	false
+118	LY01__AH12	LY01|unit02	LY01	2	AH12|unit01	AH12	1	false	false	0.5751073	0.545024	0.486111	0.001981	false	false	false	false	false	false
+119	LY01__AH12	LY01|unit02	LY01	2	AH12|unit02	AH12	2	true	true	0.63559322	0.592593	0.544218	0.05791869	false	false	false	false	false	false
+120	LY01__AH12	LY01|unit02	LY01	2	AH12|unit03	AH12	3	false	false	0.61135371	0.564593	0.48227	0.03943665	true	false	false	true	false	false
+121	LY01__Machias	LY01|unit02	LY01	2	Machias|unit01	Machias	1	false	false	0.5787234	0.549296	0.479452	0.00267652	false	false	false	false	false	false
+122	LY01__Machias	LY01|unit02	LY01	2	Machias|unit02	Machias	2	true	true	0.64166667	0.6	0.559211	0.05484411	false	false	false	false	false	false
+123	LY01__Machias	LY01|unit02	LY01	2	Machias|unit03	Machias	3	false	false	0.62445415	0.578947	0.496454	0.04377491	true	true	false	true	false	false
+124	LY01__PB50	LY01|unit02	LY01	2	PB50|unit01	PB50	1	false	false	0.5787234	0.549296	0.479452	0.00267652	false	false	false	false	false	false
+125	LY01__PB50	LY01|unit02	LY01	2	PB50|unit02	PB50	2	true	true	0.62288136	0.583333	0.533784	0.05914177	false	false	false	false	false	false
+126	LY01__PB50	LY01|unit02	LY01	2	PB50|unit03	PB50	3	false	false	0.62008734	0.578947	0.496454	0.0437808	true	true	false	true	false	false
+127	LY01__AH12	LY01|unit03	LY01	3	AH12|unit01	AH12	1	false	false	0.57786885	0.556054	0.509677	0.06583316	false	false	false	false	false	false
+128	LY01__AH12	LY01|unit03	LY01	3	AH12|unit02	AH12	2	false	false	0.59016393	0.544643	0.522876	0.03217253	true	false	false	false	false	false
+129	LY01__AH12	LY01|unit03	LY01	3	AH12|unit03	AH12	3	false	true	0.62343096	0.570776	0.483444	0.15893656	true	true	false	true	false	false
+130	LY01__Machias	LY01|unit03	LY01	3	Machias|unit01	Machias	1	false	false	0.57959184	0.558036	0.516129	0.03289809	false	false	false	false	false	false
+131	LY01__Machias	LY01|unit03	LY01	3	Machias|unit02	Machias	2	false	false	0.61693548	0.574561	0.535484	0.11478921	true	true	true	true	false	false
+132	LY01__Machias	LY01|unit03	LY01	3	Machias|unit03	Machias	3	false	true	0.60669456	0.552511	0.48366	0.15171416	true	false	false	true	false	false
+133	LY01__PB50	LY01|unit03	LY01	3	PB50|unit01	PB50	1	false	false	0.57959184	0.558036	0.516129	0.03289809	false	false	false	false	false	false
+134	LY01__PB50	LY01|unit03	LY01	3	PB50|unit02	PB50	2	false	false	0.60483871	0.565789	0.548387	0.13727452	true	false	true	true	false	true
+135	LY01__PB50	LY01|unit03	LY01	3	PB50|unit03	PB50	3	false	true	0.60251046	0.552511	0.48366	0.15173038	true	false	false	true	false	false
+136	LY01__AH12	LY01|unit04	LY01	4	AH12|unit01	AH12	1	false	false	0.59292035	0.567961	0.467153	0.00671276	true	false	false	false	false	false
+137	LY01__AH12	LY01|unit04	LY01	4	AH12|unit02	AH12	2	false	false	0.57327586	0.523585	0.466216	0.01842857	false	false	false	false	false	false
+138	LY01__AH12	LY01|unit04	LY01	4	AH12|unit03	AH12	3	false	false	0.66816143	0.615764	0.518797	0.07145074	false	true	false	false	false	false
+139	LY01__Machias	LY01|unit04	LY01	4	Machias|unit01	Machias	1	false	false	0.59555556	0.570732	0.47482	0.00706396	true	true	false	false	false	false
+140	LY01__Machias	LY01|unit04	LY01	4	Machias|unit02	Machias	2	false	false	0.58723404	0.539535	0.460526	0.01700557	false	false	false	false	false	false
+141	LY01__Machias	LY01|unit04	LY01	4	Machias|unit03	Machias	3	false	false	0.66816143	0.615764	0.503759	0.07144353	false	true	false	false	false	false
+142	LY01__PB50	LY01|unit04	LY01	4	PB50|unit01	PB50	1	false	false	0.59555556	0.570732	0.47482	0.00706396	true	true	false	false	false	false
+143	LY01__PB50	LY01|unit04	LY01	4	PB50|unit02	PB50	2	false	false	0.57264957	0.528037	0.448276	0.02048324	false	false	false	false	false	false
+144	LY01__PB50	LY01|unit04	LY01	4	PB50|unit03	PB50	3	false	false	0.66367713	0.615764	0.503759	0.07146354	true	true	false	false	false	false
+145	S6__AH12	S6|unit01	S6	1	AH12|unit01	AH12	1	true	true	0.59917355	0.581081	0.557047	0.19375717	false	false	false	false	false	false
+146	S6__AH12	S6|unit01	S6	1	AH12|unit02	AH12	2	false	false	0.58467742	0.552632	0.522013	0.0028629	false	false	false	false	false	false
+147	S6__AH12	S6|unit01	S6	1	AH12|unit03	AH12	3	false	false	0.53781513	0.506912	0.453333	0.04482312	false	false	false	false	false	false
+148	S6__Machias	S6|unit01	S6	1	Machias|unit01	Machias	1	true	true	0.5877551	0.568889	0.536913	0.09382563	false	false	false	false	false	false
+149	S6__Machias	S6|unit01	S6	1	Machias|unit02	Machias	2	false	false	0.56378601	0.529148	0.496815	0.00250607	false	false	false	false	false	false
+150	S6__Machias	S6|unit01	S6	1	Machias|unit03	Machias	3	false	false	0.55737705	0.520179	0.480769	0.04468784	false	false	false	false	false	false
+151	S6__PB50	S6|unit01	S6	1	PB50|unit01	PB50	1	true	true	0.5877551	0.568889	0.536913	0.09382563	false	false	false	false	false	false
+152	S6__PB50	S6|unit01	S6	1	PB50|unit02	PB50	2	false	false	0.55952381	0.530172	0.484076	0.00278902	false	false	false	false	false	false
+153	S6__PB50	S6|unit01	S6	1	PB50|unit03	PB50	3	false	false	0.55327869	0.520179	0.480769	0.04470445	false	false	false	false	false	false
+154	S6__AH12	S6|unit02	S6	2	AH12|unit01	AH12	1	false	false	0.55555556	0.534884	0.471831	0.01970364	false	false	false	false	false	false
+155	S6__AH12	S6|unit02	S6	2	AH12|unit02	AH12	2	true	true	0.65271967	0.611872	0.58	0.04804999	false	false	false	false	false	false
+156	S6__AH12	S6|unit02	S6	2	AH12|unit03	AH12	3	false	false	0.61864407	0.574074	0.506849	0.04323532	true	true	false	true	false	false
+157	S6__Machias	S6|unit02	S6	2	Machias|unit01	Machias	1	false	false	0.55932203	0.539171	0.478873	0.01368567	false	false	false	false	false	false
+158	S6__Machias	S6|unit02	S6	2	Machias|unit02	Machias	2	true	true	0.65546218	0.614679	0.58	0.08542279	false	false	false	false	false	false
+159	S6__Machias	S6|unit02	S6	2	Machias|unit03	Machias	3	false	false	0.61373391	0.568075	0.51049	0.04574384	true	false	false	true	false	false
+160	S6__PB50	S6|unit02	S6	2	PB50|unit01	PB50	1	false	false	0.55932203	0.539171	0.478873	0.01368567	false	false	false	false	false	false
+161	S6__PB50	S6|unit02	S6	2	PB50|unit02	PB50	2	true	true	0.64978903	0.612903	0.577181	0.08469877	false	false	false	false	false	false
+162	S6__PB50	S6|unit02	S6	2	PB50|unit03	PB50	3	false	false	0.60944206	0.568075	0.51049	0.04573033	true	false	false	true	false	false
+163	S6__AH12	S6|unit03	S6	3	AH12|unit01	AH12	1	false	false	0.58091286	0.556561	0.47973	0.03409926	false	false	false	false	false	false
+164	S6__AH12	S6|unit03	S6	3	AH12|unit02	AH12	2	false	false	0.62396694	0.581081	0.530201	0.03741174	true	true	false	true	true	false
+165	S6__AH12	S6|unit03	S6	3	AH12|unit03	AH12	3	false	true	0.65966387	0.610092	0.544218	0.05406353	true	true	true	false	true	false
+166	S6__Machias	S6|unit03	S6	3	Machias|unit01	Machias	1	false	false	0.575	0.55	0.486486	0.03568472	false	false	false	false	false	false
+167	S6__Machias	S6|unit03	S6	3	Machias|unit02	Machias	2	false	false	0.61788618	0.575221	0.513333	0.25858937	true	true	false	true	true	false
+168	S6__Machias	S6|unit03	S6	3	Machias|unit03	Machias	3	false	true	0.65271967	0.60274	0.517007	0.24637751	true	true	false	true	true	false
+169	S6__PB50	S6|unit03	S6	3	PB50|unit01	PB50	1	false	false	0.575	0.55	0.486486	0.03568472	false	false	false	false	false	false
+170	S6__PB50	S6|unit03	S6	3	PB50|unit02	PB50	2	false	false	0.62195122	0.584071	0.526667	0.03808355	true	true	false	true	true	false
+171	S6__PB50	S6|unit03	S6	3	PB50|unit03	PB50	3	false	true	0.64853556	0.60274	0.517007	0.24639234	true	true	false	true	true	false
+172	S6__AH12	S6|unit04	S6	4	AH12|unit01	AH12	1	false	false	0.56637168	0.533981	0.456522	0.08820099	false	false	false	false	false	false
+173	S6__AH12	S6|unit04	S6	4	AH12|unit02	AH12	2	false	false	0.57446809	0.525581	0.458904	0.0200652	false	false	false	false	false	false
+174	S6__AH12	S6|unit04	S6	4	AH12|unit03	AH12	3	false	false	0.65625	0.602941	0.5	0.10888827	true	true	false	false	true	false
+175	S6__Machias	S6|unit04	S6	4	Machias|unit01	Machias	1	false	false	0.56444444	0.531707	0.470588	0.00451719	false	false	false	false	false	false
+176	S6__Machias	S6|unit04	S6	4	Machias|unit02	Machias	2	false	false	0.59148936	0.544186	0.462585	0.04779774	true	false	false	true	false	false
+177	S6__Machias	S6|unit04	S6	4	Machias|unit03	Machias	3	false	false	0.66517857	0.612745	0.507463	0.10530083	true	true	false	false	true	false
+178	S6__PB50	S6|unit04	S6	4	PB50|unit01	PB50	1	false	false	0.56444444	0.531707	0.470588	0.00451719	false	false	false	false	false	false
+179	S6__PB50	S6|unit04	S6	4	PB50|unit02	PB50	2	false	false	0.58297872	0.539535	0.455782	0.04958992	false	false	false	false	false	false
+180	S6__PB50	S6|unit04	S6	4	PB50|unit03	PB50	3	false	false	0.66071429	0.612745	0.507463	0.10529445	true	true	false	false	true	false
+181	PALS_2__AH12	PALS_2|unit01	PALS_2	1	AH12|unit01	AH12	1	true	true	0.59917355	0.581081	0.557047	0.19375717	false	false	false	false	false	false
+182	PALS_2__AH12	PALS_2|unit01	PALS_2	1	AH12|unit02	AH12	2	false	false	0.58467742	0.552632	0.522013	0.0028629	false	false	false	false	false	false
+183	PALS_2__AH12	PALS_2|unit01	PALS_2	1	AH12|unit03	AH12	3	false	false	0.53781513	0.506912	0.453333	0.04482312	false	false	false	false	false	false
+184	PALS_2__Machias	PALS_2|unit01	PALS_2	1	Machias|unit01	Machias	1	true	true	0.5877551	0.568889	0.536913	0.09382563	false	false	false	false	false	false
+185	PALS_2__Machias	PALS_2|unit01	PALS_2	1	Machias|unit02	Machias	2	false	false	0.56378601	0.529148	0.496815	0.00250607	false	false	false	false	false	false
+186	PALS_2__Machias	PALS_2|unit01	PALS_2	1	Machias|unit03	Machias	3	false	false	0.55737705	0.520179	0.480769	0.04468784	false	false	false	false	false	false
+187	PALS_2__PB50	PALS_2|unit01	PALS_2	1	PB50|unit01	PB50	1	true	true	0.5877551	0.568889	0.536913	0.09382563	false	false	false	false	false	false
+188	PALS_2__PB50	PALS_2|unit01	PALS_2	1	PB50|unit02	PB50	2	false	false	0.55952381	0.530172	0.484076	0.00278902	false	false	false	false	false	false
+189	PALS_2__PB50	PALS_2|unit01	PALS_2	1	PB50|unit03	PB50	3	false	false	0.55327869	0.520179	0.480769	0.04470445	false	false	false	false	false	false
+190	PALS_2__AH12	PALS_2|unit02	PALS_2	2	AH12|unit01	AH12	1	false	false	0.55128205	0.530233	0.468085	0.03619273	false	false	false	false	false	false
+191	PALS_2__AH12	PALS_2|unit02	PALS_2	2	AH12|unit02	AH12	2	true	true	0.64830508	0.606481	0.571429	0.05755096	false	false	false	false	false	false
+192	PALS_2__AH12	PALS_2|unit02	PALS_2	2	AH12|unit03	AH12	3	false	false	0.60606061	0.559242	0.492857	0.06504689	true	false	false	true	false	false
+193	PALS_2__Machias	PALS_2|unit02	PALS_2	2	Machias|unit01	Machias	1	false	false	0.54320988	0.522321	0.475177	0.00491688	false	false	false	false	false	false
+194	PALS_2__Machias	PALS_2|unit02	PALS_2	2	Machias|unit02	Machias	2	true	true	0.65966387	0.619266	0.586667	0.03705824	false	false	false	false	false	false
+195	PALS_2__Machias	PALS_2|unit02	PALS_2	2	Machias|unit03	Machias	3	false	false	0.62660944	0.58216	0.521127	0.07679517	true	true	false	true	true	false
+196	PALS_2__PB50	PALS_2|unit02	PALS_2	2	PB50|unit01	PB50	1	false	false	0.54320988	0.522321	0.475177	0.00491688	false	false	false	false	false	false
+197	PALS_2__PB50	PALS_2|unit02	PALS_2	2	PB50|unit02	PB50	2	true	true	0.65400844	0.617512	0.583893	0.04589321	false	false	false	false	false	false
+198	PALS_2__PB50	PALS_2|unit02	PALS_2	2	PB50|unit03	PB50	3	false	false	0.6223176	0.58216	0.521127	0.07680228	true	true	false	true	true	false
+199	PALS_2__AH12	PALS_2|unit03	PALS_2	3	AH12|unit01	AH12	1	false	false	0.58024691	0.556054	0.489933	0.03736208	false	false	false	false	false	false
+200	PALS_2__AH12	PALS_2|unit03	PALS_2	3	AH12|unit02	AH12	2	false	false	0.62704918	0.584821	0.529032	0.03742555	true	true	false	true	true	false
+201	PALS_2__AH12	PALS_2|unit03	PALS_2	3	AH12|unit03	AH12	3	false	true	0.66527197	0.616438	0.526667	0.17857923	true	true	false	false	false	false
+202	PALS_2__Machias	PALS_2|unit03	PALS_2	3	Machias|unit01	Machias	1	false	false	0.57676349	0.552036	0.506667	0.03945568	false	false	false	false	false	false
+203	PALS_2__Machias	PALS_2|unit03	PALS_2	3	Machias|unit02	Machias	2	false	false	0.63709677	0.596491	0.559748	0.14192346	true	true	true	true	true	true
+204	PALS_2__Machias	PALS_2|unit03	PALS_2	3	Machias|unit03	Machias	3	false	true	0.6512605	0.600917	0.506667	0.17335811	true	true	false	true	true	false
+205	PALS_2__PB50	PALS_2|unit03	PALS_2	3	PB50|unit01	PB50	1	false	false	0.57676349	0.552036	0.506667	0.03945568	false	false	false	false	false	false
+206	PALS_2__PB50	PALS_2|unit03	PALS_2	3	PB50|unit02	PB50	2	false	false	0.62195122	0.584071	0.512987	0.18382189	true	true	false	true	true	false
+207	PALS_2__PB50	PALS_2|unit03	PALS_2	3	PB50|unit03	PB50	3	false	true	0.64705882	0.600917	0.506667	0.17337458	true	true	false	true	true	false
+208	PALS_2__AH12	PALS_2|unit04	PALS_2	4	AH12|unit01	AH12	1	false	false	0.5619469	0.529126	0.449275	0.08636455	false	false	false	false	false	false
+209	PALS_2__AH12	PALS_2|unit04	PALS_2	4	AH12|unit02	AH12	2	false	false	0.5751073	0.525822	0.452055	0.01956786	false	false	false	false	false	false
+210	PALS_2__AH12	PALS_2|unit04	PALS_2	4	AH12|unit03	AH12	3	false	false	0.66071429	0.607843	0.507463	0.10882357	true	true	false	false	false	false
+211	PALS_2__Machias	PALS_2|unit04	PALS_2	4	Machias|unit01	Machias	1	false	false	0.56	0.526829	0.463235	0.00453454	false	false	false	false	false	false
+212	PALS_2__Machias	PALS_2|unit04	PALS_2	4	Machias|unit02	Machias	2	false	false	0.58723404	0.539535	0.455782	0.04732397	false	false	false	false	false	false
+213	PALS_2__Machias	PALS_2|unit04	PALS_2	4	Machias|unit03	Machias	3	false	false	0.66964286	0.617647	0.514925	0.10528143	false	true	false	false	true	false
+214	PALS_2__PB50	PALS_2|unit04	PALS_2	4	PB50|unit01	PB50	1	false	false	0.56	0.526829	0.463235	0.00453454	false	false	false	false	false	false
+215	PALS_2__PB50	PALS_2|unit04	PALS_2	4	PB50|unit02	PB50	2	false	false	0.5787234	0.534884	0.44898	0.04911444	false	false	false	false	false	false
+216	PALS_2__PB50	PALS_2|unit04	PALS_2	4	PB50|unit03	PB50	3	false	false	0.66517857	0.617647	0.514925	0.10527504	true	true	false	false	false	false
+217	UFV_DC4__AH12	UFV_DC4|unit01	UFV_DC4	1	AH12|unit01	AH12	1	true	true	0.60569106	0.588496	0.556962	0.06130609	false	false	false	false	false	false
+218	UFV_DC4__AH12	UFV_DC4|unit01	UFV_DC4	1	AH12|unit02	AH12	2	false	false	0.55327869	0.522321	0.50625	0.00194266	false	false	false	false	false	false
+219	UFV_DC4__AH12	UFV_DC4|unit01	UFV_DC4	1	AH12|unit03	AH12	3	false	false	0.53781513	0.511521	0.453333	0.04457855	false	false	false	false	false	false
+220	UFV_DC4__Machias	UFV_DC4|unit01	UFV_DC4	1	Machias|unit01	Machias	1	true	true	0.60162602	0.584071	0.551282	0.04296795	false	false	false	false	false	false
+221	UFV_DC4__Machias	UFV_DC4|unit01	UFV_DC4	1	Machias|unit02	Machias	2	false	false	0.584	0.556522	0.516129	0.00206818	false	false	false	false	false	false
+222	UFV_DC4__Machias	UFV_DC4|unit01	UFV_DC4	1	Machias|unit03	Machias	3	false	false	0.55186722	0.518182	0.434483	0.04455785	false	false	false	false	false	false
+223	UFV_DC4__PB50	UFV_DC4|unit01	UFV_DC4	1	PB50|unit01	PB50	1	true	true	0.60162602	0.584071	0.551282	0.04296795	false	false	false	false	false	false
+224	UFV_DC4__PB50	UFV_DC4|unit01	UFV_DC4	1	PB50|unit02	PB50	2	false	false	0.56326531	0.528889	0.493506	0.00207601	false	false	false	false	false	false
+225	UFV_DC4__PB50	UFV_DC4|unit01	UFV_DC4	1	PB50|unit03	PB50	3	false	false	0.54771784	0.518182	0.434483	0.04457448	false	false	false	false	false	false
+226	UFV_DC4__AH12	UFV_DC4|unit02	UFV_DC4	2	AH12|unit01	AH12	1	false	false	0.56779661	0.548387	0.475524	0.04004728	false	false	false	false	false	false
+227	UFV_DC4__AH12	UFV_DC4|unit02	UFV_DC4	2	AH12|unit02	AH12	2	true	true	0.6375	0.595455	0.556291	0.07249416	false	false	false	false	false	false
+228	UFV_DC4__AH12	UFV_DC4|unit02	UFV_DC4	2	AH12|unit03	AH12	3	false	false	0.60851064	0.567442	0.513889	0.11529317	true	false	false	true	false	false
+229	UFV_DC4__Machias	UFV_DC4|unit02	UFV_DC4	2	Machias|unit01	Machias	1	false	false	0.56722689	0.547945	0.482517	0.03552882	false	false	false	false	false	false
+230	UFV_DC4__Machias	UFV_DC4|unit02	UFV_DC4	2	Machias|unit02	Machias	2	true	true	0.6302521	0.587156	0.553333	0.10849567	false	false	false	false	false	false
+231	UFV_DC4__Machias	UFV_DC4|unit02	UFV_DC4	2	Machias|unit03	Machias	3	false	false	0.60851064	0.567442	0.506944	0.11879663	true	false	false	true	false	false
+232	UFV_DC4__PB50	UFV_DC4|unit02	UFV_DC4	2	PB50|unit01	PB50	1	false	false	0.56722689	0.547945	0.482517	0.03552882	false	false	false	false	false	false
+233	UFV_DC4__PB50	UFV_DC4|unit02	UFV_DC4	2	PB50|unit02	PB50	2	true	true	0.62605042	0.587156	0.553333	0.09804379	false	false	false	false	false	false
+234	UFV_DC4__PB50	UFV_DC4|unit02	UFV_DC4	2	PB50|unit03	PB50	3	false	false	0.61276596	0.567442	0.506944	0.11880098	true	false	false	true	false	false
+235	UFV_DC4__AH12	UFV_DC4|unit03	UFV_DC4	3	AH12|unit01	AH12	1	false	false	0.57786885	0.549107	0.480263	0.03605007	false	false	false	false	false	false
+236	UFV_DC4__AH12	UFV_DC4|unit03	UFV_DC4	3	AH12|unit02	AH12	2	false	false	0.60816327	0.568889	0.513158	0.0380115	true	true	false	true	false	false
+237	UFV_DC4__AH12	UFV_DC4|unit03	UFV_DC4	3	AH12|unit03	AH12	3	true	true	0.65	0.604545	0.536913	0.05452217	false	false	false	false	false	false
+238	UFV_DC4__Machias	UFV_DC4|unit03	UFV_DC4	3	Machias|unit01	Machias	1	false	false	0.56854839	0.539474	0.477987	0.03436285	false	false	false	false	false	false
+239	UFV_DC4__Machias	UFV_DC4|unit03	UFV_DC4	3	Machias|unit02	Machias	2	false	false	0.62151394	0.584416	0.51634	0.21482772	true	true	false	true	true	false
+240	UFV_DC4__Machias	UFV_DC4|unit03	UFV_DC4	3	Machias|unit03	Machias	3	false	true	0.62753036	0.581498	0.503356	0.0614583	true	true	false	true	false	false
+241	UFV_DC4__PB50	UFV_DC4|unit03	UFV_DC4	3	PB50|unit01	PB50	1	false	false	0.56854839	0.539474	0.477987	0.03436285	false	false	false	false	false	false
+242	UFV_DC4__PB50	UFV_DC4|unit03	UFV_DC4	3	PB50|unit02	PB50	2	false	false	0.61382114	0.579646	0.532468	0.27267711	true	true	false	true	false	false
+243	UFV_DC4__PB50	UFV_DC4|unit03	UFV_DC4	3	PB50|unit03	PB50	3	false	true	0.62348178	0.581498	0.503356	0.06147757	true	true	false	true	false	false
+244	UFV_DC4__AH12	UFV_DC4|unit04	UFV_DC4	4	AH12|unit01	AH12	1	false	false	0.5745614	0.548077	0.47482	0.06790522	false	false	false	false	false	false
+245	UFV_DC4__AH12	UFV_DC4|unit04	UFV_DC4	4	AH12|unit02	AH12	2	false	false	0.58119658	0.53271	0.462069	0.0315137	false	false	false	false	false	false
+246	UFV_DC4__AH12	UFV_DC4|unit04	UFV_DC4	4	AH12|unit03	AH12	3	false	false	0.63839286	0.583333	0.485075	0.05969054	true	true	false	true	false	false
+247	UFV_DC4__Machias	UFV_DC4|unit04	UFV_DC4	4	Machias|unit01	Machias	1	false	false	0.56828194	0.541063	0.452555	0.00841656	false	false	false	false	false	false
+248	UFV_DC4__Machias	UFV_DC4|unit04	UFV_DC4	4	Machias|unit02	Machias	2	false	false	0.58119658	0.53271	0.458904	0.05209583	false	false	false	false	false	false
+249	UFV_DC4__Machias	UFV_DC4|unit04	UFV_DC4	4	Machias|unit03	Machias	3	false	false	0.64285714	0.588235	0.485075	0.06001119	true	true	false	false	false	false
+250	UFV_DC4__PB50	UFV_DC4|unit04	UFV_DC4	4	PB50|unit01	PB50	1	false	false	0.56828194	0.541063	0.452555	0.00841656	false	false	false	false	false	false
+251	UFV_DC4__PB50	UFV_DC4|unit04	UFV_DC4	4	PB50|unit02	PB50	2	false	false	0.57692308	0.53271	0.458904	0.05320771	false	false	false	false	false	false
+252	UFV_DC4__PB50	UFV_DC4|unit04	UFV_DC4	4	PB50|unit03	PB50	3	false	false	0.63839286	0.588235	0.485075	0.060023	true	true	false	false	false	false

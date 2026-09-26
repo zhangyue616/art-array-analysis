@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<BlastOutput2
+    xmlns="http://www.ncbi.nlm.nih.gov"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov http://www.ncbi.nlm.nih.gov/data_specs/schema_alt/NCBI_BlastOutput2.xsd"
+>
+  <report>
+    <Report>
+      <program>blastp</program>
+      <version>BLASTP 2.17.0+</version>
+      <reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</reference>
+      <search-target>
+        <Target>
+          <db></db>
+        </Target>
+      </search-target>
+      <params>
+        <Parameters>
+          <matrix>BLOSUM62</matrix>
+          <expect>1e-05</expect>
+          <gap-open>11</gap-open>
+          <gap-extend>2</gap-extend>
+          <filter>F</filter>
+          <cbs>2</cbs>
+        </Parameters>
+      </params>
+      <results>
+        <Results>
+          <search>
+            <Search>
+              <query-id>Query_4501085</query-id>
+              <query-title>PB50|WPH64254.1</query-title>
+              <query-len>517</query-len>
+              <hits></hits>
+              <stat>
+                <Statistics>
+                  <db-num>0</db-num>
+                  <db-len>0</db-len>
+                  <hsp-len>0</hsp-len>
+                  <eff-space>0</eff-space>
+                  <kappa>-1</kappa>
+                  <lambda>-1</lambda>
+                  <entropy>-1</entropy>
+                </Statistics>
+              </stat>
+              <message>Informational Message: [blastsrv4.REAL]: Error: CPU usage limit was exceeded, resulting in SIGXCPU (24).&#xa;No hits found</message>
+            </Search>
+          </search>
+        </Results>
+      </results>
+    </Report>
+  </report>
+</BlastOutput2>

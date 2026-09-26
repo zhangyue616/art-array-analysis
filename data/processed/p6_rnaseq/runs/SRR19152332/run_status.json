@@ -1,0 +1,81 @@
+{
+  "array_sense_midpoint_fragments": 142531,
+  "array_share_of_retained_phage_fragments": 0.015762564123094222,
+  "bowtie2_overall_alignment_rate_percent": 96.8,
+  "bowtie2_returncode": 0,
+  "culture": 3,
+  "expected_fastq_bytes": [
+    580915480,
+    603312541
+  ],
+  "expected_fastq_md5": [
+    "a2320744ec0d8e27a04f27ec4cc80dc5",
+    "8aa9a273bfa10a83749ae375df822a9d"
+  ],
+  "expected_md5": [
+    "a2320744ec0d8e27a04f27ec4cc80dc5",
+    "8aa9a273bfa10a83749ae375df822a9d"
+  ],
+  "fastp_returncode": 0,
+  "fastp_summary": {
+    "after_filtering": {
+      "gc_content": -3.3176,
+      "q20_bases": -391999232,
+      "q20_rate": 1,
+      "q30_bases": -391999232,
+      "q30_rate": 1,
+      "read1_mean_length": 140,
+      "read2_mean_length": 140,
+      "total_bases": -391999232,
+      "total_reads": 27756984
+    },
+    "before_filtering": {
+      "gc_content": -16.3876,
+      "q20_bases": -93945258,
+      "q20_rate": 1.05016,
+      "q30_bases": -93945258,
+      "q30_rate": 1.05016,
+      "read1_mean_length": 151,
+      "read2_mean_length": 151,
+      "total_bases": -89458444,
+      "total_reads": 27851052
+    },
+    "fastp_version": "1.3.3",
+    "sequencing": "paired end (151 cycles + 151 cycles)"
+  },
+  "fastq_validation": "pass",
+  "findstr_returncode": 0,
+  "observed_fastq_bytes": [
+    580915480,
+    603312541
+  ],
+  "observed_fastq_md5": [
+    "a2320744ec0d8e27a04f27ec4cc80dc5",
+    "8aa9a273bfa10a83749ae375df822a9d"
+  ],
+  "observed_md5": [
+    "a2320744ec0d8e27a04f27ec4cc80dc5",
+    "8aa9a273bfa10a83749ae375df822a9d"
+  ],
+  "parser_counters": {
+    "filtered_mapq_lt10": 13176,
+    "filtered_not_proper_pair": 13694,
+    "filtered_unmapped_mate": 22120,
+    "findstr_false_positive": 6593,
+    "findstr_lines": 18195534,
+    "midpoints_in_overlapping_CDS": 730,
+    "midpoints_outside_CDS": 578908,
+    "not_read2": 9097577,
+    "phage_alignment_records": 18188941,
+    "primary_read2_phage": 9091364,
+    "retained_phage_fragments": 9042374,
+    "retained_phage_fragments_minus": 4167803,
+    "retained_phage_fragments_plus": 4874571
+  },
+  "parser_reached_eof": true,
+  "run_accession": "SRR19152332",
+  "sample_alias": "B+P_55-3",
+  "status": "complete",
+  "time_min": 55,
+  "public_record_note": "Machine-specific commands, process timing, and omitted-log hashes were removed; scientific counts, sample mapping, FASTQ validation, return codes, alignment rate, parser counters, and captured fastp summary are retained."
+}

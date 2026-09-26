@@ -1,0 +1,120 @@
+{
+  "generated_utc": "2026-09-24T17:05:12.128802+00:00",
+  "selection_array_blind": true,
+  "source_scope": "five bounded NCBI Protein ESearch queries followed by local fixed10 RT/partner and neighborhood rules",
+  "record_counts": {
+    "query_reported_nonunique": 85,
+    "unique_protein_records_retrieved_raw": 72,
+    "rt_prepass_pass": 9,
+    "rt_prepass_excluded": 63,
+    "existing_fixed10_recovered": 9,
+    "new_included_extensions": 0,
+    "postprepass_other_exclusions": 0
+  },
+  "fixed10_recovered": [
+    {
+      "label": "AH12",
+      "rt_protein_accession": "WNX97802.1"
+    },
+    {
+      "label": "LY01",
+      "rt_protein_accession": "WRM43423.1"
+    },
+    {
+      "label": "Machias",
+      "rt_protein_accession": "QQO92593.1"
+    },
+    {
+      "label": "Madawaska",
+      "rt_protein_accession": "QQO92858.1"
+    },
+    {
+      "label": "MarsHill",
+      "rt_protein_accession": "QQM14740.1"
+    },
+    {
+      "label": "PALS_2",
+      "rt_protein_accession": "QDJ97640.1"
+    },
+    {
+      "label": "PB50",
+      "rt_protein_accession": "WPH64254.1"
+    },
+    {
+      "label": "S6",
+      "rt_protein_accession": "BDE75684.1"
+    },
+    {
+      "label": "UFV_DC4",
+      "rt_protein_accession": "UAJ17040.1"
+    }
+  ],
+  "fixed10_not_recovered_by_index_queries": [
+    {
+      "label": "SA1",
+      "rt_protein_accession": "QPI16926.1"
+    }
+  ],
+  "explicit_index_gap": "SA1/QPI16926.1 was not returned by the bounded NCBI Protein index queries; this is an index-coverage observation, not a negative homology result",
+  "exclusion_reason_counts_overlapping": {
+    "fixed10_RT_homology_threshold_failed": 58,
+    "length_outside_450_600_aa": 60,
+    "single_C_terminal_350aa_YxDD_rule_failed": 1
+  },
+  "exclusion_reason_combinations": {
+    "fixed10_RT_homology_threshold_failed": 2,
+    "fixed10_RT_homology_threshold_failed;single_C_terminal_350aa_YxDD_rule_failed": 1,
+    "length_outside_450_600_aa": 5,
+    "length_outside_450_600_aa;fixed10_RT_homology_threshold_failed": 55
+  },
+  "technical_deduplication": {
+    "rule": "collapse only exact complete nucleotide record plus the same RT coordinates and strand; RT90 is descriptive only",
+    "groups_evaluated_after_prepass": 9,
+    "maximum_alias_count_in_group": 1,
+    "technical_alias_collapses_in_this_result": 0
+  },
+  "query_counts": [
+    {
+      "query_id": "Q1_ST85_VIRAL",
+      "reported_count": 0,
+      "returned_count": 0,
+      "truncated_at_retmax": false
+    },
+    {
+      "query_id": "Q1B_ST85_VIRAL_ALL_FIELDS",
+      "reported_count": 72,
+      "returned_count": 72,
+      "truncated_at_retmax": false
+    },
+    {
+      "query_id": "Q2_STAPH_RNA_DNA_POL",
+      "reported_count": 4,
+      "returned_count": 4,
+      "truncated_at_retmax": false
+    },
+    {
+      "query_id": "Q3_STAPH_REVERSE_TRANSCRIPTASE",
+      "reported_count": 0,
+      "returned_count": 0,
+      "truncated_at_retmax": false
+    },
+    {
+      "query_id": "Q4_STAPH_RETRON",
+      "reported_count": 9,
+      "returned_count": 9,
+      "truncated_at_retmax": false
+    }
+  ],
+  "interpretation": "The bounded public index search produced no new assessable Type-II ART-family locus. It does not establish absence from nr, GenBank, or unindexed records.",
+  "inputs": [
+    "data/processed/p6_extension/searched_proteins.tsv",
+    "data/processed/p6_extension/rt_prepass.tsv",
+    "data/processed/p6_extension/extension_manifest.tsv",
+    "data/processed/p2_loci/fixed_10_loci.tsv",
+    "data/source_metadata/p6_protein/ncbi_protein_queries.tsv",
+    "data/source_metadata/p6_protein/extension_retrieval_receipt.json"
+  ],
+  "outputs": [
+    "data/processed/p6_extension/extension_exclusion_ledger.tsv"
+  ]
+}

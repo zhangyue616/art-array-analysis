@@ -1,0 +1,48 @@
+{
+  "analysis_date": "2026-09-24",
+  "command": "project-local Python 3.12 scripts/p2_analysis/run_unified_locus_analysis.py",
+  "implementation_correction": {
+    "issue": "The first provisional aggregation left four P0 proximal edge hits in the alternative table even though they met the <=2-mismatch route and the 4/7 group-majority slot rule predeclared in the P2 parameter record.",
+    "resolution": "Before final delivery, the four -61/-63 hits were promoted to low-confidence operational edge candidates and every affected unit, correspondence, LOO, summary, and figure table was regenerated.",
+    "scientific_scope": "They remain low-confidence candidate copies (14/26 profile matches, two seed mismatches), not experimentally established biological copies; the core correspondence claim does not depend on them."
+  },
+  "input_build_receipt": "data/source_metadata/p2/fixed_10_locus_build_receipt.json",
+  "input_locus_count": 10,
+  "output_files": [
+    "boundary_alternatives.tsv",
+    "canonical_seed_occurrence_audit.tsv",
+    "cross_group_medoid_array_alignment_blocks.tsv",
+    "cross_group_medoid_copy_mapping.tsv",
+    "cross_group_medoid_unit_boundary_mapping.tsv",
+    "edge_scan_audit.tsv",
+    "group_seed_ranking.tsv",
+    "last_run_stdout.txt",
+    "leave_one_locus_out_recovery.tsv",
+    "locus_pair_unit_correspondence_summary.tsv",
+    "locus_pairwise_identity.tsv",
+    "medoid_alignment_summary.tsv",
+    "p2_comparison_summary.json",
+    "seed_view_phase_audit.tsv",
+    "supported_unit_correspondences.tsv",
+    "unified_array_annotations.tsv",
+    "unified_repeat_copies.tsv",
+    "unified_unit_sequences.fna",
+    "unified_units.tsv",
+    "unit_free_best_hits.tsv",
+    "unit_pairwise_identity.tsv",
+    "whole_locus_alignment_blocks.tsv",
+    "whole_locus_medoid_alignments.txt"
+  ],
+  "parameter_record": "scripts/p2_analysis/ANALYSIS_PARAMETERS.md",
+  "status": "pass",
+  "validation": {
+    "LOO_recovered": 51,
+    "LOO_rows": 51,
+    "fixed_loci": 10,
+    "operational_copies": 51,
+    "operational_units": 41,
+    "promoted_low_confidence_edges": 4,
+    "seed_chain_copies": 47,
+    "unresolved_boundary_alternatives": 1
+  }
+}

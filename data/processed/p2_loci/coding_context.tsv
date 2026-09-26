@@ -1,0 +1,85 @@
+candidate_id	label	accession	analysis_subgroup	feature_role	protein_id	locus_tag	product	genomic_start_1based	genomic_end_1based	genomic_strand	same_strand_as_RT	oriented_relative_start_0based	oriented_relative_end_0based	cds_length_nt	translation_length_aa	fully_within_full_locus
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	distal_upstream_context_same_strand	QPI16920.1		hypothetical protein	90	5312	+	true	-10557	-5335	5223	1740	false
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	distal_upstream_context_same_strand	QPI16921.1		hypothetical protein	5425	6084	+	true	-5222	-4563	660	219	true
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	distal_upstream_context_same_strand	QPI16922.1		hypothetical protein	6107	7573	+	true	-4540	-3074	1467	488	true
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	distal_upstream_context_same_strand	QPI16923.1		N-acetylmuramoyl-L-alanine amidase	7632	8957	+	true	-3015	-1690	1326	441	true
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	distal_upstream_context_same_strand	QPI16924.1		hypothetical protein	8981	9124	+	true	-1666	-1523	144	47	true
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	distal_anchor	QPI16925.1		hypothetical protein	9124	9447	+	true	-1523	-1200	324	107	true
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	RT	QPI16926.1		hypothetical protein	10647	12152	+	true	0	1505	1506	501	true
+MW218148_1__10647-12152+__QPI16926_1	SA1	MW218148.1	P0_seed7	direct_downstream_partner	QPI16927.1		hypothetical protein	12154	12951	+	true	1507	2304	798	265	true
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	distal_upstream_context_same_strand	QQM14734.1	CPT_MarsHill_200	hypothetical protein	204474	209696	+	true	-10615	-5393	5223	1740	false
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	distal_upstream_context_same_strand	QQM14735.1	CPT_MarsHill_201	hypothetical protein	209797	210468	+	true	-5292	-4621	672	223	true
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	distal_upstream_context_same_strand	QQM14736.1	CPT_MarsHill_202	hypothetical protein	210492	211958	+	true	-4597	-3131	1467	488	true
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	distal_upstream_context_same_strand	QQM14737.1	CPT_MarsHill_203	endolysin	212032	213342	+	true	-3057	-1747	1311	436	true
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	distal_upstream_context_same_strand	QQM14738.1	CPT_MarsHill_204	hypothetical protein	213366	213515	+	true	-1723	-1574	150	49	true
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	distal_anchor	QQM14739.1	CPT_MarsHill_205	hypothetical protein	213515	213847	+	true	-1574	-1242	333	110	true
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	RT	QQM14740.1	CPT_MarsHill_206	RNA-directed DNA polymerase	215089	216594	+	true	0	1505	1506	501	true
+MW248466_1__215089-216594+__QQM14740_1	MarsHill	MW248466.1	P0_seed7	direct_downstream_partner	QQM14741.1	CPT_MarsHill_207	hypothetical protein	216596	217420	+	true	1507	2331	825	274	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	distal_upstream_context_same_strand	QQO92849.1	CPT_Madawaska_199	hypothetical protein	203617	208860	+	true	-10673	-5430	5244	1747	false
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	distal_upstream_context_same_strand	QQO92850.1	CPT_Madawaska_200	hypothetical protein	208961	209632	+	true	-5329	-4658	672	223	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	distal_upstream_context_same_strand	QQO92851.1	CPT_Madawaska_201	hypothetical protein	209654	211120	+	true	-4636	-3170	1467	488	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	distal_upstream_context_same_strand	QQO92852.1	CPT_Madawaska_202	endolysin	211179	212504	+	true	-3111	-1786	1326	441	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	distal_upstream_context_same_strand	QQO92853.1	CPT_Madawaska_203	hypothetical protein	212528	212677	+	true	-1762	-1613	150	49	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	distal_anchor	QQO92854.1	CPT_Madawaska_204	hypothetical protein	212677	213009	+	true	-1613	-1281	333	110	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	intervening_array_annotation_conflict	QQO92855.1	CPT_Madawaska_205	hypothetical protein	213180	213290	-	false	-1110	-1000	111	36	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	intervening_array_annotation_conflict	QQO92856.1	CPT_Madawaska_206	hypothetical protein	213411	213533	+	true	-879	-757	123	40	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	intervening_array_annotation_conflict	QQO92857.1	CPT_Madawaska_207	hypothetical protein	213654	213767	+	true	-636	-523	114	37	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	RT	QQO92858.1	CPT_Madawaska_208	RNA-directed DNA polymerase	214290	215795	+	true	0	1505	1506	501	true
+MW349129_1__214290-215795+__QQO92858_1	Madawaska	MW349129.1	P0_seed7	direct_downstream_partner	QQO92859.1	CPT_Madawaska_209	hypothetical protein	215797	216621	+	true	1507	2331	825	274	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	direct_downstream_partner	WRM43422.1		hypothetical protein	72485	73309	-	true	1504	2328	825	274	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	RT	WRM43423.1		retron-type RNA-directed DNA polymerase	73311	74813	-	true	0	1502	1503	500	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	intervening_CDS_anchor_to_RT_opposite_strand	WRM43424.1		hypothetical protein	74902	75057	+	false	-244	-89	156	51	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	distal_anchor	WRM43425.1		hypothetical protein	76099	76431	-	true	-1618	-1286	333	110	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	distal_upstream_context_same_strand	WRM43426.1		hypothetical protein	76431	76583	-	true	-1770	-1618	153	50	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	distal_upstream_context_same_strand	WRM43427.1		hypothetical protein	76606	77931	-	true	-3118	-1793	1326	441	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	distal_upstream_context_same_strand	WRM43428.1		hypothetical protein	77989	79455	-	true	-4642	-3176	1467	488	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	distal_upstream_context_same_strand	WRM43429.1		hypothetical protein	79477	80136	-	true	-5323	-4664	660	219	true
+OR836606_1__73311-74813-__WRM43423_1	LY01	OR836606.1	P0_seed7	distal_upstream_context_same_strand	WRM43430.1		hypothetical protein	80251	80826	-	true	-6013	-5438	576	191	false
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	distal_upstream_context_same_strand	BDE75678.1		hypothetical protein	156883	162126	+	true	-10673	-5430	5244	1747	false
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	distal_upstream_context_same_strand	BDE75679.1		hypothetical protein	162227	162898	+	true	-5329	-4658	672	223	true
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	distal_upstream_context_same_strand	BDE75680.1		hypothetical protein	162920	164386	+	true	-4636	-3170	1467	488	true
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	distal_upstream_context_same_strand	BDE75681.1		hypothetical protein	164445	165770	+	true	-3111	-1786	1326	441	true
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	distal_upstream_context_same_strand	BDE75682.1		hypothetical protein	165794	165946	+	true	-1762	-1610	153	50	true
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	distal_anchor	BDE75683.1		hypothetical protein	165946	166278	+	true	-1610	-1278	333	110	true
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	RT	BDE75684.1		hypothetical protein	167556	169058	+	true	0	1502	1503	500	true
+LC680885_1__167556-169058+__BDE75684_1	S6	LC680885.1	P0_seed7	direct_downstream_partner	BDE75685.1		hypothetical protein	169060	169884	+	true	1504	2328	825	274	true
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	distal_upstream_context_same_strand	QDJ97634.1	PALS2_009	hypothetical protein	14206	19449	+	true	-10673	-5430	5244	1747	false
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	distal_upstream_context_same_strand	QDJ97635.1	PALS2_010	hypothetical protein	19550	20221	+	true	-5329	-4658	672	223	true
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	distal_upstream_context_same_strand	QDJ97636.1	PALS2_011	heat shock factor binding protein	20243	21709	+	true	-4636	-3170	1467	488	true
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	distal_upstream_context_same_strand	QDJ97637.1	PALS2_012	spore cortex-lytic enzyme	21783	23093	+	true	-3096	-1786	1311	436	true
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	distal_upstream_context_same_strand	QDJ97638.1	PALS2_013	hypothetical protein	23117	23269	+	true	-1762	-1610	153	50	true
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	distal_anchor	QDJ97639.1	PALS2_014	hypothetical protein	23269	23601	+	true	-1610	-1278	333	110	true
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	RT	QDJ97640.1	PALS2_015	retron-type RNA-directed DNA polymerase	24879	26381	+	true	0	1502	1503	500	true
+MN091626_1__24879-26381+__QDJ97640_1	PALS_2	MN091626.1	P0_seed7	direct_downstream_partner	QDJ97641.1	PALS2_016	hypothetical protein	26383	27207	+	true	1504	2328	825	274	true
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	distal_upstream_context_same_strand	UAJ17034.1	UFVDC4_00107	hypothetical protein	114576	119819	+	true	-10676	-5433	5244	1747	false
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	distal_upstream_context_same_strand	UAJ17035.1	UFVDC4_00108	hypothetical protein	119932	120591	+	true	-5320	-4661	660	219	true
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	distal_upstream_context_same_strand	UAJ17036.1	UFVDC4_00109	hypothetical protein	120613	122079	+	true	-4639	-3173	1467	488	true
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	distal_upstream_context_same_strand	UAJ17037.1	UFVDC4_00110	hypothetical protein	122153	123463	+	true	-3099	-1789	1311	436	true
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	distal_upstream_context_same_strand	UAJ17038.1	UFVDC4_00111	hypothetical protein	123488	123640	+	true	-1764	-1612	153	50	true
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	distal_anchor	UAJ17039.1	UFVDC4_00112	hypothetical protein	123640	123972	+	true	-1612	-1280	333	110	true
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	RT	UAJ17040.1	UFVDC4_00113	hypothetical protein	125252	126754	+	true	0	1502	1503	500	true
+MZ779063_1__125252-126754+__UAJ17040_1	UFV_DC4	MZ779063.1	P0_seed7	direct_downstream_partner	UAJ17041.1	UFVDC4_00114	hypothetical protein	126756	127580	+	true	1504	2328	825	274	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	direct_downstream_partner	WNX97801.1		hypothetical protein	177105	177980	-	true	1555	2430	876	291	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	RT	WNX97802.1		hypothetical protein	177982	179535	-	true	0	1553	1554	517	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	distal_anchor	WNX97803.1		hypothetical protein	180632	180985	-	true	-1450	-1097	354	117	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	distal_upstream_context_same_strand	WNX97804.1		hypothetical protein	180985	181125	-	true	-1590	-1450	141	46	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	distal_upstream_context_same_strand	WNX97805.1		hypothetical protein	181144	182472	-	true	-2937	-1609	1329	442	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	distal_upstream_context_same_strand	WNX97806.1		hypothetical protein	182528	183994	-	true	-4459	-2993	1467	488	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	distal_upstream_context_same_strand	WNX97807.1		hypothetical protein	184016	184687	-	true	-5152	-4481	672	223	true
+OR455461_1__177982-179535-__WNX97802_1	AH12	OR455461.1	PB50_near3	distal_upstream_context_same_strand	WNX97808.1		hypothetical protein	184784	189529	-	true	-9994	-5249	4746	1581	false
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	distal_upstream_context_same_strand	QQO92587.1	CPT_Machias_210	hypothetical protein	208802	214045	+	true	-10508	-5265	5244	1747	false
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	distal_upstream_context_same_strand	QQO92588.1	CPT_Machias_211	hypothetical protein	214142	214813	+	true	-5168	-4497	672	223	true
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	distal_upstream_context_same_strand	QQO92589.1	CPT_Machias_212	hypothetical protein	214835	216301	+	true	-4475	-3009	1467	488	true
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	distal_upstream_context_same_strand	QQO92590.1	CPT_Machias_213	endolysin	216357	217685	+	true	-2953	-1625	1329	442	true
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	distal_upstream_context_same_strand	QQO92591.1	CPT_Machias_214	hypothetical protein	217704	217859	+	true	-1606	-1451	156	51	true
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	distal_anchor	QQO92592.1	CPT_Machias_215	hypothetical protein	217859	218209	+	true	-1451	-1101	351	116	true
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	RT	QQO92593.1	CPT_Machias_216	RNA-directed DNA polymerase	219310	220863	+	true	0	1553	1554	517	true
+MW349128_1__219310-220863+__QQO92593_1	Machias	MW349128.1	PB50_near3	direct_downstream_partner	QQO92594.1	CPT_Machias_217	hypothetical protein	220865	221740	+	true	1555	2430	876	291	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	direct_downstream_partner	WPH64253.1		hypothetical protein	150064	150936	-	true	1555	2427	873	290	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	RT	WPH64254.1		RNA-directed DNA polymerase	150938	152491	-	true	0	1553	1554	517	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	distal_anchor	WPH64255.1		hypothetical protein	153589	153942	-	true	-1451	-1098	354	117	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	distal_upstream_context_same_strand	WPH64256.1		hypothetical protein	153942	154097	-	true	-1606	-1451	156	51	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	distal_upstream_context_same_strand	WPH64257.1		endolysin	154116	155444	-	true	-2953	-1625	1329	442	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	distal_upstream_context_same_strand	WPH64258.1		hypothetical protein	155500	156966	-	true	-4475	-3009	1467	488	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	distal_upstream_context_same_strand	WPH64259.1		hypothetical protein	156988	157659	-	true	-5168	-4497	672	223	true
+OR770614_1__150938-152491-__WPH64254_1	PB50	OR770614.1	PB50_near3	distal_upstream_context_same_strand	WPH64260.1		hypothetical protein	157756	162999	-	true	-10508	-5265	5244	1747	false

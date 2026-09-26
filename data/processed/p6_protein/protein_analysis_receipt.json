@@ -1,0 +1,45 @@
+{
+  "generated_utc": "2026-09-24T17:05:13.469119+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "biopython": "1.88",
+  "matplotlib": "3.10.6",
+  "parameters": {
+    "aligner": {
+      "mode": "global",
+      "match_score": 2.0,
+      "mismatch_score": -1.0,
+      "open_gap_score": -5.0,
+      "extend_gap_score": -1.0
+    },
+    "identity_denominator": "global alignment columns including gap columns",
+    "boundary_reference": "MarsHill residue 211",
+    "yxdd_scan": "single YxDD in final 350 aa"
+  },
+  "figure": {
+    "width_mm": 170,
+    "height_mm": 180,
+    "minimum_source_font_pt": 8,
+    "png_dpi": 300,
+    "pdf_vector": true,
+    "heatmap_color_limits": "full observed off-diagonal minimum through 1.0"
+  },
+  "validation": {
+    "fixed_locus_count": 10,
+    "pair_count": 45,
+    "expected_pair_count": 45,
+    "all_have_one_c_terminal_yxdd": true,
+    "partner_records_without_region_feature": 10,
+    "pdf_exists": true,
+    "png_exists": true,
+    "status": "PASS"
+  },
+  "outputs": [
+    "data/processed/p6_protein/protein_feature_summary.tsv",
+    "data/processed/p6_protein/genpept_region_features.tsv",
+    "data/processed/p6_protein/protein_pairwise_identity.tsv",
+    "data/processed/p6_protein/group_pairwise_summary.tsv",
+    "data/processed/p6_protein/group_feature_summary.tsv",
+    "figures/p6_protein/figure1_typeII_protein_conservation.pdf",
+    "figures/p6_protein/figure1_typeII_protein_conservation.png"
+  ]
+}

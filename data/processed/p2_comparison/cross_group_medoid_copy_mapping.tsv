@@ -1,0 +1,11 @@
+source_group	source_label	source_copy_id	source_copy_ordinal	source_copy_relative_start	target_group	target_label	mapped_target_relative_start	mapping_status	whole_anchor_through_RT_global_identity
+P0_seed7	PALS_2	PALS_2|copy01	1	-1091	PB50_near3	PB50	-914	aligned_base	0.655300
+P0_seed7	PALS_2	PALS_2|copy02	2	-880	PB50_near3	PB50	-713	aligned_base	0.655300
+P0_seed7	PALS_2	PALS_2|copy03	3	-684	PB50_near3	PB50	-502	aligned_base	0.655300
+P0_seed7	PALS_2	PALS_2|copy04	4	-473	PB50_near3	PB50		maps_to_gap	0.655300
+P0_seed7	PALS_2	PALS_2|copy05	5	-300	PB50_near3	PB50	-306	aligned_base	0.655300
+P0_seed7	PALS_2	PALS_2|copy06	6	-62	PB50_near3	PB50	-62	aligned_base	0.655300
+PB50_near3	PB50	PB50|copy01	1	-912	P0_seed7	PALS_2	-1089	aligned_base	0.655300
+PB50_near3	PB50	PB50|copy02	2	-711	P0_seed7	PALS_2	-878	aligned_base	0.655300
+PB50_near3	PB50	PB50|copy03	3	-500	P0_seed7	PALS_2	-682	aligned_base	0.655300
+PB50_near3	PB50	PB50|copy04	4	-304	P0_seed7	PALS_2	-298	aligned_base	0.655300

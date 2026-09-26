@@ -1,0 +1,9 @@
+time_min	context_group	selected_feature_count	culture_1_median_sense_tpm_259_features	culture_2_median_sense_tpm_259_features	culture_3_median_sense_tpm_259_features	median_across_culture_level_feature_medians	scope
+0	replication_annotated	3	969.163248438	1564.68792244	1476.64493799	1476.64493799	descriptive annotation context only
+0	structural_annotated	3	4591.37515337	336.938697163	1144.7265183	1144.7265183	descriptive annotation context only
+5	replication_annotated	3	2189.01277819	1872.7326405	2250.06904434	2189.01277819	descriptive annotation context only
+5	structural_annotated	3	59.7197050798	64.3088656479	72.8130688967	64.3088656479	descriptive annotation context only
+15	replication_annotated	3	4136.46208628	4253.68830153	4415.89273878	4253.68830153	descriptive annotation context only
+15	structural_annotated	3	59.0846659099	85.4368488726	98.8436282294	85.4368488726	descriptive annotation context only
+55	replication_annotated	3	1126.51380366	1147.6232256	1134.75312748	1134.75312748	descriptive annotation context only
+55	structural_annotated	3	4449.64954845	4627.18914058	4144.5408629	4449.64954845	descriptive annotation context only

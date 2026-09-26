@@ -1,0 +1,84 @@
+{
+  "anchor_homology_group": "DISTAL_ANCHOR_HOMOLOG_01",
+  "anchor_identity_ranges": {
+    "P0_seed7_within_group_DNA": {
+      "max": 0.975976,
+      "min": 0.75,
+      "n": 21
+    },
+    "P0_seed7_within_group_protein": {
+      "max": 0.990909,
+      "min": 0.718182,
+      "n": 21
+    },
+    "PB50_near3_within_group_DNA": {
+      "max": 0.974576,
+      "min": 0.960452,
+      "n": 3
+    },
+    "PB50_near3_within_group_protein": {
+      "max": 0.982906,
+      "min": 0.965812,
+      "n": 3
+    },
+    "cross_group_DNA": {
+      "max": 0.782486,
+      "min": 0.721127,
+      "n": 21
+    },
+    "cross_group_protein": {
+      "max": 0.726496,
+      "min": 0.649573,
+      "n": 21
+    }
+  },
+  "anchor_rule": "nearest same-strand CDS fully distal to the evidence-defined far repeat window, validated by ten-locus protein/DNA homology and anchor-array-RT-partner collinearity",
+  "coordinate_system": "0-based inclusive relative to RT 5-prime nucleotide; RT=0; upstream negative; explicit genomic formula per row",
+  "generated_at_utc": "2026-09-24T09:38:19Z",
+  "new_group_boundary_rule": "the full -912 motif-linked 26-nt weak window is retained as context; it is not promoted to an accepted copy or biological endpoint",
+  "old_nr_resolution": {
+    "excluded_numeric_rows": 4,
+    "hit_rows": 14,
+    "interpretation": "All remote numeric passes resolve to the fixed ten loci; no new record is needed or added.",
+    "main_P2_set_changed": false,
+    "new_candidate_rows": 0,
+    "numeric_pass_existing_fixed_10": 10,
+    "numeric_pass_rows": 10,
+    "numeric_pass_unresolved": 0,
+    "status": "ready_result_resolved"
+  },
+  "outputs": [
+    "data/processed/p2_loci/fixed_10_loci.tsv",
+    "data/processed/p2_loci/oriented_coordinate_map.tsv",
+    "data/processed/p2_loci/oriented_base_map.tsv",
+    "data/processed/p2_loci/coding_context.tsv",
+    "data/processed/p2_loci/distal_anchor_pairwise_identity.tsv",
+    "data/processed/p2_loci/oriented_upstream_6000nt.fna",
+    "data/processed/p2_loci/oriented_rt_cds.fna",
+    "data/processed/p2_loci/oriented_partner_cds.fna",
+    "data/processed/p2_loci/oriented_distal_anchor_cds.fna",
+    "data/processed/p2_loci/distal_anchor_proteins.faa",
+    "data/processed/p2_loci/oriented_anchor_to_RT_interval.fna",
+    "data/processed/p2_loci/oriented_RT_to_partner.fna",
+    "data/processed/p2_loci/oriented_anchor_to_partner_locus.fna",
+    "data/processed/p2_loci/oriented_full_6kb_RT_partner.fna"
+  ],
+  "scope": "fixed P2 ten loci; no repeat annotation and no network",
+  "validation": {
+    "anchor_pairwise_rows": 45,
+    "coding_context_rows": 84,
+    "coordinate_rows": 10,
+    "expected_oriented_base_map_rows": 83575,
+    "loci_with_complete_6000nt_upstream": 10,
+    "loci_with_cooriented_first_downstream_partner_gap_1nt": 10,
+    "locus_rows": 10,
+    "madawaska_conflicting_CDS_retained": 3,
+    "new_group_boundary_reference_relative_start": [
+      -918
+    ],
+    "oriented_base_map_rows": 83575,
+    "per_base_genomic_mapping_sequence_consistent": true,
+    "status": "pass"
+  },
+  "source_manifest": "data/sources.tsv"
+}

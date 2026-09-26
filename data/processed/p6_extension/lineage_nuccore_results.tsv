@@ -1,0 +1,10 @@
+nuccore_uid	accession_version	title	organism	length_nt	source_query_ids	is_fixed10_accession	fixed10_label	source_url
+1700470712	MN091626.1	Staphylococcus phage PALS_2, complete genome	Staphylococcus phage PALS_2	268748	MADAWASKA_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	PALS_2	https://www.ncbi.nlm.nih.gov/nuccore/MN091626.1
+1936184535	MW218148.1	Staphylococcus phage vB_StaM_SA1, complete genome	Staphylococcus phage vB_StaM_SA1	260727	LENTUS_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	SA1	https://www.ncbi.nlm.nih.gov/nuccore/MW218148.1
+1953870784	MW248466.1	Staphylococcus phage MarsHill, complete genome	Staphylococcus phage MarsHill	266637	MADAWASKA_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	MarsHill	https://www.ncbi.nlm.nih.gov/nuccore/MW248466.1
+1955693358	MW349128.1	Staphylococcus phage Machias, complete genome	Staphylococcus phage Machias	274478	MACHIAS_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	Machias	https://www.ncbi.nlm.nih.gov/nuccore/MW349128.1
+1955693760	MW349129.1	Staphylococcus phage Madawaska, complete genome	Staphylococcus phage Madawaska	265446	MADAWASKA_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	Madawaska	https://www.ncbi.nlm.nih.gov/nuccore/MW349129.1
+2091504366	MZ779063.1	Staphylococcus phage vB_SauM-UFV_DC4, complete genome	Staphylococcus phage vB_SauM-UFV_DC4	263185	MADAWASKA_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	UFV_DC4	https://www.ncbi.nlm.nih.gov/nuccore/MZ779063.1
+2591511804	OR455461.1	Staphylococcus phage AH12, complete genome	Staphylococcus phage AH12	264661	MACHIAS_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	AH12	https://www.ncbi.nlm.nih.gov/nuccore/OR455461.1
+2622641466	OR770614.1	Staphylococcus phage vB_StaM_PB50, complete genome	Staphylococcus phage vB_StaM_PB50	273701	MACHIAS_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	PB50	https://www.ncbi.nlm.nih.gov/nuccore/OR770614.1
+2645991679	OR836606.1	Staphylococcus phage LY01, complete genome	Staphylococcus phage LY01	258897	MADAWASKA_COMPLETE_GENOME;WALLMARK_COMPLETE_GENOME	true	LY01	https://www.ncbi.nlm.nih.gov/nuccore/OR836606.1

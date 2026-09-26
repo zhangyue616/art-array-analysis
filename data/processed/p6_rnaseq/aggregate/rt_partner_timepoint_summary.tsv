@@ -1,0 +1,9 @@
+time_min	target	culture_1_sense_tpm_259_features	culture_2_sense_tpm_259_features	culture_3_sense_tpm_259_features	median_across_cultures	scope
+0	RT	0	3640.54879166	2404.98984322	2404.98984322	descriptive context only
+0	direct_partner	354.631163589	0	648.391461492	354.631163589	descriptive context only
+5	RT	3093.22535521	2096.98627362	2740.11129794	2740.11129794	descriptive context only
+5	direct_partner	2087.24483581	1488.76111669	1888.98453813	1888.98453813	descriptive context only
+15	RT	1635.5796664	1527.81419193	1581.25210481	1581.25210481	descriptive context only
+15	direct_partner	1581.37864861	1363.00484421	1383.03112152	1383.03112152	descriptive context only
+55	RT	414.958459778	363.925942309	381.077438925	381.077438925	descriptive context only
+55	direct_partner	294.724850921	277.306784088	307.310545203	294.724850921	descriptive context only

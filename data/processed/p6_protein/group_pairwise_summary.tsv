@@ -1,0 +1,13 @@
+comparison_set	metric	dependent_pair_count	median	minimum	maximum	independent_unit_note
+within_seven_locus_reference	rt_full_global_identity_per_alignment_column	21	0.868263	0.595661	0.964072	pairwise values are dependent because each locus occurs in multiple pairs
+within_seven_locus_reference	rt_ntd_global_identity_per_alignment_column	21	0.785714	0.328704	0.952381	pairwise values are dependent because each locus occurs in multiple pairs
+within_seven_locus_reference	rt_core_global_identity_per_alignment_column	21	0.927835	0.783505	0.979381	pairwise values are dependent because each locus occurs in multiple pairs
+within_seven_locus_reference	partner_global_identity_per_alignment_column	21	0.864964	0.415162	0.992701	pairwise values are dependent because each locus occurs in multiple pairs
+within_PB50_related	rt_full_global_identity_per_alignment_column	3	0.963250	0.963250	0.980658	pairwise values are dependent because each locus occurs in multiple pairs
+within_PB50_related	rt_ntd_global_identity_per_alignment_column	3	0.960000	0.946667	0.968889	pairwise values are dependent because each locus occurs in multiple pairs
+within_PB50_related	rt_core_global_identity_per_alignment_column	3	0.976027	0.965753	0.989726	pairwise values are dependent because each locus occurs in multiple pairs
+within_PB50_related	partner_global_identity_per_alignment_column	3	0.945017	0.920962	0.948454	pairwise values are dependent because each locus occurs in multiple pairs
+cross_group	rt_full_global_identity_per_alignment_column	21	0.554054	0.545627	0.570611	pairwise values are dependent because each locus occurs in multiple pairs
+cross_group	rt_ntd_global_identity_per_alignment_column	21	0.323276	0.308370	0.353448	pairwise values are dependent because each locus occurs in multiple pairs
+cross_group	rt_core_global_identity_per_alignment_column	21	0.732877	0.722603	0.743151	pairwise values are dependent because each locus occurs in multiple pairs
+cross_group	partner_global_identity_per_alignment_column	21	0.341137	0.237288	0.356902	pairwise values are dependent because each locus occurs in multiple pairs

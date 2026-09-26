@@ -1,0 +1,105 @@
+{
+  "LOO_recovered_within_10nt": 51,
+  "LOO_rows": 51,
+  "analysis": "P2 unified ten-locus ART array annotation and comparison",
+  "biopython_runtime_receipt": "tools/biopython_runtime_receipt.json",
+  "cross_group_directed_free_best_rows": 159,
+  "cross_group_medoid_anchor_through_RT_global_identity": 0.6552995391705069,
+  "cross_group_sequence_and_coordinate_supported_rows": 70,
+  "fixed_loci": 10,
+  "groups": {
+    "P0_seed7": {
+      "loci": 7,
+      "operational_copy_counts": {
+        "LY01": 5,
+        "Madawaska": 5,
+        "MarsHill": 6,
+        "PALS_2": 6,
+        "S6": 6,
+        "SA1": 5,
+        "UFV_DC4": 6
+      },
+      "operational_unit_counts": {
+        "LY01": 4,
+        "Madawaska": 4,
+        "MarsHill": 5,
+        "PALS_2": 5,
+        "S6": 5,
+        "SA1": 4,
+        "UFV_DC4": 5
+      },
+      "promoted_low_confidence_edge_counts": {
+        "LY01": 0,
+        "Madawaska": 0,
+        "MarsHill": 1,
+        "PALS_2": 1,
+        "S6": 1,
+        "SA1": 0,
+        "UFV_DC4": 1
+      },
+      "repeat_block_consensus": "ATTATATGAATACGTAT",
+      "repeat_block_offsets": [
+        -3,
+        14
+      ],
+      "seed_chain_copy_counts": {
+        "LY01": 5,
+        "Madawaska": 5,
+        "MarsHill": 5,
+        "PALS_2": 5,
+        "S6": 5,
+        "SA1": 5,
+        "UFV_DC4": 5
+      },
+      "selected_seed_word": "ATATGAATAC"
+    },
+    "PB50_near3": {
+      "loci": 3,
+      "operational_copy_counts": {
+        "AH12": 4,
+        "Machias": 4,
+        "PB50": 4
+      },
+      "operational_unit_counts": {
+        "AH12": 3,
+        "Machias": 3,
+        "PB50": 3
+      },
+      "promoted_low_confidence_edge_counts": {
+        "AH12": 0,
+        "Machias": 0,
+        "PB50": 0
+      },
+      "repeat_block_consensus": "ATGAATACGT",
+      "repeat_block_offsets": [
+        0,
+        10
+      ],
+      "seed_chain_copy_counts": {
+        "AH12": 4,
+        "Machias": 4,
+        "PB50": 4
+      },
+      "selected_seed_word": "ATGAATACGT"
+    }
+  },
+  "input_build_receipt": "data/source_metadata/p2/fixed_10_locus_build_receipt.json",
+  "medoids": {
+    "P0_seed7": "PALS_2",
+    "PB50_near3": "PB50"
+  },
+  "parameters": "scripts/p2_analysis/ANALYSIS_PARAMETERS.md",
+  "promoted_group_supported_degenerate_edge_copies": 4,
+  "seed_chain_copies": 47,
+  "seed_chain_units": 37,
+  "total_copies": 51,
+  "total_units": 41,
+  "unique_supported_unit_pairs": {
+    "P0_seed7_within": 83,
+    "PB50_near3_within": 9,
+    "cross_group": 35
+  },
+  "unresolved_boundary_alternatives": 1,
+  "within_group_directed_free_best_rows": 210,
+  "within_group_sequence_and_coordinate_supported_rows": 184
+}

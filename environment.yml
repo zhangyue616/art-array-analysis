@@ -1,0 +1,12 @@
+name: art-array-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - matplotlib==3.10.6
+      - numpy==2.5.3
+      - Pillow==12.3.0
+      - biopython==1.88
+      - ViennaRNA==2.7.2

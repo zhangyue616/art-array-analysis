@@ -1,0 +1,20 @@
+{
+  "analysis": "P3 cross-group unit correspondence calibration under blockwise spacer-order shuffling",
+  "elapsed_seconds": 127.772687,
+  "finished_utc": "2026-09-24T10:24:57.291457+00:00",
+  "notes": [
+    "Each replicate used one ten-locus shuffled panel for all 21 cross-group locus pairs.",
+    "Full-locus boundary mapping, free unit selection, uniqueness, and reciprocity were recomputed within every replicate.",
+    "The null conditions on fixed P2 chain-copy geometry and does not validate copy discovery."
+  ],
+  "observed_alignment_rerun": false,
+  "observed_source": "P2 saved supported_unit_correspondences.tsv and unit_free_best_hits.tsv; restricted to 37 chain units",
+  "p2_files_modified": false,
+  "parameters_path": "scripts/p3_calibration/ANALYSIS_PARAMETERS.md",
+  "parameters_predeclared_before_run": true,
+  "random_seed": 20260924,
+  "replicates_completed": 64,
+  "started_utc": "2026-09-24T10:22:49.518770+00:00",
+  "status": "PASS",
+  "weak_edge_sensitivity_rerun": false
+}

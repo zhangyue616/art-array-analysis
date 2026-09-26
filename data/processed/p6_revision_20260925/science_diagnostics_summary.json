@@ -1,0 +1,483 @@
+{
+  "analysis": "Post hoc exploratory identity, temporal and interval diagnostics",
+  "date": "2026-09-25",
+  "s1_s3": {
+    "dependence_boundary": "Rows share loci and units, and the three identity fields are correlated measurements on the same 252 combinations. They are not independent validations or biological replicates.",
+    "identity_metric_spearman": [
+      {
+        "identity_field_left": "context_global_identity",
+        "identity_field_right": "saved_core_to_core_global_identity",
+        "spearman_all_252": 0.949105351319
+      },
+      {
+        "identity_field_left": "context_global_identity",
+        "identity_field_right": "saved_trimmed_spacer_global_identity",
+        "spearman_all_252": 0.685302268374
+      },
+      {
+        "identity_field_left": "saved_core_to_core_global_identity",
+        "identity_field_right": "saved_trimmed_spacer_global_identity",
+        "spearman_all_252": 0.788337711783
+      }
+    ],
+    "identity_range_summary": [
+      {
+        "evaluable_supported_loci_n": 18,
+        "excluded_supported_loci": "",
+        "excluded_supported_loci_n": 0,
+        "global_supported_max": 0.66666667,
+        "global_supported_min": 0.5877551,
+        "identity_field": "context_global_identity",
+        "locus_effect_median": -0.001831275,
+        "positive_locus_effect_n": 9,
+        "range_restricted_other_bpp_median_all_loci": 0.104434795,
+        "range_restricted_other_bpp_median_at_supported_loci": 0.10359455,
+        "range_restricted_other_identity_median_all_loci": 0.62195122,
+        "range_restricted_other_identity_median_at_supported_loci": 0.62151394,
+        "range_restricted_other_n_all_loci": 86,
+        "range_restricted_other_n_at_supported_loci": 79,
+        "range_scope": "global_supported_min_max",
+        "spearman_all_252": 0.615320008895,
+        "spearman_supported_35": -0.078332285304,
+        "supported_bpp_median_all": 0.08542279,
+        "supported_bpp_median_evaluable_loci": 0.08542279,
+        "supported_identity_median_all": 0.6302521,
+        "supported_identity_median_evaluable_loci": 0.6302521,
+        "supported_loci_n": 18,
+        "supported_n_all": 35,
+        "supported_pairs_in_evaluable_loci_n": 35,
+        "unrestricted_locus_effect_median": 0.0616346875,
+        "unrestricted_positive_locus_effect_n": 18
+      },
+      {
+        "evaluable_supported_loci_n": 15,
+        "excluded_supported_loci": "MarsHill__AH12;MarsHill__Machias;MarsHill__PB50",
+        "excluded_supported_loci_n": 3,
+        "global_supported_max": 0.66666667,
+        "global_supported_min": 0.5877551,
+        "identity_field": "context_global_identity",
+        "locus_effect_median": -0.02082879,
+        "positive_locus_effect_n": 4,
+        "range_restricted_other_bpp_median_all_loci": 0.10122967,
+        "range_restricted_other_bpp_median_at_supported_loci": 0.10122967,
+        "range_restricted_other_identity_median_all_loci": 0.62008734,
+        "range_restricted_other_identity_median_at_supported_loci": 0.62008734,
+        "range_restricted_other_n_all_loci": 45,
+        "range_restricted_other_n_at_supported_loci": 45,
+        "range_scope": "locus_local_supported_min_max",
+        "spearman_all_252": 0.615320008895,
+        "spearman_supported_35": -0.078332285304,
+        "supported_bpp_median_all": 0.08542279,
+        "supported_bpp_median_evaluable_loci": 0.084127915,
+        "supported_identity_median_all": 0.6302521,
+        "supported_identity_median_evaluable_loci": 0.62446589,
+        "supported_loci_n": 18,
+        "supported_n_all": 35,
+        "supported_pairs_in_evaluable_loci_n": 32,
+        "unrestricted_locus_effect_median": 0.0616346875,
+        "unrestricted_positive_locus_effect_n": 18
+      },
+      {
+        "evaluable_supported_loci_n": 18,
+        "excluded_supported_loci": "",
+        "excluded_supported_loci_n": 0,
+        "global_supported_max": 0.623853,
+        "global_supported_min": 0.568889,
+        "identity_field": "saved_core_to_core_global_identity",
+        "locus_effect_median": 0.010741685,
+        "positive_locus_effect_n": 10,
+        "range_restricted_other_bpp_median_all_loci": 0.10528794,
+        "range_restricted_other_bpp_median_at_supported_loci": 0.10528143,
+        "range_restricted_other_identity_median_all_loci": 0.585744,
+        "range_restricted_other_identity_median_at_supported_loci": 0.584821,
+        "range_restricted_other_n_all_loci": 64,
+        "range_restricted_other_n_at_supported_loci": 59,
+        "range_scope": "global_supported_min_max",
+        "spearman_all_252": 0.580848483347,
+        "spearman_supported_35": -0.086327909073,
+        "supported_bpp_median_all": 0.08542279,
+        "supported_bpp_median_evaluable_loci": 0.08542279,
+        "supported_identity_median_all": 0.589041,
+        "supported_identity_median_evaluable_loci": 0.589041,
+        "supported_loci_n": 18,
+        "supported_n_all": 35,
+        "supported_pairs_in_evaluable_loci_n": 35,
+        "unrestricted_locus_effect_median": 0.0616346875,
+        "unrestricted_positive_locus_effect_n": 18
+      },
+      {
+        "evaluable_supported_loci_n": 9,
+        "excluded_supported_loci": "LY01__AH12;LY01__Machias;LY01__PB50;Madawaska__AH12;MarsHill__AH12;MarsHill__Machias;MarsHill__PB50;UFV_DC4__AH12;UFV_DC4__PB50",
+        "excluded_supported_loci_n": 9,
+        "global_supported_max": 0.623853,
+        "global_supported_min": 0.568889,
+        "identity_field": "saved_core_to_core_global_identity",
+        "locus_effect_median": -0.025415,
+        "positive_locus_effect_n": 2,
+        "range_restricted_other_bpp_median_all_loci": 0.10709455,
+        "range_restricted_other_bpp_median_at_supported_loci": 0.10709455,
+        "range_restricted_other_identity_median_all_loci": 0.598704,
+        "range_restricted_other_identity_median_at_supported_loci": 0.598704,
+        "range_restricted_other_n_all_loci": 22,
+        "range_restricted_other_n_at_supported_loci": 22,
+        "range_scope": "locus_local_supported_min_max",
+        "spearman_all_252": 0.580848483347,
+        "spearman_supported_35": -0.086327909073,
+        "supported_bpp_median_all": 0.08542279,
+        "supported_bpp_median_evaluable_loci": 0.08962421,
+        "supported_identity_median_all": 0.589041,
+        "supported_identity_median_evaluable_loci": 0.5856135,
+        "supported_loci_n": 18,
+        "supported_n_all": 35,
+        "supported_pairs_in_evaluable_loci_n": 18,
+        "unrestricted_locus_effect_median": 0.0616346875,
+        "unrestricted_positive_locus_effect_n": 18
+      },
+      {
+        "evaluable_supported_loci_n": 9,
+        "excluded_supported_loci": "LY01__AH12;Madawaska__AH12;PALS_2__AH12;PALS_2__PB50;S6__Machias;S6__PB50;UFV_DC4__AH12;UFV_DC4__Machias;UFV_DC4__PB50",
+        "excluded_supported_loci_n": 9,
+        "global_supported_max": 0.586667,
+        "global_supported_min": 0.533784,
+        "identity_field": "saved_trimmed_spacer_global_identity",
+        "locus_effect_median": -0.00046006,
+        "positive_locus_effect_n": 4,
+        "range_restricted_other_bpp_median_all_loci": 0.11679137,
+        "range_restricted_other_bpp_median_at_supported_loci": 0.11679137,
+        "range_restricted_other_identity_median_all_loci": 0.547771,
+        "range_restricted_other_identity_median_at_supported_loci": 0.547771,
+        "range_restricted_other_n_all_loci": 12,
+        "range_restricted_other_n_at_supported_loci": 11,
+        "range_scope": "global_supported_min_max",
+        "spearman_all_252": 0.44483356786,
+        "spearman_supported_35": 0.081495077105,
+        "supported_bpp_median_all": 0.08542279,
+        "supported_bpp_median_evaluable_loci": 0.11633131,
+        "supported_identity_median_all": 0.556962,
+        "supported_identity_median_evaluable_loci": 0.559211,
+        "supported_loci_n": 18,
+        "supported_n_all": 35,
+        "supported_pairs_in_evaluable_loci_n": 15,
+        "unrestricted_locus_effect_median": 0.0616346875,
+        "unrestricted_positive_locus_effect_n": 18
+      },
+      {
+        "evaluable_supported_loci_n": 2,
+        "excluded_supported_loci": "LY01__AH12;LY01__Machias;Madawaska__AH12;Madawaska__Machias;Madawaska__PB50;MarsHill__AH12;MarsHill__Machias;MarsHill__PB50;PALS_2__AH12;PALS_2__PB50;S6__AH12;S6__Machias;S6__PB50;UFV_DC4__AH12;UFV_DC4__Machias;UFV_DC4__PB50",
+        "excluded_supported_loci_n": 16,
+        "global_supported_max": 0.586667,
+        "global_supported_min": 0.533784,
+        "identity_field": "saved_trimmed_spacer_global_identity",
+        "locus_effect_median": -0.0576010425,
+        "positive_locus_effect_n": 0,
+        "range_restricted_other_bpp_median_all_loci": 0.13959899,
+        "range_restricted_other_bpp_median_at_supported_loci": 0.13959899,
+        "range_restricted_other_identity_median_all_loci": 0.5540675,
+        "range_restricted_other_identity_median_at_supported_loci": 0.5540675,
+        "range_restricted_other_n_all_loci": 2,
+        "range_restricted_other_n_at_supported_loci": 2,
+        "range_scope": "locus_local_supported_min_max",
+        "spearman_all_252": 0.44483356786,
+        "spearman_supported_35": 0.081495077105,
+        "supported_bpp_median_all": 0.08542279,
+        "supported_bpp_median_evaluable_loci": 0.0764837,
+        "supported_identity_median_all": 0.556962,
+        "supported_identity_median_evaluable_loci": 0.5439665,
+        "supported_loci_n": 18,
+        "supported_n_all": 35,
+        "supported_pairs_in_evaluable_loci_n": 4,
+        "unrestricted_locus_effect_median": 0.0616346875,
+        "unrestricted_positive_locus_effect_n": 18
+      }
+    ],
+    "locus_local_range_sensitivity": {
+      "global_supported_min_max_context_result": "9/18 positive; no supported locus pair excluded",
+      "locus_local_supported_min_max_context_result": "4/15 positive; MarsHill__AH12, MarsHill__Machias, and MarsHill__PB50 excluded because each has one supported row, so the local interval is a single identity value with no other row at exactly that value"
+    },
+    "population": {
+      "all_combinations_n": 252,
+      "context": "two_repeat",
+      "locus_pairs_n": 21,
+      "other_n": 217,
+      "supported_n": 35,
+      "unit_combinations_per_locus_pair": [
+        12
+      ]
+    },
+    "selection_boundary": "The saved supported set was selected by reciprocal sequence-best and boundary criteria, not a single fixed global identity cutoff. The observed supported identity range is a post hoc exploratory diagnostic, not the selection rule.",
+    "supported_cross_group": {
+      "n": 35,
+      "p0_locus_counts": {
+        "LY01": 6,
+        "Madawaska": 7,
+        "MarsHill": 3,
+        "PALS_2": 6,
+        "S6": 6,
+        "UFV_DC4": 7
+      },
+      "zero_supported_locus_pairs": [
+        "SA1__AH12",
+        "SA1__Machias",
+        "SA1__PB50"
+      ]
+    }
+  },
+  "s2": {
+    "absolute_threshold_percentage_points": 5.0,
+    "absolute_threshold_share": 0.05,
+    "contrast_summary": [
+      {
+        "all_three_same_nonzero_direction": "true",
+        "comparison": "5_to_55",
+        "comparison_role": "primary",
+        "culture_delta_percentage_points": "0.076561939;0.190430216;0.116178242",
+        "culture_relative_change_percent": "15.802246194;61.053091016;28.425528153",
+        "decrease_branch_reachable_all_cultures": "false",
+        "direction": "increase",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.116178241976,
+        "median_absolute_delta_share": 0.00116178242,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U1"
+      },
+      {
+        "all_three_same_nonzero_direction": "true",
+        "comparison": "5_to_55",
+        "comparison_role": "primary",
+        "culture_delta_percentage_points": "1.062246065;3.049322943;1.529301252",
+        "culture_relative_change_percent": "14.147027804;59.765079495;22.408890354",
+        "decrease_branch_reachable_all_cultures": "true",
+        "direction": "increase",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 1.52930125188,
+        "median_absolute_delta_share": 0.015293012519,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U2"
+      },
+      {
+        "all_three_same_nonzero_direction": "true",
+        "comparison": "5_to_55",
+        "comparison_role": "primary",
+        "culture_delta_percentage_points": "-0.766434476;-4.591340973;-1.656045603",
+        "culture_relative_change_percent": "-0.865899140;-4.957178048;-1.847889382",
+        "decrease_branch_reachable_all_cultures": "true",
+        "direction": "decrease",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 1.65604560283,
+        "median_absolute_delta_share": 0.016560456028,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U3"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "5_to_55",
+        "comparison_role": "primary",
+        "culture_delta_percentage_points": "-0.372373528;1.351587814;0.010566109",
+        "culture_relative_change_percent": "-10.658282321;68.753167346;0.335587759",
+        "decrease_branch_reachable_all_cultures": "false",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.372373528298,
+        "median_absolute_delta_share": 0.003723735283,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U4"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "5_to_15",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "-0.004435281;0.482386861;0.521611444",
+        "culture_relative_change_percent": "-0.915434027;154.656175669;127.623559656",
+        "decrease_branch_reachable_all_cultures": "false",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.482386860626,
+        "median_absolute_delta_share": 0.004823868606,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U1"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "5_to_15",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "-0.685732551;2.586595893;1.091700055",
+        "culture_relative_change_percent": "-9.132608514;50.695879727;15.996708826",
+        "decrease_branch_reachable_all_cultures": "true",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 1.09170005509,
+        "median_absolute_delta_share": 0.010917000551,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U2"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "5_to_15",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "1.239529679;-4.493211614;-1.691323850",
+        "culture_relative_change_percent": "1.400390662;-4.851229763;-1.887254421",
+        "decrease_branch_reachable_all_cultures": "true",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 1.69132385013,
+        "median_absolute_delta_share": 0.016913238501,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U3"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "5_to_15",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "-0.549361847;1.424228860;0.078012351",
+        "culture_relative_change_percent": "-15.724140457;72.448304260;2.477732342",
+        "decrease_branch_reachable_all_cultures": "false",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.549361846965,
+        "median_absolute_delta_share": 0.00549361847,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U4"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "15_to_55",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "0.080997220;-0.291956645;-0.405433202",
+        "culture_relative_change_percent": "16.872133472;-36.756652144;-43.579861264",
+        "decrease_branch_reachable_all_cultures": "false",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.291956644832,
+        "median_absolute_delta_share": 0.002919566448,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U1"
+      },
+      {
+        "all_three_same_nonzero_direction": "true",
+        "comparison": "15_to_55",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "1.747978616;0.462727050;0.437601197",
+        "culture_relative_change_percent": "25.619351384;6.018213493;5.527899535",
+        "decrease_branch_reachable_all_cultures": "true",
+        "direction": "increase",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.462727050022,
+        "median_absolute_delta_share": 0.0046272705,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U2"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "15_to_55",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "-2.005964154;-0.098129359;0.035278247",
+        "culture_relative_change_percent": "-2.234991194;-0.111350136;0.040122247",
+        "decrease_branch_reachable_all_cultures": "true",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.098129358741,
+        "median_absolute_delta_share": 0.000981293587,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U3"
+      },
+      {
+        "all_three_same_nonzero_direction": "false",
+        "comparison": "15_to_55",
+        "comparison_role": "secondary",
+        "culture_delta_percentage_points": "0.176988319;-0.072641046;-0.067446242",
+        "culture_relative_change_percent": "6.011042976;-2.142750507;-2.090351273",
+        "decrease_branch_reachable_all_cultures": "false",
+        "direction": "mixed",
+        "fixed_threshold_share": 0.05,
+        "median_absolute_delta_percentage_points": 0.072641046449,
+        "median_absolute_delta_share": 0.000726410464,
+        "passes_fixed_absolute_threshold": "false",
+        "passes_original_material_change_rule": "false",
+        "unit": "U4"
+      }
+    ],
+    "endpoint": "repeat-excluded spacer midpoint-density share",
+    "interpretation": "Relative percent change is reported beside, and does not replace, the prespecified absolute percentage-point endpoint.",
+    "original_rule_unchanged": true,
+    "rows_n": 36,
+    "u1_u4_decrease_branch": "Unreachable from every culture-specific start value in all three prespecified contrasts because each start share is below 0.05."
+  },
+  "s4": {
+    "coordinates_0based_half_open": {
+      "distal_residual": [
+        9447,
+        9597
+      ],
+      "rt_cds": [
+        10646,
+        12152
+      ],
+      "terminal_residual": [
+        10357,
+        10646
+      ]
+    },
+    "terminal_rt_local_coverage": {
+      "boundary": "The coverage vector is fragment-span depth. Adjacent coverage is descriptive and does not count boundary-spanning molecules, establish readthrough, or identify a mature RNA endpoint.",
+      "fixed_windows_1based": {
+        "rt_first_100nt": [
+          10647,
+          10746
+        ],
+        "terminal_last_100nt": [
+          10547,
+          10646
+        ]
+      },
+      "input_mode": "saved_full_per_base_vectors",
+      "input_path": "data/processed/p6_rnaseq/runs/<run_accession>/locus_coverage.tsv.gz",
+      "postinfection_libraries_n": 9,
+      "postinfection_libraries_with_depth_on_both_adjacent_boundary_bases": 9,
+      "source": "saved per-base fragment-span coverage; no alignment or read processing rerun"
+    },
+    "whole_array": {
+      "distal_midpoint_fragment_range": [
+        0,
+        2
+      ],
+      "libraries_n": 12,
+      "terminal_midpoint_share_range_all_libraries": [
+        0.357590983442,
+        0.622222222222
+      ],
+      "zero_min_spacer_counts_separate": [
+        30,
+        17,
+        41
+      ],
+      "zero_min_whole_array_midpoint_denominators": [
+        57,
+        45,
+        76
+      ]
+    },
+    "zero_min_metadata": {
+      "aliases": [
+        "B_0-1",
+        "B_0-2",
+        "B_0-3"
+      ],
+      "allowed_term": "0-min baseline/background",
+      "disallowed_inference": "Do not infer pre-phage solely from the B_0 alias.",
+      "original_report_design_wording": "0, 5, 15, and 55 min after infection; three cultures per time point",
+      "saved_ena_fields_do_not_state_prephage": true
+    }
+  },
+  "scope": "Saved-table reanalysis plus a fixed 100-nt local extraction from saved per-base coverage; no ViennaRNA rerun, no RNA-seq rerun, no new download, and no original output overwritten."
+}

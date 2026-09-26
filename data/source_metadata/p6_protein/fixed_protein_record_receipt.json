@@ -1,0 +1,187 @@
+{
+  "record_count": 20,
+  "records": [
+    {
+      "accession": "QPI16926.1",
+      "bytes": 3041,
+      "http_status": 200,
+      "label": "SA1",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QPI16926.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QPI16926.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QPI16927.1",
+      "bytes": 1820,
+      "http_status": 200,
+      "label": "SA1",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QPI16927.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QPI16927.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QQM14740.1",
+      "bytes": 3071,
+      "http_status": 200,
+      "label": "MarsHill",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QQM14740.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QQM14740.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QQM14741.1",
+      "bytes": 2263,
+      "http_status": 200,
+      "label": "MarsHill",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QQM14741.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QQM14741.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QQO92858.1",
+      "bytes": 2558,
+      "http_status": 200,
+      "label": "Madawaska",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QQO92858.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QQO92858.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QQO92859.1",
+      "bytes": 2053,
+      "http_status": 200,
+      "label": "Madawaska",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QQO92859.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QQO92859.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "WRM43423.1",
+      "bytes": 2287,
+      "http_status": 200,
+      "label": "LY01",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/WRM43423.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WRM43423.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "WRM43422.1",
+      "bytes": 1675,
+      "http_status": 200,
+      "label": "LY01",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/WRM43422.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WRM43422.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "BDE75684.1",
+      "bytes": 2867,
+      "http_status": 200,
+      "label": "S6",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/BDE75684.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=BDE75684.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "BDE75685.1",
+      "bytes": 2348,
+      "http_status": 200,
+      "label": "S6",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/BDE75685.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=BDE75685.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QDJ97640.1",
+      "bytes": 2722,
+      "http_status": 200,
+      "label": "PALS_2",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QDJ97640.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QDJ97640.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QDJ97641.1",
+      "bytes": 2163,
+      "http_status": 200,
+      "label": "PALS_2",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QDJ97641.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QDJ97641.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "UAJ17040.1",
+      "bytes": 3073,
+      "http_status": 200,
+      "label": "UFV_DC4",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/UAJ17040.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=UAJ17040.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "UAJ17041.1",
+      "bytes": 2554,
+      "http_status": 200,
+      "label": "UFV_DC4",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/UAJ17041.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=UAJ17041.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "WNX97802.1",
+      "bytes": 2346,
+      "http_status": 200,
+      "label": "AH12",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/WNX97802.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WNX97802.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "WNX97801.1",
+      "bytes": 1827,
+      "http_status": 200,
+      "label": "AH12",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/WNX97801.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WNX97801.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QQO92593.1",
+      "bytes": 2561,
+      "http_status": 200,
+      "label": "Machias",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QQO92593.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QQO92593.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "QQO92594.1",
+      "bytes": 2056,
+      "http_status": 200,
+      "label": "Machias",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/QQO92594.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=QQO92594.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "WPH64254.1",
+      "bytes": 2317,
+      "http_status": 200,
+      "label": "PB50",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/WPH64254.1.gp",
+      "role": "RT",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WPH64254.1&rettype=gp&retmode=text"
+    },
+    {
+      "accession": "WPH64253.1",
+      "bytes": 1782,
+      "http_status": 200,
+      "label": "PB50",
+      "raw_path": "data/raw/p6_protein/fixed_proteins/WPH64253.1.gp",
+      "role": "partner",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WPH64253.1&rettype=gp&retmode=text"
+    }
+  ],
+  "retrieved_utc": "2026-09-24T16:47:56Z",
+  "source": "NCBI Protein EFetch GenPept"
+}

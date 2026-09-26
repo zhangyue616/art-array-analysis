@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this repository version as software and unpublished research
+  material. Cite the source studies and public datasets separately where they
+  are used.
+title: >-
+  ART-array analysis: code and saved data for cross-group unit correspondence
+  and temporal RNA composition
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yue
+  - family-names: Yu
+    given-names: Dong-Jun
+  - family-names: Zhang
+    given-names: Qi
+version: 1.0.0
+date-released: 2026-09-25
+repository-code: https://github.com/zhangyue616/art-array-analysis
+repository-artifact: https://github.com/zhangyue616/art-array-analysis/releases/tag/v1.0.0
+url: https://github.com/zhangyue616/art-array-analysis
+license: MIT
+abstract: >-
+  Analysis code, saved intermediate and final tables, public-source provenance,
+  and figure-rendering sources for a ten-locus comparison of Staphylococcus
+  phage array-associated reverse transcriptase loci and a culture-paired
+  reanalysis of twelve public SA1 RNA-seq libraries. This citation describes
+  repository version 1.0.0.
+keywords:
+  - bacteriophage
+  - reverse transcriptase
+  - tandem repeat array
+  - noncoding RNA
+  - comparative genomics
+  - RNA-seq

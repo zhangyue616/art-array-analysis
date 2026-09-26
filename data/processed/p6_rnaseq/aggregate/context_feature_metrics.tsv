@@ -1,0 +1,73 @@
+run_accession	sample_alias	time_min	culture	context_group	feature_id	product	sense_midpoint_fragments	antisense_midpoint_fragments	sense_tpm_259_features
+SRR19152335	B_0-1	0	1	replication_annotated	QPI16999.1	DNA primase	7	0	1881.26275385
+SRR19152335	B_0-1	0	1	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	6	0	869.418336541
+SRR19152335	B_0-1	0	1	replication_annotated	QPI17172.1	DnaB-like replicative helicase	6	0	969.163248438
+SRR19152335	B_0-1	0	1	structural_annotated	QPI17055.1	precursor of major head subunit	252	1	44599.6926036
+SRR19152335	B_0-1	0	1	structural_annotated	QPI17057.1	terminase large subunit	33	0	4591.37515337
+SRR19152335	B_0-1	0	1	structural_annotated	QPI17177.1	tail protein	13	0	614.386053953
+SRR19152334	B_0-2	0	2	replication_annotated	QPI16999.1	DNA primase	3	0	1952.51655279
+SRR19152334	B_0-2	0	2	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	4	0	1403.6524527
+SRR19152334	B_0-2	0	2	replication_annotated	QPI17172.1	DnaB-like replicative helicase	4	0	1564.68792244
+SRR19152334	B_0-2	0	2	structural_annotated	QPI17055.1	precursor of major head subunit	26	0	11143.6310574
+SRR19152334	B_0-2	0	2	structural_annotated	QPI17057.1	terminase large subunit	1	0	336.938697163
+SRR19152334	B_0-2	0	2	structural_annotated	QPI17177.1	tail protein	0	0	0
+SRR19152331	B_0-3	0	3	replication_annotated	QPI16999.1	DNA primase	11	0	2702.55472411
+SRR19152331	B_0-3	0	3	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	6	0	794.802436668
+SRR19152331	B_0-3	0	3	replication_annotated	QPI17172.1	DnaB-like replicative helicase	10	0	1476.64493799
+SRR19152331	B_0-3	0	3	structural_annotated	QPI17055.1	precursor of major head subunit	60	0	9707.62450789
+SRR19152331	B_0-3	0	3	structural_annotated	QPI17057.1	terminase large subunit	9	0	1144.7265183
+SRR19152331	B_0-3	0	3	structural_annotated	QPI17177.1	tail protein	3	0	129.613323214
+SRR19152330	B+P_5-1	5	1	replication_annotated	QPI16999.1	DNA primase	37312	1	3895.17058995
+SRR19152330	B+P_5-1	5	1	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	17470	12	983.324786747
+SRR19152330	B+P_5-1	5	1	replication_annotated	QPI17172.1	DnaB-like replicative helicase	34888	27	2189.01277819
+SRR19152330	B+P_5-1	5	1	structural_annotated	QPI17055.1	precursor of major head subunit	9219	11	633.784591014
+SRR19152330	B+P_5-1	5	1	structural_annotated	QPI17057.1	terminase large subunit	1105	13	59.7197050798
+SRR19152330	B+P_5-1	5	1	structural_annotated	QPI17177.1	tail protein	399	8	7.32482796253
+SRR19152329	B+P_5-2	5	2	replication_annotated	QPI16999.1	DNA primase	28532	4	3481.59190431
+SRR19152329	B+P_5-2	5	2	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	14644	8	963.455136808
+SRR19152329	B+P_5-2	5	2	replication_annotated	QPI17172.1	DnaB-like replicative helicase	25535	28	1872.7326405
+SRR19152329	B+P_5-2	5	2	structural_annotated	QPI17055.1	precursor of major head subunit	8294	22	666.483783605
+SRR19152329	B+P_5-2	5	2	structural_annotated	QPI17057.1	terminase large subunit	1018	8	64.3088656479
+SRR19152329	B+P_5-2	5	2	structural_annotated	QPI17177.1	tail protein	337	3	7.23139573667
+SRR19152328	B+P_5-3	5	3	replication_annotated	QPI16999.1	DNA primase	29879	1	3635.29900436
+SRR19152328	B+P_5-3	5	3	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	13299	17	872.407103536
+SRR19152328	B+P_5-3	5	3	replication_annotated	QPI17172.1	DnaB-like replicative helicase	30770	19	2250.06904434
+SRR19152328	B+P_5-3	5	3	structural_annotated	QPI17055.1	precursor of major head subunit	10209	16	817.969651137
+SRR19152328	B+P_5-3	5	3	structural_annotated	QPI17057.1	terminase large subunit	1156	14	72.8130688967
+SRR19152328	B+P_5-3	5	3	structural_annotated	QPI17177.1	tail protein	388	6	8.301419949
+SRR19152327	B+P_15-1	15	1	replication_annotated	QPI16999.1	DNA primase	135030	9	12929.3027257
+SRR19152327	B+P_15-1	15	1	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	42055	40	2171.14386451
+SRR19152327	B+P_15-1	15	1	replication_annotated	QPI17172.1	DnaB-like replicative helicase	71877	62	4136.46208628
+SRR19152327	B+P_15-1	15	1	structural_annotated	QPI17055.1	precursor of major head subunit	8935	26	563.403188825
+SRR19152327	B+P_15-1	15	1	structural_annotated	QPI17057.1	terminase large subunit	1032	11	51.1566334428
+SRR19152327	B+P_15-1	15	1	structural_annotated	QPI17177.1	tail protein	3509	3	59.0846659099
+SRR19152326	B+P_15-2	15	2	replication_annotated	QPI16999.1	DNA primase	93453	22	10268.1242293
+SRR19152326	B+P_15-2	15	2	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	28478	45	1687.07146716
+SRR19152326	B+P_15-2	15	2	replication_annotated	QPI17172.1	DnaB-like replicative helicase	64413	39	4253.68830153
+SRR19152326	B+P_15-2	15	2	structural_annotated	QPI17055.1	precursor of major head subunit	13751	40	994.974742618
+SRR19152326	B+P_15-2	15	2	structural_annotated	QPI17057.1	terminase large subunit	1502	12	85.4368488726
+SRR19152326	B+P_15-2	15	2	structural_annotated	QPI17177.1	tail protein	3362	7	64.9594225224
+SRR19152325	B+P_15-3	15	3	replication_annotated	QPI16999.1	DNA primase	72340	10	9972.40681874
+SRR19152325	B+P_15-3	15	3	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	24497	29	1820.79273828
+SRR19152325	B+P_15-3	15	3	replication_annotated	QPI17172.1	DnaB-like replicative helicase	53297	22	4415.89273878
+SRR19152325	B+P_15-3	15	3	structural_annotated	QPI17055.1	precursor of major head subunit	13803	42	1253.06868838
+SRR19152325	B+P_15-3	15	3	structural_annotated	QPI17057.1	terminase large subunit	1385	27	98.8436282294
+SRR19152325	B+P_15-3	15	3	structural_annotated	QPI17177.1	tail protein	3263	5	79.1015759109
+SRR19152324	B+P_55-1	55	1	replication_annotated	QPI16999.1	DNA primase	24665	0	1949.39675657
+SRR19152324	B+P_55-1	55	1	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	16297	21	694.469077566
+SRR19152324	B+P_55-1	55	1	replication_annotated	QPI17172.1	DnaB-like replicative helicase	23715	135	1126.51380366
+SRR19152324	B+P_55-1	55	1	structural_annotated	QPI17055.1	precursor of major head subunit	889964	164	46320.310944
+SRR19152324	B+P_55-1	55	1	structural_annotated	QPI17057.1	terminase large subunit	108750	65	4449.64954845
+SRR19152324	B+P_55-1	55	1	structural_annotated	QPI17177.1	tail protein	39989	40	555.784259405
+SRR19152333	B+P_55-2	55	2	replication_annotated	QPI16999.1	DNA primase	21720	1	1833.13938512
+SRR19152333	B+P_55-2	55	2	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	15231	12	693.090926635
+SRR19152333	B+P_55-2	55	2	replication_annotated	QPI17172.1	DnaB-like replicative helicase	22624	149	1147.6232256
+SRR19152333	B+P_55-2	55	2	structural_annotated	QPI17055.1	precursor of major head subunit	882675	131	49058.7412777
+SRR19152333	B+P_55-2	55	2	structural_annotated	QPI17057.1	terminase large subunit	105902	50	4627.18914058
+SRR19152333	B+P_55-2	55	2	structural_annotated	QPI17177.1	tail protein	36527	25	542.121025995
+SRR19152332	B+P_55-3	55	3	replication_annotated	QPI16999.1	DNA primase	22387	3	2034.22635364
+SRR19152332	B+P_55-3	55	3	replication_annotated	QPI17093.1	DNA-polymerase catalytic subunit	14542	19	712.448777001
+SRR19152332	B+P_55-3	55	3	replication_annotated	QPI17172.1	DnaB-like replicative helicase	20778	101	1134.75312748
+SRR19152332	B+P_55-3	55	3	structural_annotated	QPI17055.1	precursor of major head subunit	751951	138	44995.8878604
+SRR19152332	B+P_55-3	55	3	structural_annotated	QPI17057.1	terminase large subunit	88104	45	4144.5408629
+SRR19152332	B+P_55-3	55	3	structural_annotated	QPI17177.1	tail protein	31473	27	502.9074837
