@@ -200,6 +200,7 @@ def run_library(
     fastp: str | None,
     bowtie2: str | None,
     bowtie2_index: Path | None,
+    force: bool = False,
 ) -> None:
     out_dir = PROCESSED / "runs" / run
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -212,6 +213,8 @@ def run_library(
         command.extend(["--bowtie2", bowtie2])
     if bowtie2_index:
         command.extend(["--bowtie2-index", str(bowtie2_index)])
+    if force:
+        command.append("--force")
     creation_flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
     with stdout_path.open("ab") as stdout_handle, stderr_path.open("ab") as stderr_handle:
         process = subprocess.Popen(
@@ -245,6 +248,11 @@ def main() -> None:
     parser.add_argument("--bowtie2", help="forwarded to run_library.py")
     parser.add_argument("--bowtie2-index", type=Path, help="forwarded to run_library.py")
     parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Download and reprocess runs even when a bundled complete status is present.",
+    )
+    parser.add_argument(
         "--stop-after-first-library",
         action="store_true",
         help="Stop cleanly after the first complete library for an optional user-controlled check.",
@@ -262,6 +270,8 @@ def main() -> None:
         raise SystemExit("Frozen ENA metadata does not contain exactly the 12 planned runs")
     state("starting")
     append_log(f"orchestrator started pid={os.getpid()}")
+    processed_runs = 0
+    skipped_runs = 0
     try:
         for run in RUN_ORDER:
             check_stop()
@@ -270,19 +280,35 @@ def main() -> None:
             if status_path.exists():
                 with status_path.open(encoding="utf-8") as handle:
                     prior = json.load(handle)
-                if prior.get("status") == "complete":
-                    append_log(f"skipping already-complete run {run}")
+                if prior.get("status") == "complete" and not args.force:
+                    message = f"reusing already-complete run {run}; skipped processing (use --force to rerun)"
+                    print(message)
+                    append_log(message)
                     run_complete = True
+                    skipped_runs += 1
             if not run_complete:
                 download_pair(run, metadata[run], aria2)
                 check_stop()
-                run_library(run, args.threads, args.fastp, args.bowtie2, args.bowtie2_index)
+                run_library(run, args.threads, args.fastp, args.bowtie2, args.bowtie2_index, args.force)
+                processed_runs += 1
             if run == FIRST_LIBRARY and args.stop_after_first_library:
-                state("stopped_after_first_library", current_run=FIRST_LIBRARY)
-                append_log("stopped after the first complete library by user request")
+                state(
+                    "stopped_after_first_library",
+                    current_run=FIRST_LIBRARY,
+                    processed_runs=processed_runs,
+                    skipped_runs=skipped_runs,
+                )
+                message = (
+                    "stopped after the first complete library by user request: "
+                    f"processed={processed_runs}, skipped={skipped_runs}"
+                )
+                print(message)
+                append_log(message)
                 return
-        state("all_runs_complete")
-        append_log("all 12 complete libraries finished")
+        state("all_runs_complete", processed_runs=processed_runs, skipped_runs=skipped_runs)
+        message = f"all {len(RUN_ORDER)} libraries accounted for: processed={processed_runs}, skipped={skipped_runs}"
+        print(message)
+        append_log(message)
     except BaseException as exc:
         state("failed", error_type=type(exc).__name__, error=str(exc))
         append_log(f"orchestrator failed: {type(exc).__name__}: {exc}")

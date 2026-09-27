@@ -32,7 +32,7 @@ python -m pip install -r requirements.txt
 python scripts/reproduce.py --output results/reproduced
 ```
 
-The command reads the supplied saved tables, recomputes the key reported summaries, and regenerates the article figures beneath `results/reproduced/`. It is offline: it does not download public records or FASTQ files, run Bowtie2 or fastp, rerun ViennaRNA folding, or regenerate either 64-panel calibration from its original sequence objects.
+The command reads the supplied saved tables, recomputes the key reported summaries, and regenerates the article figures beneath `results/reproduced/`. It is offline: it does not download public records or FASTQ files, run Bowtie2 or fastp, rerun ViennaRNA folding, or regenerate either 64-panel calibration from its original sequence objects. The lightweight environment pins Matplotlib 3.10.6, while the bundled reference data-figure exports record Matplotlib 2.2.3. Pixel identity is not guaranteed, and the version difference alone is not claimed to explain every rendered-pixel difference.
 
 The reference figure exports are under [`figures/reference/`](figures/reference/). Freshly generated files under `results/reproduced/` are separate outputs and do not overwrite those references. See [`docs/reproducibility.md`](docs/reproducibility.md) for the supported modes, dependencies, component-level commands, and the limits of the raw-data route. [`docs/figure_map.tsv`](docs/figure_map.tsv) maps every main and supplementary figure, plus the key supplementary tables, to its inputs, command, and output.
 
@@ -42,11 +42,13 @@ The repository supplies the combined phage-host FASTA and frozen ENA run metadat
 
 ```bash
 python scripts/p6_rnaseq/build_bowtie2_index.py --threads 8
-python scripts/p6_rnaseq/orchestrate_complete_runs.py --threads 8
+python scripts/p6_rnaseq/orchestrate_complete_runs.py --threads 8 --force
 python scripts/p6_rnaseq/aggregate_complete_runs.py
 ```
 
-The orchestrator downloads the 24 FASTQ files named in the saved ENA metadata, checks sizes and MD5 values, and processes all twelve libraries by default. `--stop-after-first-library` provides an optional user-controlled early stop. Tool paths can be supplied by command-line options or environment variables; the full setup and recorded resource evidence are in [`docs/reproducibility.md`](docs/reproducibility.md). A fresh raw-data end-to-end run is not implied by the lightweight reproduction command.
+The repository includes complete saved statuses for all twelve libraries. Without `--force`, the orchestrator deliberately reuses those outputs, prints each skipped run, and reports processed/skipped counts; it does not download or reprocess those libraries. Use `--force` in a disposable clone or copy to download the 24 FASTQ files named in the saved ENA metadata, verify sizes and MD5 values, and reprocess all twelve libraries. `--stop-after-first-library` provides an optional user-controlled early stop. A normal resume processes only runs not marked complete. After a forced first-library check against this bundled snapshot, continue a full rerun with `--force` and without `--stop-after-first-library`; that command repeats the first library and then runs the other eleven. Tool paths can be supplied by command-line options or environment variables; the full setup and recorded resource evidence are in [`docs/reproducibility.md`](docs/reproducibility.md).
+
+The public per-library runner is a portable adaptation of the saved Windows workflow: it replaces the original `findstr` SAM prefilter with an inline exact RNAME match. The bundled per-library receipts were produced by the original `findstr` workflow. This portable adaptation has not been exercised in a fresh full raw-data run, so strict equivalence is not claimed. A fresh raw-data end-to-end run is also not implied by the lightweight reproduction command.
 
 ## Repository layout
 

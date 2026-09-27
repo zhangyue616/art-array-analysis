@@ -33,6 +33,7 @@ FEATURES = PROCESSED / "sa1_features.tsv"
 WINDOWS = PROCESSED / "sa1_windows.tsv"
 ENA_META = META / "ena_PRJNA836150_read_run.json"
 PHAGE_NAME = b"MW218148.1"
+INLINE_SAM_FILTER_MODE = "inline exact RNAME match to MW218148.1"
 PHAGE_LENGTH = 260727
 COVERAGE_START0 = 9000
 COVERAGE_END0 = 13200
@@ -343,7 +344,7 @@ def main() -> None:
             "observed_fastq_bytes": [read1.stat().st_size, read2.stat().st_size],
             "fastp_command": fastp_command,
             "bowtie2_command": bowtie_command,
-            "sam_filter_mode": "inline exact RNAME match to MW218148.1",
+            "sam_filter_mode": INLINE_SAM_FILTER_MODE,
         }
     )
     write_status(status_path, status)
@@ -489,8 +490,8 @@ def main() -> None:
                 "status": "failed_pipeline",
                 "fastp_returncode": fastp_return,
                 "bowtie2_returncode": bowtie_return,
-                "findstr_returncode": 0,
-                "sam_filter_mode": "inline exact RNAME match to MW218148.1",
+                "findstr_returncode": None,
+                "sam_filter_mode": INLINE_SAM_FILTER_MODE,
                 "parser_counters": dict(counters),
                 "finished_utc": iso_now(),
                 "elapsed_seconds": time.perf_counter() - started_clock,
@@ -678,8 +679,8 @@ def main() -> None:
             "elapsed_seconds": elapsed_seconds,
             "fastp_returncode": fastp_return,
             "bowtie2_returncode": bowtie_return,
-            "findstr_returncode": 0,
-            "sam_filter_mode": "inline exact RNAME match to MW218148.1",
+            "findstr_returncode": None,
+            "sam_filter_mode": INLINE_SAM_FILTER_MODE,
             "parser_reached_eof": True,
             "bowtie2_overall_alignment_rate_percent": float(alignment_rate_match.group(1)) if alignment_rate_match else None,
             "fastp_summary": fastp_report.get("summary", {}),

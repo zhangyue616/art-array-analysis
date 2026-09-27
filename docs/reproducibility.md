@@ -53,7 +53,7 @@ python scripts/reproduce.py --output results/reproduced --figures none
 
 `reproduction_summary.json` records the required inputs, consistency checks, generated files, and analyses intentionally not run. `environment_versions.json` records the Python, platform, NumPy, Matplotlib, Biopython, and ViennaRNA versions visible to that invocation. The presence of supplied outputs alone is not evidence of a fresh successful run; use the newly written summary and environment files for that purpose.
 
-The reference figure exports under `figures/reference/` remain separate from regenerated figures. The lightweight command does not compare pixels or claim that font metrics are identical across Matplotlib versions. Figures 1 and 7 from the modern run were visually inspected as a bounded rendering sample; the remaining figures were checked for successful PNG decoding rather than inspected one by one.
+The reference figure exports under `figures/reference/` remain separate from regenerated figures. The lightweight environment pins Matplotlib 3.10.6, whereas the bundled reference data-figure exports record Matplotlib 2.2.3. The lightweight command checks semantic outputs and does not compare pixels or claim that font metrics are identical across Matplotlib versions; the version difference alone is not claimed to explain every rendered-pixel difference. Figures 1 and 7 from the modern run were visually inspected as a bounded rendering sample; the remaining figures were checked for successful PNG decoding rather than inspected one by one.
 
 ## 2. Component-level regeneration
 
@@ -88,11 +88,11 @@ The repository already supplies `data/processed/p6_rnaseq/MW218148.1_NZ_CP059679
 
 ```bash
 python scripts/p6_rnaseq/build_bowtie2_index.py --threads 8
-python scripts/p6_rnaseq/orchestrate_complete_runs.py --threads 8
+python scripts/p6_rnaseq/orchestrate_complete_runs.py --threads 8 --force
 python scripts/p6_rnaseq/aggregate_complete_runs.py
 ```
 
-The index builder resolves `bowtie2-build` from `--bowtie2-build`, `ART_ARRAY_BOWTIE2_BUILD`, `PATH`, or the historical bundled-tool location. The orchestrator resolves aria2c, fastp, and Bowtie2 from explicit options, `ART_ARRAY_ARIA2` / `ART_ARRAY_FASTP` / `ART_ARRAY_BOWTIE2`, `PATH`, or historical bundled-tool locations. It downloads and processes all twelve libraries sequentially by default. To stop cleanly after the first complete library for a user-controlled inspection, add `--stop-after-first-library`; rerunning without that option resumes the remaining queue.
+The index builder resolves `bowtie2-build` from `--bowtie2-build`, `ART_ARRAY_BOWTIE2_BUILD`, `PATH`, or the historical bundled-tool location. The orchestrator resolves aria2c, fastp, and Bowtie2 from explicit options, `ART_ARRAY_ARIA2` / `ART_ARRAY_FASTP` / `ART_ARRAY_BOWTIE2`, `PATH`, or historical bundled-tool locations. The repository already includes twelve complete per-library statuses, so the default mode reuses them and reports `processed=0, skipped=12`; it does not download or reprocess them. Use `--force` only in a disposable clone or copy to download and process all twelve libraries sequentially. To stop cleanly after the first complete library for a user-controlled inspection, add `--stop-after-first-library`. A normal resume without `--force` processes only runs not marked complete. Because the other eleven bundled statuses are already complete, continuing a full rerun after a forced first-library check requires `--force` with `--stop-after-first-library` removed; this repeats the first library before running the other eleven.
 
 The executable entry for one already-downloaded run is also available:
 
@@ -101,10 +101,11 @@ python scripts/p6_rnaseq/run_library.py SRR19152327 \
   --threads 8 \
   --fastp /path/to/fastp \
   --bowtie2 /path/to/bowtie2 \
-  --bowtie2-index data/processed/p6_rnaseq/MW218148.1_NZ_CP059679.1
+  --bowtie2-index data/processed/p6_rnaseq/MW218148.1_NZ_CP059679.1 \
+  --force
 ```
 
-`run_library.py` verifies the expected FASTQ byte counts and MD5 values, streams fastp and Bowtie2 output, and writes one set of retained per-library summaries. It expects the two downloaded FASTQ files beneath `data/raw/p6_rnaseq/`, the frozen feature and window tables, and a Bowtie2 index with the supplied prefix.
+`run_library.py` verifies the expected FASTQ byte counts and MD5 values, streams fastp and Bowtie2 output, and writes one set of retained per-library summaries. It expects the two downloaded FASTQ files beneath `data/raw/p6_rnaseq/`, the frozen feature and window tables, and a Bowtie2 index with the supplied prefix. Because the repository includes a complete status for this run, keep `--force` when using the example in a disposable clone or copy; omit it only to reuse the bundled output. The public runner is a portable adaptation: it performs an inline exact RNAME match where the saved Windows workflow used `findstr`. Bundled per-library receipts retain the real `findstr` return code from that original run; new inline-run receipts record the filter mode explicitly and leave `findstr_returncode` null. The inline adaptation has not been exercised in a fresh full raw-data run, so strict equivalence is not claimed.
 
 `scripts/p6_rnaseq/prepare_reference.py` rebuilds the joint FASTA and fixed SA1 tables after exact GenBank files have been placed at `data/raw/ncbi/MW218148.1.gb` and `data/raw/p6_rnaseq/NZ_CP059679.1.gb`. The index command above then consumes that combined FASTA.
 

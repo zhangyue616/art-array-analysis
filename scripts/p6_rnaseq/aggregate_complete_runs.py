@@ -21,6 +21,7 @@ PROVISIONAL_DIR = PROCESSED / "provisional"
 FIGURE_DIR = ROOT / "figures" / "p6_rnaseq"
 LOCAL_PACKAGES = ROOT / "tools" / "p6_rnaseq" / "python_packages"
 ENA_META = ROOT / "data" / "source_metadata" / "p6_rnaseq" / "ena_PRJNA836150_read_run.json"
+INLINE_SAM_FILTER_MODE = "inline exact RNAME match to MW218148.1"
 
 EXPECTED_LIBRARIES = [
     ("SRR19152335", 0, 1),
@@ -122,6 +123,36 @@ def require_float(value: str) -> float:
     return result
 
 
+def validate_pipeline_status(status: dict[str, object], run: str) -> None:
+    for key in ("fastp_returncode", "bowtie2_returncode"):
+        value = status.get(key)
+        if type(value) is not int or value != 0:
+            raise RuntimeError(f"Missing or nonzero {key} in complete status for {run}")
+
+    counters = status.get("parser_counters")
+    if not isinstance(counters, dict):
+        raise RuntimeError(f"Missing parser counters in complete status for {run}")
+
+    if status.get("sam_filter_mode") == INLINE_SAM_FILTER_MODE:
+        if "findstr_returncode" not in status or status["findstr_returncode"] is not None:
+            raise RuntimeError(f"Inline SAM filter must record a null findstr return code for {run}")
+        sam_lines = counters.get("sam_lines")
+        if type(sam_lines) is not int or sam_lines < 0:
+            raise RuntimeError(f"Inline SAM filter counters are incomplete for {run}")
+        return
+
+    if "sam_filter_mode" not in status:
+        findstr_returncode = status.get("findstr_returncode")
+        findstr_lines = counters.get("findstr_lines")
+        if type(findstr_returncode) is not int or findstr_returncode != 0:
+            raise RuntimeError(f"Legacy findstr return code is missing or invalid for {run}")
+        if type(findstr_lines) is not int or findstr_lines < 0:
+            raise RuntimeError(f"Legacy findstr counters are incomplete for {run}")
+        return
+
+    raise RuntimeError(f"Unknown SAM filter mode in complete status for {run}: {status.get('sam_filter_mode')!r}")
+
+
 def load_complete_libraries() -> tuple[dict[str, dict[str, object]], list[str]]:
     complete: dict[str, dict[str, object]] = {}
     missing: list[str] = []
@@ -155,8 +186,7 @@ def load_complete_libraries() -> tuple[dict[str, dict[str, object]], list[str]]:
             raise RuntimeError(f"FASTQ validation is not pass for {run}")
         if status.get("parser_reached_eof") is not True:
             raise RuntimeError(f"Parser EOF is not recorded for {run}")
-        if any(status.get(key) != 0 for key in ("fastp_returncode", "bowtie2_returncode", "findstr_returncode")):
-            raise RuntimeError(f"Nonzero pipeline return code in complete status for {run}")
+        validate_pipeline_status(status, run)
         before_reads = status.get("fastp_summary", {}).get("before_filtering", {}).get("total_reads")
         after_reads = status.get("fastp_summary", {}).get("after_filtering", {}).get("total_reads")
         expected_total_reads = int(ena_by_run[run]["read_count"]) * 2
