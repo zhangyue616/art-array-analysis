@@ -1,0 +1,90 @@
+{
+  "analysis": "saved-data component comparison of the P2 sequence-and-boundary rule",
+  "boundary_component_contingency_among_61_sequence_pairs": {
+    "left_fail_right_fail": 8,
+    "left_fail_right_pass": 13,
+    "left_pass_right_fail": 5,
+    "left_pass_right_pass": 35
+  },
+  "full_rule_regression": {
+    "expected_locus_pair_coverage": 18,
+    "expected_nonredundant_pairs": 35,
+    "observed_locus_pair_coverage": 18,
+    "observed_nonredundant_pairs": 35,
+    "saved_pair_set_exact_match": true,
+    "status": "pass"
+  },
+  "inputs": [
+    "data/processed/p2_comparison/unit_free_best_hits.tsv",
+    "data/processed/p2_comparison/unified_units.tsv",
+    "data/processed/p2_comparison/unified_repeat_copies.tsv",
+    "data/processed/p2_comparison/supported_unit_correspondences.tsv"
+  ],
+  "outputs": [
+    "data/processed/p6_revision_20260926_r8/rule_comparison.tsv",
+    "data/processed/p6_revision_20260926_r8/rule_comparison_pairs.tsv",
+    "data/processed/p6_revision_20260926_r8/rule_comparison_receipt.json"
+  ],
+  "pairs_with_directionally_discordant_component_calls": 0,
+  "parameters": {
+    "boundary_tolerance_nt": 10,
+    "cross_group_locus_pairs": 21,
+    "directed_free_best_rows": 147,
+    "new_alignment_or_threshold_search": false,
+    "pair_collapse": "unordered unit pair; a component rule passes when either saved reciprocal direction passes, matching the original rowwise-then-deduplicate implementation",
+    "primary_chain_copies": 47,
+    "primary_chain_units": 37,
+    "tie_tolerance": 1e-12
+  },
+  "rules": [
+    {
+      "boundary_tolerance_nt": 10,
+      "cross_group_locus_pairs_screened": 21,
+      "directed_free_best_rows_screened": 147,
+      "locus_pair_coverage_count": 21,
+      "nonredundant_pair_count": 61,
+      "primary_units": 37,
+      "rule_id": "unique_reciprocal_sequence",
+      "rule_label": "Unique reciprocal sequence best only",
+      "rule_order": 1,
+      "tie_tolerance": 1e-12
+    },
+    {
+      "boundary_tolerance_nt": 10,
+      "cross_group_locus_pairs_screened": 21,
+      "directed_free_best_rows_screened": 147,
+      "locus_pair_coverage_count": 18,
+      "nonredundant_pair_count": 40,
+      "primary_units": 37,
+      "rule_id": "sequence_plus_left_boundary",
+      "rule_label": "Unique reciprocal sequence best plus left boundary",
+      "rule_order": 2,
+      "tie_tolerance": 1e-12
+    },
+    {
+      "boundary_tolerance_nt": 10,
+      "cross_group_locus_pairs_screened": 21,
+      "directed_free_best_rows_screened": 147,
+      "locus_pair_coverage_count": 18,
+      "nonredundant_pair_count": 48,
+      "primary_units": 37,
+      "rule_id": "sequence_plus_right_boundary",
+      "rule_label": "Unique reciprocal sequence best plus right boundary",
+      "rule_order": 3,
+      "tie_tolerance": 1e-12
+    },
+    {
+      "boundary_tolerance_nt": 10,
+      "cross_group_locus_pairs_screened": 21,
+      "directed_free_best_rows_screened": 147,
+      "locus_pair_coverage_count": 18,
+      "nonredundant_pair_count": 35,
+      "primary_units": 37,
+      "rule_id": "sequence_plus_both_boundaries",
+      "rule_label": "Unique reciprocal sequence best plus both boundaries",
+      "rule_order": 4,
+      "tie_tolerance": 1e-12
+    }
+  ],
+  "scope": "retrospective descriptive rule comparison; not a truth, accuracy, sensitivity, or superiority analysis"
+}

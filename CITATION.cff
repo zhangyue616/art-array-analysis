@@ -14,10 +14,10 @@ authors:
     given-names: Dong-Jun
   - family-names: Zhang
     given-names: Qi
-version: 1.0.0
-date-released: 2026-09-25
+version: 1.1.0
+date-released: 2026-09-27
 repository-code: https://github.com/zhangyue616/art-array-analysis
-repository-artifact: https://github.com/zhangyue616/art-array-analysis/releases/tag/v1.0.0
+repository-artifact: https://github.com/zhangyue616/art-array-analysis/releases/tag/v1.1.0
 url: https://github.com/zhangyue616/art-array-analysis
 license: MIT
 abstract: >-
@@ -25,7 +25,8 @@ abstract: >-
   and figure-rendering sources for a ten-locus comparison of Staphylococcus
   phage array-associated reverse transcriptase loci and a culture-paired
   reanalysis of twelve public SA1 RNA-seq libraries. This citation describes
-  repository version 1.0.0.
+  repository version 1.1.0, including the object-led workflow figure and the
+  saved-data component comparison of the correspondence rule.
 keywords:
   - bacteriophage
   - reverse transcriptase

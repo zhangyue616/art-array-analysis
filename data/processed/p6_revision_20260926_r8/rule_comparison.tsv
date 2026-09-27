@@ -1,0 +1,5 @@
+rule_order	rule_id	rule_label	tie_tolerance	boundary_tolerance_nt	nonredundant_pair_count	locus_pair_coverage_count	primary_units	cross_group_locus_pairs_screened	directed_free_best_rows_screened
+1	unique_reciprocal_sequence	Unique reciprocal sequence best only	1e-12	10	61	21	37	21	147
+2	sequence_plus_left_boundary	Unique reciprocal sequence best plus left boundary	1e-12	10	40	18	37	21	147
+3	sequence_plus_right_boundary	Unique reciprocal sequence best plus right boundary	1e-12	10	48	18	37	21	147
+4	sequence_plus_both_boundaries	Unique reciprocal sequence best plus both boundaries	1e-12	10	35	18	37	21	147

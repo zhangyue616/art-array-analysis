@@ -1,19 +1,20 @@
 # ART-array analysis
 
-This repository contains analysis code, saved data products, public-source provenance, and figure sources for a study of array-associated reverse transcriptase (ART) loci in *Staphylococcus* phages. It supports three bounded questions:
+This repository contains analysis code, saved data products, public-source provenance, equation definitions, and figure sources for a study of array-associated reverse transcriptase (ART) loci in *Staphylococcus* phages. It supports three bounded questions:
 
 1. Where does unit-level sequence correspondence persist between a seven-locus reference group and three PB50-related loci?
 2. How strongly does predicted spacer-pairing overlap track sequence identity among the compared units?
 3. How are four operational units at the SA1 locus represented across a public infection time course?
 
-![Analysis workflow](docs/analysis_workflow.png)
+![Object-led ART-array analysis workflow](figures/reference/Figure_1.png)
 
-The workflow keeps the comparative sequence analysis, the predicted-RNA analysis, and the SA1 RNA-seq composition analysis as separate evidence streams. Operational units and folding intervals are analysis objects; they are not claims about mature RNA ends or biochemical function.
+Figure 1 shows the repository architecture: one fixed set of 37 primary units feeds the correspondence and predicted-pairing analyses, while the SA1 coordinate system feeds the public RNA-seq analysis. The workflow keeps comparative sequence analysis, predicted-RNA analysis, and SA1 RNA-seq composition as separate evidence streams. Operational units and folding intervals are analysis objects; they are not claims about mature RNA ends or biochemical function. The repository does not include a manuscript or make the lightweight saved-table route equivalent to raw-data reconstruction.
 
 ## Main results represented in the repository
 
 - The fixed ten-locus annotation contains 47 primary periodic-chain copies and 37 primary units. A position-blind reciprocal sequence match plus two-boundary agreement supported 35 nonredundant cross-group unit pairs across 18 of 21 locus pairs, concentrated at distal U1 and U2.
 - The observed 35 supported pairs exceeded every one of 64 whole-panel block-shuffled results (range 4–14). This calibration is conditional on the fixed annotation and does not validate array discovery.
+- The descriptive Table 1 component comparison retained 61 pairs under unique reciprocal sequence matching alone, 40 with the left-boundary component, 48 with the right-boundary component, and 35 with both boundary components. This is not a truth, accuracy, sensitivity, or superiority benchmark.
 - Across all 252 cross-group unit combinations, predicted spacer-pairing overlap increased with sequence identity. Exploratory shared-range comparisons did not show a consistent supported-pair advantage beyond that relationship.
 - In twelve public SA1 RNA-seq libraries from three repeatedly sampled cultures, U3 remained dominant at 5, 15, and 55 minutes. U1 and U2 increased and U3 decreased from 5 to 55 minutes in all three cultures, but no unit met the culture-paired change rule: every involved library had to be estimable at 100 or more sense midpoint fragments, the three paired changes had to share one nonzero direction, and their median absolute magnitude had to be at least five percentage points.
 
@@ -32,7 +33,7 @@ python -m pip install -r requirements.txt
 python scripts/reproduce.py --output results/reproduced
 ```
 
-The command reads the supplied saved tables, recomputes the key reported summaries, and regenerates the article figures beneath `results/reproduced/`. It is offline: it does not download public records or FASTQ files, run Bowtie2 or fastp, rerun ViennaRNA folding, or regenerate either 64-panel calibration from its original sequence objects. The lightweight environment pins Matplotlib 3.10.6, while the bundled reference data-figure exports record Matplotlib 2.2.3. Pixel identity is not guaranteed, and the version difference alone is not claimed to explain every rendered-pixel difference.
+The command reads the supplied saved tables, recomputes the key reported summaries and Table 1 rule comparison, and regenerates all 11 article figures beneath `results/reproduced/`. It is offline: it does not download public records or FASTQ files, run Bowtie2 or fastp, rerun ViennaRNA folding, or regenerate either 64-panel calibration from its original sequence objects. The lightweight environment pins Matplotlib 3.10.6. The accepted Figure 1 reference export records Matplotlib 3.11.2; the accepted Figure 2–9 and Figure S1–S2 data-figure exports retain their earlier Matplotlib 2.2.3 provenance. The command checks semantic outputs and file structure, but does not claim pixel-identical rendering across those environments.
 
 The reference figure exports are under [`figures/reference/`](figures/reference/). Freshly generated files under `results/reproduced/` are separate outputs and do not overwrite those references. See [`docs/reproducibility.md`](docs/reproducibility.md) for the supported modes, dependencies, component-level commands, and the limits of the raw-data route. [`docs/figure_map.tsv`](docs/figure_map.tsv) maps every main and supplementary figure, plus the key supplementary tables, to its inputs, command, and output.
 
@@ -63,7 +64,7 @@ data/
   raw/                selected public genome/protein records and bounded query returns
   source_metadata/    accessions, retrieval metadata, and runtime receipts
 docs/                  workflow diagram, reproducibility guide, and output map
-figures/reference/     fixed Figure 1–8 and Figure S1–S2 exports
+figures/reference/     fixed Figure 1–9 and Figure S1–S2 exports
 scripts/
   reproduce.py         lightweight offline reproduction entry point
   p2_analysis/         ten-locus annotation and correspondence analysis
@@ -74,7 +75,9 @@ scripts/
   p6_revision_20260925/diagnostics/
                          saved-table identity, temporal, and coverage diagnostics
   p6_revision_20260925_r6/figures/
-                         article figure renderers
+                         accepted data-figure renderers (historical numbering)
+  p6_revision_20260926_r8/
+                         current numbering wrapper, Figure 1, Table 1, and equations
 ```
 
 The dated script and data directory names are stable provenance identifiers.
@@ -92,7 +95,7 @@ Additional biological and software references are retained in the parameter reco
 
 ## Citation
 
-[`CITATION.cff`](CITATION.cff) describes version 1.0.0 as software and unpublished research material. Please also cite the relevant source studies, sequence records, and BioProject when using those materials. The [v1.0.0 release page](https://github.com/zhangyue616/art-array-analysis/releases/tag/v1.0.0) is the version-specific entry point and will carry any final archived-version identifier after release.
+[`CITATION.cff`](CITATION.cff) describes version 1.1.0 as software and unpublished research material. Please also cite the relevant source studies, sequence records, and BioProject when using those materials. The [v1.1.0 release page](https://github.com/zhangyue616/art-array-analysis/releases/tag/v1.1.0) is the stable entry point for this revision; external archival identifiers, when available, are recorded there. The [v1.0.0 release](https://github.com/zhangyue616/art-array-analysis/releases/tag/v1.0.0) remains the historical ten-figure snapshot with the earlier main-figure numbering.
 
 ## License and reuse
 

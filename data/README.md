@@ -15,7 +15,7 @@ The figure and key-table input/output map is `../docs/figure_map.tsv`.
 
 ## Reproduction boundary
 
-The saved derived tables in `processed/` are sufficient for the lightweight reproduction entry point and the ten figure renderers. A full raw-data rerun additionally requires downloading the 12 paired FASTQ libraries listed in `rnaseq_libraries.tsv` and installing the documented external tools. Raw reads were not redownloaded or committed to this repository.
+The saved derived tables in `processed/` are sufficient for the lightweight reproduction entry point, the Table 1 component comparison, and all 11 figure renderers. The `p6_revision_20260926_r8/` directory adds the descriptive rule comparison and its public receipt; all three files are repository-derived data under CC BY 4.0. A full raw-data rerun additionally requires downloading the 12 paired FASTQ libraries listed in `rnaseq_libraries.tsv` and installing the documented external tools. Raw reads were not redownloaded or committed to this repository.
 
 The saved joint RNA-seq reference contains the SA1 phage and *Staphylococcus lentus* reference sequences. The TPM-like denominator is the RPK sum over the array feature plus 258 SA1 CDS features (259 features); host features are not part of that denominator.
 

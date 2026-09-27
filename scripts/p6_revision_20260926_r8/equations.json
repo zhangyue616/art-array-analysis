@@ -1,0 +1,38 @@
+{
+  "M1": {
+    "number": "1",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>I</mi><mrow><mi>u</mi><mi>v</mi></mrow></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mfrac><msub><mi>M</mi><mrow><mi>u</mi><mi>v</mi></mrow></msub><msub><mi>A</mi><mrow><mi>u</mi><mi>v</mi></mrow></msub></mfrac></mrow></math>"
+  },
+  "M2": {
+    "number": "2",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mrow><msub><mi>D</mi><mrow><mi>u</mi><mo>→</mo><mi>v</mi></mrow></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><msub><mi>R</mi><mrow><mi>u</mi><mi>v</mi></mrow></msub><msub><mi>B</mi><mrow><mi mathvariant=\"normal\">L</mi><mo>,</mo><mrow><mi>u</mi><mo>→</mo><mi>v</mi></mrow></mrow></msub><msub><mi>B</mi><mrow><mi mathvariant=\"normal\">R</mi><mo>,</mo><mrow><mi>u</mi><mo>→</mo><mi>v</mi></mrow></mrow></msub></mrow><mrow><mo>,</mo><mtext>  </mtext></mrow><mrow><msub><mi>S</mi><mrow><mo>{</mo><mrow><mi>u</mi><mo>,</mo><mi>v</mi></mrow><mo>}</mo></mrow></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mi>max</mi><mrow><mo>(</mo><mrow><msub><mi>D</mi><mrow><mi>u</mi><mo>→</mo><mi>v</mi></mrow></msub><mo>,</mo><msub><mi>D</mi><mrow><mi>v</mi><mo>→</mo><mi>u</mi></mrow></msub></mrow><mo>)</mo></mrow></mrow></mrow></math>"
+  },
+  "M3": {
+    "number": "3",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>O</mi><mi>k</mi></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mfrac><mrow><mn>2</mn><mrow><munder><mo>∑</mo><mrow><mi>e</mi><mo>∈</mo><msup><msub><mi>E</mi><mi>A</mi></msub><mi>k</mi></msup><mo>∩</mo><msup><msub><mi>E</mi><mi>B</mi></msub><mi>k</mi></msup></mrow></munder><mrow><mi>min</mi><mrow><mo>(</mo><mrow><mrow><msub><mi>p</mi><mi>A</mi></msub><mrow><mo>(</mo><mi>e</mi><mo>)</mo></mrow></mrow><mo>,</mo><mrow><msub><mi>p</mi><mi>B</mi></msub><mrow><mo>(</mo><mi>e</mi><mo>)</mo></mrow></mrow></mrow><mo>)</mo></mrow></mrow></mrow></mrow><mrow><mrow><munder><mo>∑</mo><mrow><mi>e</mi><mo>∈</mo><msup><msub><mi>E</mi><mi>A</mi></msub><mi>k</mi></msup></mrow></munder><mrow><msub><mi>p</mi><mi>A</mi></msub><mrow><mo>(</mo><mi>e</mi><mo>)</mo></mrow></mrow></mrow><mo>+</mo><mrow><munder><mo>∑</mo><mrow><mi>e</mi><mo>∈</mo><msup><msub><mi>E</mi><mi>B</mi></msub><mi>k</mi></msup></mrow></munder><mrow><msub><mi>p</mi><mi>B</mi></msub><mrow><mo>(</mo><mi>e</mi><mo>)</mo></mrow></mrow></mrow></mrow></mfrac></mrow></math>"
+  },
+  "M4": {
+    "number": "4",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>d</mi><mrow><mi>u</mi><mi>c</mi><mi>t</mi></mrow></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mfrac><msub><mi>C</mi><mrow><mi>u</mi><mi>c</mi><mi>t</mi></mrow></msub><msub><mi>L</mi><mi>u</mi></msub></mfrac><mrow><mo>,</mo><mtext>  </mtext></mrow><msub><mi>s</mi><mrow><mi>u</mi><mi>c</mi><mi>t</mi></mrow></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mfrac><msub><mi>d</mi><mrow><mi>u</mi><mi>c</mi><mi>t</mi></mrow></msub><mrow><munderover><mo>∑</mo><mrow><mi>v</mi><mo>=</mo><mn>1</mn></mrow><mn>4</mn></munderover><msub><mi>d</mi><mrow><mi>v</mi><mi>c</mi><mi>t</mi></mrow></msub></mrow></mfrac></mrow></math>"
+  },
+  "M5": {
+    "number": "5",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>Δ</mi><mrow><mi>u</mi><mi>c</mi></mrow></msub><mrow><mo>(</mo><mrow><msub><mi>t</mi><mi>a</mi></msub><mo>,</mo><msub><mi>t</mi><mi>b</mi></msub></mrow><mo>)</mo></mrow><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><msub><mi>s</mi><mrow><mi>u</mi><mi>c</mi><msub><mi>t</mi><mi>b</mi></msub></mrow></msub><mo>−</mo><msub><mi>s</mi><mrow><mi>u</mi><mi>c</mi><msub><mi>t</mi><mi>a</mi></msub></mrow></msub></mrow></math>"
+  },
+  "M6": {
+    "number": "6",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>H</mi><mi>u</mi></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mrow><mi>𝟙</mi><mrow><mo>[</mo><mrow><mrow><munder><mi>min</mi><mi>c</mi></munder><msub><mi>Δ</mi><mrow><mi>u</mi><mi>c</mi></mrow></msub><mo>&gt;</mo><mn>0</mn></mrow><mo>∨</mo><mrow><munder><mi>max</mi><mi>c</mi></munder><msub><mi>Δ</mi><mrow><mi>u</mi><mi>c</mi></mrow></msub><mo>&lt;</mo><mn>0</mn></mrow></mrow><mo>]</mo></mrow></mrow><mo>·</mo><mrow><mi>𝟙</mi><mrow><mo>[</mo><mrow><munder><mtext>median</mtext><mi>c</mi></munder><mrow><mo>|</mo><msub><mi>Δ</mi><mrow><mi>u</mi><mi>c</mi></mrow></msub><mo>|</mo></mrow><mo>≥</mo><mn>0.05</mn></mrow><mo>]</mo></mrow></mrow></mrow></math>"
+  },
+  "S1": {
+    "number": "S2",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>ρ</mi><mi mathvariant=\"normal\">s</mi></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mfrac><mrow><munder><mo>∑</mo><mi>i</mi></munder><mrow><mrow><mo>(</mo><mrow><msub><mi>R</mi><mi>i</mi></msub><mo>−</mo><mover><mi>R</mi><mo>¯</mo></mover></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><msub><mi>Q</mi><mi>i</mi></msub><mo>−</mo><mover><mi>Q</mi><mo>¯</mo></mover></mrow><mo>)</mo></mrow></mrow></mrow><msqrt><mrow><mrow><munder><mo>∑</mo><mi>i</mi></munder><msup><mrow><mo>(</mo><mrow><msub><mi>R</mi><mi>i</mi></msub><mo>−</mo><mover><mi>R</mi><mo>¯</mo></mover></mrow><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><munder><mo>∑</mo><mi>i</mi></munder><msup><mrow><mo>(</mo><mrow><msub><mi>Q</mi><mi>i</mi></msub><mo>−</mo><mover><mi>Q</mi><mo>¯</mo></mover></mrow><mo>)</mo></mrow><mn>2</mn></msup></mrow></mrow></msqrt></mfrac></mrow></math>"
+  },
+  "S2": {
+    "number": "S3",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msup><msub><mtext>TPM</mtext><mrow><mi>f</mi><mi>l</mi></mrow></msub><mo>*</mo></msup><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><msup><mn>10</mn><mn>6</mn></msup><mfrac><mfrac><msub><mi>C</mi><mrow><mi>f</mi><mi>l</mi></mrow></msub><msub><mi>L</mi><mi>f</mi></msub></mfrac><mrow><munder><mo>∑</mo><mrow><mi>g</mi><mo>∈</mo><mi>F</mi></mrow></munder><mfrac><msub><mi>C</mi><mrow><mi>g</mi><mi>l</mi></mrow></msub><msub><mi>L</mi><mi>g</mi></msub></mfrac></mrow></mfrac></mrow></math>"
+  },
+  "S3": {
+    "number": "S1",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>p</mi><mtext>add-one</mtext></msub><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mfrac><mrow><mn>1</mn><mo>+</mo><munderover><mo>∑</mo><mrow><mi>b</mi><mo>=</mo><mn>1</mn></mrow><mi>B</mi></munderover><mrow><mi>𝟙</mi><mrow><mo>[</mo><mrow><msub><mi>T</mi><mi>b</mi></msub><mo>≥</mo><msub><mi>T</mi><mtext>obs</mtext></msub></mrow><mo>]</mo></mrow></mrow></mrow><mrow><mi>B</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mrow><mo>,</mo><mtext>  </mtext></mrow><mi>B</mi><mrow><mtext> </mtext><mo>=</mo><mtext> </mtext></mrow><mn>64</mn></mrow></math>"
+  }
+}

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Recompute key saved-table statistics and render the accepted article figures.
+"""Recompute saved-table statistics, Table 1, and accepted article figures.
 
 The default route is deliberately lightweight and offline.  It reads the
-published processed tables, recomputes compact audit statistics, and renders
-the ten accepted figures.  It does not download reads, rerun RNA folding,
+published processed tables, recomputes compact audit statistics and the
+descriptive rule comparison, and renders the eleven accepted figures. It does
+not download reads, rerun RNA folding,
 repeat the shuffled calibration, or run the full RNA-seq alignment workflow.
 """
 
@@ -44,6 +45,10 @@ FIGURE_INPUTS = (
     "data/processed/p6_rna/p6_rna_summary.json",
     "data/processed/p6_rna/representative_alignment_bpp.tsv",
     "data/processed/p6_rna/representative_alignment_metadata.tsv",
+    "data/processed/p6_rna/unit_sequence_objects.tsv",
+    "data/processed/p6_revision_20260925/s2_temporal_absolute_relative_changes.tsv",
+    "data/processed/p6_rnaseq/sa1_windows.tsv",
+    "data/processed/p6_rnaseq/aggregate/library_metrics.tsv",
     "data/processed/p6_rnaseq/aggregate/unit_metrics.tsv",
     "data/processed/p6_rnaseq/aggregate/paired_contrasts.tsv",
     "data/processed/p6_rnaseq/aggregate/whole_array_partitions.tsv",
@@ -64,6 +69,13 @@ STATISTIC_INPUTS = (
     "data/processed/p6_protein/protein_pairwise_identity.tsv",
 )
 
+RULE_COMPARISON_INPUTS = (
+    "data/processed/p2_comparison/unit_free_best_hits.tsv",
+    "data/processed/p2_comparison/unified_units.tsv",
+    "data/processed/p2_comparison/unified_repeat_copies.tsv",
+    "data/processed/p2_comparison/supported_unit_correspondences.tsv",
+)
+
 IDENTITY_FIELDS = (
     "context_global_identity",
     "saved_core_to_core_global_identity",
@@ -80,7 +92,7 @@ def parse_args() -> argparse.Namespace:
         "--figures",
         choices=("all", "key", "none"),
         default="all",
-        help="Render all ten figures, Figures 5 and 7 only, or no figures.",
+        help="Render all 11 figures, current Figures 6 and 8 only, or no figures.",
     )
     parser.add_argument(
         "--check-inputs",
@@ -136,7 +148,7 @@ def spearman(left: list[float], right: list[float]) -> float:
 
 
 def validate_inputs(root: Path, figures: str) -> list[str]:
-    required = set(STATISTIC_INPUTS)
+    required = set(STATISTIC_INPUTS) | set(RULE_COMPARISON_INPUTS)
     if figures != "none":
         required.update(FIGURE_INPUTS)
     missing = [relative for relative in sorted(required) if not (root / relative).is_file()]
@@ -288,7 +300,7 @@ def dependency_versions() -> dict[str, str | None]:
 
 
 def render_figures(root: Path, output: Path, selection: str) -> None:
-    renderer = root / "scripts/p6_revision_20260925_r6/figures/render_all.py"
+    renderer = root / "scripts/p6_revision_20260926_r8/render_current_figures.py"
     command = [
         sys.executable,
         str(renderer),
@@ -300,6 +312,28 @@ def render_figures(root: Path, output: Path, selection: str) -> None:
         selection,
     ]
     subprocess.run(command, cwd=root, check=True)
+
+
+def reproduce_rule_comparison(root: Path, output: Path) -> list[dict[str, str]]:
+    renderer = root / "scripts/p6_revision_20260926_r8/summarize_rule_comparison.py"
+    command = [
+        sys.executable,
+        str(renderer),
+        "--project-root",
+        str(root),
+        "--output-dir",
+        str(output / "tables"),
+    ]
+    subprocess.run(command, cwd=root, check=True)
+    rows = read_tsv(output / "tables" / "rule_comparison.tsv")
+    observed_pairs = [int(row["nonredundant_pair_count"]) for row in rows]
+    observed_loci = [int(row["locus_pair_coverage_count"]) for row in rows]
+    if observed_pairs != [61, 40, 48, 35] or observed_loci != [21, 18, 18, 18]:
+        raise ValueError(
+            "Table 1 rule comparison drifted: "
+            f"pairs={observed_pairs}, locus_pairs={observed_loci}"
+        )
+    return rows
 
 
 def main() -> None:
@@ -316,6 +350,7 @@ def main() -> None:
     structure_summary, correlations = structure_statistics(root)
     temporal_summary, temporal_rows = temporal_statistics(root)
     counts = general_counts(root)
+    rule_comparison = reproduce_rule_comparison(root, output)
 
     tables = output / "tables"
     write_tsv(
@@ -349,6 +384,7 @@ def main() -> None:
         "counts": counts,
         "structure": structure_summary,
         "temporal": temporal_summary,
+        "rule_comparison": rule_comparison,
     }
     (output / "key_statistics.json").write_text(
         json.dumps(key_statistics, indent=2, sort_keys=True) + "\n", encoding="utf-8"
@@ -395,6 +431,14 @@ def main() -> None:
             ),
             "rnaseq_libraries_expected_12": counts["rnaseq_libraries"] == 12,
             "protein_pair_rows_expected_45": counts["protein_pair_rows"] == 45,
+            "table_1_pair_counts_expected_61_40_48_35": [
+                int(row["nonredundant_pair_count"]) for row in rule_comparison
+            ]
+            == [61, 40, 48, 35],
+            "table_1_locus_pair_counts_expected_21_18_18_18": [
+                int(row["locus_pair_coverage_count"]) for row in rule_comparison
+            ]
+            == [21, 18, 18, 18],
         },
         "published_parameters_reused": {
             "p3_seed": p3["seed"],
